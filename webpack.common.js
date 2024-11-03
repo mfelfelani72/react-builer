@@ -13,7 +13,6 @@ const CompressionPlugin = require("compression-webpack-plugin");
 const zlib = require("zlib");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
-const TerserPlugin = require("terser-webpack-plugin");
 const { PurgeCSSPlugin } = require("purgecss-webpack-plugin");
 
 // for optimise }
@@ -181,20 +180,6 @@ module.exports = {
 
   optimization: {
     minimizer: [
-      new TerserPlugin({
-        terserOptions: {
-          compress: {
-            drop_console: false, // this dev mode
-            passes: 3,
-          },
-          mangle: true,
-          format: {
-            comments: false,
-          },
-        },
-        extractComments: false,
-        parallel: true,
-      }),
       new CssMinimizerPlugin(),
     ],
     realContentHash: true,
