@@ -20,14 +20,24 @@ const dotenv = require("dotenv");
 dotenv.config();
 
 module.exports = {
-  mode: "production",
+  mode: "production", // this
+
   entry: "./src/index.js",
-  
+  stats: {
+    assets: true,
+    modules: true,
+    timings: true,
+    version: true,
+    warnings: true,
+    errors: true,
+  },
   output: {
     filename: "[name].[contenthash].js",
     path: path.resolve("dist"),
     publicPath: "/",
   },
+  devtool: 'source-map', //this dev mode
+  // devtool: false, //this 
   
   devServer: {
     historyApiFallback: true,
