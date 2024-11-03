@@ -1,7 +1,11 @@
-import React, { Component } from "react";
+import React from "react";
+
+import loadCSS from "../../../../loadCss";
 
 const App = () => {
-  // console.log(sd);
+
+  loadCSS();
+
   return (
     <h1 className="text-sm text-center bg-color-black text-white xs:text-black xs:bg-white">
       Hello world!
