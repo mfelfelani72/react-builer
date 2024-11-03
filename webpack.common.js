@@ -22,8 +22,6 @@ const dotenv = require("dotenv");
 dotenv.config();
 
 module.exports = {
-  mode: "production", // this
-
   entry: "./src/index.js",
   stats: {
     assets: true,
@@ -38,8 +36,8 @@ module.exports = {
     path: path.resolve("dist"),
     publicPath: "/",
   },
-  devtool: "source-map", //this dev mode
-  // devtool: false, //this prod mode
+  
+  
 
   parallelism: 8, // It usually depends on the number of CPU cores in your computer
 
@@ -51,7 +49,15 @@ module.exports = {
     //   return assetFilename.endsWith(".js");
     // },
   },
-
+  devServer: {
+    historyApiFallback: true,
+    hot: true,
+    compress: true,
+    client: {
+      logging: "info",
+    },
+    port: process.env.PORT,
+  },
   module: {
     rules: [
       {
@@ -65,12 +71,8 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        include: path.resolve(__dirname, "styles"),
-        // use: [MiniCssExtractPlugin.loader, "css-loader", "postcss-loader"],
-        use: ["css-loader", "postcss-loader"],
-
-        // test: /\.css$/,
-        // use: ["style-loader", "css-loader", "postcss-loader"],
+        use: [MiniCssExtractPlugin.loader, "css-loader", "postcss-loader"],
+       
       },
       {
         test: /\.scss$/,
@@ -127,8 +129,9 @@ module.exports = {
 
   plugins: [
     new HTMLWebpackPlugin({
-      template: "./public/index.html",
-      scriptLoading: "defer",
+      template: './public/index.html',
+      inject: 'body',
+      scriptLoading: 'defer', 
     }),
     new Dotenv({
       path: ".env",

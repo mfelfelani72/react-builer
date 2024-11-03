@@ -13,8 +13,8 @@
     "react-router-dom": "^6.27.0"
   },
   "scripts": {
-    "dev": "webpack serve --mode development",
-    "build": "webpack --mode production"
+    "dev": "webpack serve --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
   },
   "devDependencies": {
     "@babel/core": "^7.26.0",
@@ -38,6 +38,7 @@
     "webpack": "^5.93.0",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^5.0.4",
+    "webpack-merge": "^6.0.1",
     "z-lib": "^0.0.8"
   }
 }
