@@ -7,8 +7,10 @@ const glob = require("glob");
 
 //  for initial }
 
-// { for optimise 
+// { for optimise
 
+const CompressionPlugin = require("compression-webpack-plugin");
+const zlib = require("zlib");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 const TerserPlugin = require("terser-webpack-plugin");
@@ -36,9 +38,99 @@ module.exports = {
     path: path.resolve("dist"),
     publicPath: "/",
   },
-  devtool: 'source-map', //this dev mode
-  // devtool: false, //this 
-  
+  devtool: "source-map", //this dev mode
+  // devtool: false, //this prod mode
+
+  parallelism: 8, // It usually depends on the number of CPU cores in your computer
+
+  performance: {
+    // hints: "warning",
+    maxEntrypointSize: 512000,
+    maxAssetSize: 512000,
+    // assetFilter: function (assetFilename) {
+    //   return assetFilename.endsWith(".js");
+    // },
+  },
+
+  plugins: [
+    new HTMLWebpackPlugin({
+      template: "./public/index.html",
+      scriptLoading: "defer",
+    }),
+    new Dotenv({
+      path: ".env",
+      safe: true,
+      systemvars: true,
+    }),
+
+    new CompressionPlugin({
+      filename: "[path][base].gz",
+      algorithm: "gzip",
+      test: /\.(js|jsx|css|html|svg)$/,
+      threshold: 10240,
+      minRatio: 0.8,
+      compressionOptions: {
+        level: zlib.constants.Z_BEST_COMPRESSION,
+      },
+    }),
+
+    new MiniCssExtractPlugin({
+      filename: "[name].css",
+      chunkFilename: "[id].css",
+    }),
+
+    new PurgeCSSPlugin({
+      paths: glob.sync([
+        path.join(__dirname, "src/**/*.css"),
+        path.join(__dirname, "src/**/*.js"),
+        path.join(__dirname, "src/**/*.jsx"),
+        path.join(__dirname, "public/index.html"),
+      ]),
+      safelist: {
+        standard: [
+          /^bg-/,
+          /^text-/,
+          /^xs:/,
+          /^sm:/,
+          /^md:/,
+          /^bi:/,
+          /^lg:/,
+          /^xl:/,
+          /^2xl:/,
+          /^3xl:/,
+        ],
+      },
+    }),
+  ],
+
+  optimization: {
+    minimizer: [
+      new TerserPlugin({
+        terserOptions: {
+          compress: {
+            drop_console: false, // this dev mode
+            passes: 3,
+          },
+          mangle: true,
+          format: {
+            comments: false,
+          },
+        },
+        extractComments: false,
+        parallel: true,
+      }),
+      new CssMinimizerPlugin(),
+    ],
+    realContentHash: true,
+    splitChunks: {
+      chunks: "all",
+      minSize: 10000,
+      maxSize: 250000,
+    },
+    usedExports: true,
+    removeAvailableModules: true,
+  },
+
   devServer: {
     historyApiFallback: true,
     hot: true,
@@ -64,44 +156,58 @@ module.exports = {
         include: path.resolve(__dirname, "styles"),
         use: [MiniCssExtractPlugin.loader, "css-loader", "postcss-loader"],
       },
-    ],
-  },
-
-  plugins: [
-
-    new HTMLWebpackPlugin({
-      template: "./public/index.html",
-      scriptLoading: "defer",
-    }),
-    new Dotenv({
-      path: ".env",
-      safe: true,
-      systemvars: true,
-    }),
-    new MiniCssExtractPlugin(),
-
-    new PurgeCSSPlugin({
-      paths: glob.sync([
-        path.join(__dirname, "src/**/*.css"),
-        path.join(__dirname, "src/**/*.js"),
-        path.join(__dirname, "src/**/*.jsx"),
-        path.join(__dirname, "public/index.html"),
-      ]),
-      safelist: {
-        standard: [/^bg-/, /^text-/, /^xs:/,/^sm:/, /^md:/,/^bi:/, /^lg:/, /^xl:/, /^2xl:/,/^3xl:/],
+      {
+        test: /\.scss$/,
+        use: ["style-loader", "css-loader", "sass-loader"],
       },
-    }),
-  ],
-  optimization: {
-    minimizer: [
-      new TerserPlugin(), 
-      new CssMinimizerPlugin(),
+      {
+        test: /\.svg$/,
+        use: [
+          {
+            loader: "svg-url-loader",
+            options: {
+              limit: 10000,
+            },
+          },
+        ],
+      },
+      {
+        test: /\.(png|jpe?g|gif)$/i,
+        use: [
+          {
+            loader: "file-loader",
+            options: {
+              name: "[path][name].[ext]",
+            },
+          },
+          {
+            loader: "image-webpack-loader",
+            options: {
+              mozjpeg: {
+                progressive: true,
+              },
+              optipng: {
+                enabled: false,
+              },
+              pngquant: {
+                quality: [0.65, 0.9],
+                speed: 4,
+              },
+              gifsicle: {
+                interlaced: false,
+              },
+              webp: {
+                quality: 75,
+              },
+            },
+          },
+          {
+            loader: "file-loader",
+          },
+        ],
+      },
     ],
-    realContentHash: true,
-    splitChunks: {
-      chunks: "all",
-      minSize: 10000,
-      maxSize: 250000
-    },
   },
+
+  
 };
