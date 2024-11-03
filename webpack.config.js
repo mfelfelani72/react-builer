@@ -52,6 +52,78 @@ module.exports = {
     // },
   },
 
+  module: {
+    rules: [
+      {
+        test: /\.js$|jsx/,
+        exclude: /node_modules/,
+        use: "babel-loader",
+      },
+      {
+        test: /\.html$/,
+        use: "html-loader",
+      },
+      {
+        test: /\.css$/,
+        // include: path.resolve(__dirname, "styles"),
+        use: [MiniCssExtractPlugin.loader, "css-loader", "postcss-loader"],
+
+        // test: /\.css$/,
+        // use: ["style-loader", "css-loader", "postcss-loader"],
+      },
+      {
+        test: /\.scss$/,
+        use: ["style-loader", "css-loader", "sass-loader"],
+      },
+      {
+        test: /\.svg$/,
+        use: [
+          {
+            loader: "svg-url-loader",
+            options: {
+              limit: 10000,
+            },
+          },
+        ],
+      },
+      {
+        test: /\.(png|jpe?g|gif)$/i,
+        use: [
+          {
+            loader: "file-loader",
+            options: {
+              name: "[path][name].[ext]",
+            },
+          },
+          {
+            loader: "image-webpack-loader",
+            options: {
+              mozjpeg: {
+                progressive: true,
+              },
+              optipng: {
+                enabled: false,
+              },
+              pngquant: {
+                quality: [0.65, 0.9],
+                speed: 4,
+              },
+              gifsicle: {
+                interlaced: false,
+              },
+              webp: {
+                quality: 75,
+              },
+            },
+          },
+          {
+            loader: "file-loader",
+          },
+        ],
+      },
+    ],
+  },
+
   plugins: [
     new HTMLWebpackPlugin({
       template: "./public/index.html",
@@ -130,84 +202,4 @@ module.exports = {
     usedExports: true,
     removeAvailableModules: true,
   },
-
-  devServer: {
-    historyApiFallback: true,
-    hot: true,
-    compress: true,
-    client: {
-      logging: "info",
-    },
-    port: process.env.PORT,
-  },
-  module: {
-    rules: [
-      {
-        test: /\.js$|jsx/,
-        exclude: /node_modules/,
-        use: "babel-loader",
-      },
-      {
-        test: /\.html$/,
-        use: "html-loader",
-      },
-      {
-        test: /\.css$/i,
-        include: path.resolve(__dirname, "styles"),
-        use: [MiniCssExtractPlugin.loader, "css-loader", "postcss-loader"],
-      },
-      {
-        test: /\.scss$/,
-        use: ["style-loader", "css-loader", "sass-loader"],
-      },
-      {
-        test: /\.svg$/,
-        use: [
-          {
-            loader: "svg-url-loader",
-            options: {
-              limit: 10000,
-            },
-          },
-        ],
-      },
-      {
-        test: /\.(png|jpe?g|gif)$/i,
-        use: [
-          {
-            loader: "file-loader",
-            options: {
-              name: "[path][name].[ext]",
-            },
-          },
-          {
-            loader: "image-webpack-loader",
-            options: {
-              mozjpeg: {
-                progressive: true,
-              },
-              optipng: {
-                enabled: false,
-              },
-              pngquant: {
-                quality: [0.65, 0.9],
-                speed: 4,
-              },
-              gifsicle: {
-                interlaced: false,
-              },
-              webp: {
-                quality: 75,
-              },
-            },
-          },
-          {
-            loader: "file-loader",
-          },
-        ],
-      },
-    ],
-  },
-
-  
 };
