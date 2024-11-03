@@ -1,21 +1,34 @@
-const path = require('path');
+// { for initial
+
+const path = require("path");
 const HTMLWebpackPlugin = require("html-webpack-plugin");
 const Dotenv = require("dotenv-webpack");
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
-const TerserPlugin = require('terser-webpack-plugin');
+const glob = require("glob");
+
+//  for initial }
+
+// { for optimise 
+
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
+const TerserPlugin = require("terser-webpack-plugin");
+const { PurgeCSSPlugin } = require("purgecss-webpack-plugin");
+
+// for optimise }
 
 const dotenv = require("dotenv");
 dotenv.config();
 
 module.exports = {
-  mode: 'production',
-  entry: './src/index.js',
+  mode: "production",
+  entry: "./src/index.js",
+  
   output: {
-    filename: 'bundle.js',
-    path: path.resolve('dist'),
+    filename: "[name].[contenthash].js",
+    path: path.resolve("dist"),
     publicPath: "/",
   },
+  
   devServer: {
     historyApiFallback: true,
     hot: true,
@@ -30,26 +43,22 @@ module.exports = {
       {
         test: /\.js$|jsx/,
         exclude: /node_modules/,
-        use: {
-          loader: 'babel-loader',
-          options: {
-            presets: ['@babel/preset-env', '@babel/preset-react'],
-          },
-        },
+        use: "babel-loader",
+      },
+      {
+        test: /\.html$/,
+        use: "html-loader",
       },
       {
         test: /\.css$/i,
-        include: path.resolve(__dirname, 'styles'),
-        use: [
-          MiniCssExtractPlugin.loader,
-          'css-loader',
-          'postcss-loader',
-        ],
+        include: path.resolve(__dirname, "styles"),
+        use: [MiniCssExtractPlugin.loader, "css-loader", "postcss-loader"],
       },
     ],
   },
 
   plugins: [
+
     new HTMLWebpackPlugin({
       template: "./public/index.html",
       scriptLoading: "defer",
@@ -60,11 +69,29 @@ module.exports = {
       systemvars: true,
     }),
     new MiniCssExtractPlugin(),
+
+    new PurgeCSSPlugin({
+      paths: glob.sync([
+        path.join(__dirname, "src/**/*.css"),
+        path.join(__dirname, "src/**/*.js"),
+        path.join(__dirname, "src/**/*.jsx"),
+        path.join(__dirname, "public/index.html"),
+      ]),
+      safelist: {
+        standard: [/^bg-/, /^text-/, /^xs:/,/^sm:/, /^md:/,/^bi:/, /^lg:/, /^xl:/, /^2xl:/,/^3xl:/],
+      },
+    }),
   ],
   optimization: {
     minimizer: [
-      new TerserPlugin(),
+      new TerserPlugin(), 
       new CssMinimizerPlugin(),
     ],
+    realContentHash: true,
+    splitChunks: {
+      chunks: "all",
+      minSize: 10000,
+      maxSize: 250000
+    },
   },
 };
