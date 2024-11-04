@@ -6,7 +6,6 @@ class UnregisterServiceWorker {
       HTMLWebpackPlugin.getHooks(compilation).beforeEmit.tapAsync(
         "UnregisterServiceWorker",
         (data, cb) => {
-          // const swScriptTag = `<script defer="defer" src="/ScriptRegister.js"></script>`;
           const swScriptTag = 
           `<script defer="defer">
             window.addEventListener("load", () => {

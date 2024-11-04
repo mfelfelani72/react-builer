@@ -6,7 +6,6 @@ class RegisterServiceWorker {
       HTMLWebpackPlugin.getHooks(compilation).beforeEmit.tapAsync(
         "RegisterServiceWorker",
         (data, cb) => {
-          // const swScriptTag = `<script defer="defer" src="/ScriptRegister.js"></script>`;
           const swScriptTag = `<script defer="defer">
             if ('serviceWorker' in navigator) {
               window.addEventListener('load', () => {
