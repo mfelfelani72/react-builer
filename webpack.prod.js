@@ -27,9 +27,16 @@ module.exports = merge(common, {
         extractComments: false,
         parallel: true,
       }),
-      
     ],
-
   },
-  plugins: [new BundleAnalyzerPlugin()],
+  plugins: [
+    new BundleAnalyzerPlugin({
+      analyzerMode: 'static',
+      reportFilename: 'report.html',
+      openAnalyzer: true,
+      statsFilename: 'stats.json',
+      generateStatsFile: true,
+      statsOptions: { source: false },
+    }),
+  ],
 });

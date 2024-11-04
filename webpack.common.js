@@ -11,11 +11,8 @@ const glob = require("glob");
 
 const CompressionPlugin = require("compression-webpack-plugin");
 const zlib = require("zlib");
-const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 const { PurgeCSSPlugin } = require("purgecss-webpack-plugin");
-
-const AddDeferAttributePlugin = require('./AddDeferAttributePlugin');
 
 // for optimise }
 
@@ -73,6 +70,8 @@ module.exports = {
     new CompressionPlugin({
       filename: "[path][base].gz",
       algorithm: "gzip",
+      deleteOriginalAssets: 'keep-source-map',
+      // deleteOriginalAssets: true,
       test: /\.(js|jsx|css|html|svg)$/,
       threshold: 10240,
       minRatio: 0.8,
@@ -80,22 +79,6 @@ module.exports = {
         level: zlib.constants.Z_BEST_COMPRESSION,
       },
     }),
-    new MiniCssExtractPlugin({
-      // insert: "#some-element",
-      // insert: function (linkTag) {
-      //   var reference = document.querySelector("#some-element");
-      //   if (reference) {
-      //     reference.parentNode.insertBefore(linkTag, reference);
-      //   }
-      // },
-      attributes: {
-        defer:"defer"
-      },
-      filename: "[name].css",
-      // chunkFilename: "[id].css",
-    }),
-
-    new AddDeferAttributePlugin(),
     
     new PurgeCSSPlugin({
       paths: glob.sync([
@@ -135,7 +118,6 @@ module.exports = {
       },
       {
         test: /\.css$/i,
-        // use: [MiniCssExtractPlugin.loader, "css-loader", "postcss-loader"],
         use: ["style-loader", "css-loader", "postcss-loader"],
       },
       {
@@ -196,8 +178,8 @@ module.exports = {
     realContentHash: true,
     splitChunks: {
       chunks: "all",
-      minSize: 10000,
-      maxSize: 250000,
+      minSize: 20000,
+      maxSize: 20000,
     },
     usedExports: true,
     removeAvailableModules: true,
