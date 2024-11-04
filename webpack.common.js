@@ -64,7 +64,7 @@ module.exports = {
       safe: true,
       systemvars: true,
     }),
-
+    
     new PurgeCSSPlugin({
       paths: glob.sync([
         path.join(__dirname, "src/**/*.css"),
@@ -87,7 +87,6 @@ module.exports = {
       //   ],
       // },
     }),
-
   ],
 
   module: {

@@ -10,6 +10,8 @@ const { BundleAnalyzerPlugin } = require("webpack-bundle-analyzer");
 
 const WorkboxPlugin = require("workbox-webpack-plugin");
 
+const RegisterServiceWorker = require('./webpack-files/service-worker/register/RegisterServiceWorker.js');
+
 // for optimise }
 
 module.exports = merge(common, {
@@ -34,6 +36,8 @@ module.exports = merge(common, {
     ],
   },
   plugins: [
+    
+    new RegisterServiceWorker(),
 
     new CompressionPlugin({
       filename: "[path][base].gz",
