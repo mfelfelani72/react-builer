@@ -1,10 +1,10 @@
-import React from "react";
+import React, {lazy} from 'react'
+
+const Landing = lazy(() => import("../../../features/core/Landing.js"))
 
 const App = () => {
   return (
-    <h1 className="text-sm text-center bg-color-black text-white xs:text-black xs:bg-white">
-      Hello world!
-    </h1>
+   <Landing />
   );
 };
 
