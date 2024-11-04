@@ -9,8 +9,6 @@ const glob = require("glob");
 
 // { for optimise
 
-const CompressionPlugin = require("compression-webpack-plugin");
-const zlib = require("zlib");
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 const { PurgeCSSPlugin } = require("purgecss-webpack-plugin");
 
@@ -67,19 +65,6 @@ module.exports = {
       systemvars: true,
     }),
 
-    new CompressionPlugin({
-      filename: "[path][base].gz",
-      algorithm: "gzip",
-      deleteOriginalAssets: 'keep-source-map',
-      // deleteOriginalAssets: true,
-      test: /\.(js|jsx|css|html|svg)$/,
-      threshold: 10240,
-      minRatio: 0.8,
-      compressionOptions: {
-        level: zlib.constants.Z_BEST_COMPRESSION,
-      },
-    }),
-    
     new PurgeCSSPlugin({
       paths: glob.sync([
         path.join(__dirname, "src/**/*.css"),

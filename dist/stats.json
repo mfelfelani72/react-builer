@@ -1,8 +1,8 @@
 {
-  "hash": "7b1054d0a157c98dbafe",
+  "hash": "98426603125368d22d81",
   "version": "5.96.1",
-  "time": 3383,
-  "builtAt": 1730712431593,
+  "time": 5036,
+  "builtAt": 1730715095885,
   "publicPath": "/",
   "outputPath": "/home/mohammad/Desktop/Projects/react-builer/dist",
   "assetsByChunkName": {},
@@ -60,6 +60,26 @@
         "compressed": true,
         "immutable": true,
         "size": 5201
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": [],
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "workbox-1f84e78b.js.gz",
+      "size": 4963,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "compressed": true,
+        "size": 4963
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -153,13 +173,33 @@
     },
     {
       "type": "asset",
-      "name": "index.html",
-      "size": 597,
+      "name": "service-worker.js",
+      "size": 1123,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
-        "size": 597
+        "minimized": true,
+        "size": 1123
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": [],
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "index.html",
+      "size": 599,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "size": 599
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -2704,7 +2744,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "6:22-41",
+              "loc": "7:22-41",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -2774,7 +2814,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "6:22-41",
+              "loc": "7:22-41",
               "moduleId": 696,
               "resolvedModuleId": null
             },
@@ -7978,9 +8018,9 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 21535,
+      "size": 21558,
       "sizes": {
-        "javascript": 13345,
+        "javascript": 13368,
         "runtime": 8190
       },
       "names": [
@@ -7992,7 +8032,7 @@
       ],
       "files": [],
       "auxiliaryFiles": [],
-      "hash": "32f493437b13495651dc",
+      "hash": "92754e1ce1d32ee854f5",
       "childrenByOrder": {},
       "id": 792,
       "siblings": [
@@ -8267,9 +8307,9 @@
           "type": "module",
           "moduleType": "javascript/esm",
           "layer": null,
-          "size": 1829,
+          "size": 1852,
           "sizes": {
-            "javascript": 1829
+            "javascript": 1852
           },
           "built": true,
           "codeGenerated": true,
@@ -8371,9 +8411,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 248,
+              "size": 271,
               "sizes": {
-                "javascript": 248
+                "javascript": 271
               },
               "built": true,
               "codeGenerated": false,
@@ -9170,9 +9210,9 @@
       "type": "module",
       "moduleType": "javascript/esm",
       "layer": null,
-      "size": 1829,
+      "size": 1852,
       "sizes": {
-        "javascript": 1829
+        "javascript": 1852
       },
       "built": true,
       "codeGenerated": true,
@@ -9272,9 +9312,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 248,
+          "size": 271,
           "sizes": {
-            "javascript": 248
+            "javascript": 271
           },
           "built": true,
           "codeGenerated": false,
@@ -9491,7 +9531,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "6:22-41",
+          "loc": "7:22-41",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -9561,7 +9601,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "6:22-41",
+          "loc": "7:22-41",
           "moduleId": 696,
           "resolvedModuleId": null
         },
@@ -12504,9 +12544,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 248,
+      "size": 271,
       "sizes": {
-        "javascript": 248
+        "javascript": 271
       },
       "built": true,
       "codeGenerated": false,
@@ -17997,10 +18037,10 @@
   "children": [
     {
       "name": "HtmlWebpackCompiler",
-      "hash": "f29b3639c110ef89b21d",
+      "hash": "03e300b9b119c4c003ca",
       "version": "5.96.1",
-      "time": 309,
-      "builtAt": 1730712428545,
+      "time": 327,
+      "builtAt": 1730715091203,
       "publicPath": "",
       "outputPath": "/home/mohammad/Desktop/Projects/react-builer/dist",
       "assetsByChunkName": {},
@@ -18011,9 +18051,9 @@
           "initial": true,
           "entry": true,
           "recorded": false,
-          "size": 1419,
+          "size": 1421,
           "sizes": {
-            "javascript": 344,
+            "javascript": 346,
             "runtime": 1075
           },
           "names": [
@@ -18025,7 +18065,7 @@
           ],
           "files": [],
           "auxiliaryFiles": [],
-          "hash": "9433bf44c65d5981124e",
+          "hash": "75a36fb647b3ae201a1b",
           "childrenByOrder": {},
           "id": 411,
           "siblings": [],
@@ -18036,9 +18076,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 267,
+              "size": 269,
               "sizes": {
-                "javascript": 267
+                "javascript": 269
               },
               "built": true,
               "codeGenerated": true,
@@ -18422,9 +18462,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 267,
+          "size": 269,
           "sizes": {
-            "javascript": 267
+            "javascript": 269
           },
           "built": true,
           "codeGenerated": true,
