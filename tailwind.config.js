@@ -1,28 +1,32 @@
+const flowbite = require("flowbite-react/tailwind");
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-
-    './public/**/*.html',
-    './src/**/*.{js,jsx,ts,tsx,vue}',
+    "./public/**/*.html",
+    "./src/**/*.{js,jsx,ts,tsx,vue}",
+    flowbite.content(),
   ],
+  safelist: [
+    "w-64",
+    "w-1/2",
+    "rounded-l-lg",
+    "rounded-r-lg",
+    "bg-gray-200",
+    "grid-cols-4",
+    "grid-cols-7",
+    "h-6",
+    "leading-6",
+    "h-9",
+    "leading-9",
+    "shadow-lg",
+  ],
+  darkMode: "class",
   theme: {
     fontFamily: {
-      main: [
-        "iranSans",
-        "system-ui",
-        "-apple-system",
-        "BlinkMacSystemFont",
-        "Segoe UI",
-        "Roboto",
-        "Helvetica Neue",
-        "Arial",
-        "Noto Sans",
-        "sans-serif",
-        "Apple Color Emoji",
-        "Segoe UI Emoji",
-        "Segoe UI Symbol",
-        "Noto Color Emoji",
-      ],
+       // flowbite
+       sans: ['Graphik', 'sans-serif'],
+       serif: ['Merriweather', 'serif'],
     },
     screens: {
       xs: "530px",
@@ -59,8 +63,14 @@ module.exports = {
         black: "#000000",
         red: "#E02D2D",
         white: "#fff",
+        // flowbite
+        // gray: colors.coolGray,
+        // blue: colors.lightBlue,
+        // red: colors.rose,
+        // pink: colors.fuchsia,
       },
     },
     plugins: [],
   },
+  plugins: [flowbite.plugin()],
 };
