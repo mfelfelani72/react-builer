@@ -1,11 +1,15 @@
-import React, {lazy} from 'react'
+import React, { useEffect, lazy } from "react";
 
-const Landing = lazy(() => import("../../../features/core/Landing.js"))
+import loadCSS from "../../../../loadCSS.js";
 
+const Landing = lazy(() => import("../../../features/core/Landing.js"));
+let index = 1;
 const App = () => {
-  return (
-   <Landing />
-  );
+  if (index == 1) {
+    index = 2;
+    // loadCSS();
+  }
+  return <Landing />;
 };
 
 export default App;

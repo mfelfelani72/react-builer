@@ -15,6 +15,8 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 const { PurgeCSSPlugin } = require("purgecss-webpack-plugin");
 
+const AddDeferAttributePlugin = require('./AddDeferAttributePlugin');
+
 // for optimise }
 
 const dotenv = require("dotenv");
@@ -35,8 +37,6 @@ module.exports = {
     path: path.resolve("dist"),
     publicPath: "/",
   },
-  
-  
 
   parallelism: 8, // It usually depends on the number of CPU cores in your computer
 
@@ -57,6 +57,71 @@ module.exports = {
     },
     port: process.env.PORT,
   },
+
+  plugins: [
+    new HTMLWebpackPlugin({
+      template: "./public/index.html",
+      inject: "body",
+      scriptLoading: "defer",
+    }),
+    new Dotenv({
+      path: ".env",
+      safe: true,
+      systemvars: true,
+    }),
+
+    new CompressionPlugin({
+      filename: "[path][base].gz",
+      algorithm: "gzip",
+      test: /\.(js|jsx|css|html|svg)$/,
+      threshold: 10240,
+      minRatio: 0.8,
+      compressionOptions: {
+        level: zlib.constants.Z_BEST_COMPRESSION,
+      },
+    }),
+    new MiniCssExtractPlugin({
+      // insert: "#some-element",
+      // insert: function (linkTag) {
+      //   var reference = document.querySelector("#some-element");
+      //   if (reference) {
+      //     reference.parentNode.insertBefore(linkTag, reference);
+      //   }
+      // },
+      attributes: {
+        defer:"defer"
+      },
+      filename: "[name].css",
+      // chunkFilename: "[id].css",
+    }),
+
+    new AddDeferAttributePlugin(),
+    
+    new PurgeCSSPlugin({
+      paths: glob.sync([
+        path.join(__dirname, "src/**/*.css"),
+        path.join(__dirname, "src/**/*.js"),
+        path.join(__dirname, "src/**/*.jsx"),
+        path.join(__dirname, "public/index.html"),
+      ]),
+      // safelist: {
+      //   standard: [
+      //     /^bg-/,
+      //     /^text-/,
+      //     /^xs:/,
+      //     /^sm:/,
+      //     /^md:/,
+      //     /^bi:/,
+      //     /^lg:/,
+      //     /^xl:/,
+      //     /^2xl:/,
+      //     /^3xl:/,
+      //   ],
+      // },
+    }),
+
+  ],
+
   module: {
     rules: [
       {
@@ -69,9 +134,9 @@ module.exports = {
         use: "html-loader",
       },
       {
-        test: /\.css$/,
-        use: [MiniCssExtractPlugin.loader, "css-loader", "postcss-loader"],
-       
+        test: /\.css$/i,
+        // use: [MiniCssExtractPlugin.loader, "css-loader", "postcss-loader"],
+        use: ["style-loader", "css-loader", "postcss-loader"],
       },
       {
         test: /\.scss$/,
@@ -126,62 +191,8 @@ module.exports = {
     ],
   },
 
-  plugins: [
-    new HTMLWebpackPlugin({
-      template: './public/index.html',
-      inject: 'body',
-      scriptLoading: 'defer', 
-    }),
-    new Dotenv({
-      path: ".env",
-      safe: true,
-      systemvars: true,
-    }),
-
-    new CompressionPlugin({
-      filename: "[path][base].gz",
-      algorithm: "gzip",
-      test: /\.(js|jsx|css|html|svg)$/,
-      threshold: 10240,
-      minRatio: 0.8,
-      compressionOptions: {
-        level: zlib.constants.Z_BEST_COMPRESSION,
-      },
-    }),
-
-    new MiniCssExtractPlugin({
-      filename: "[name].css",
-      chunkFilename: "[id].css",
-    }),
-
-    new PurgeCSSPlugin({
-      paths: glob.sync([
-        path.join(__dirname, "src/**/*.css"),
-        path.join(__dirname, "src/**/*.js"),
-        path.join(__dirname, "src/**/*.jsx"),
-        path.join(__dirname, "public/index.html"),
-      ]),
-      safelist: {
-        standard: [
-          /^bg-/,
-          /^text-/,
-          /^xs:/,
-          /^sm:/,
-          /^md:/,
-          /^bi:/,
-          /^lg:/,
-          /^xl:/,
-          /^2xl:/,
-          /^3xl:/,
-        ],
-      },
-    }),
-  ],
-
   optimization: {
-    minimizer: [
-      new CssMinimizerPlugin(),
-    ],
+    minimizer: [new CssMinimizerPlugin()],
     realContentHash: true,
     splitChunks: {
       chunks: "all",
