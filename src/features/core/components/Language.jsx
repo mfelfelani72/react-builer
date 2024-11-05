@@ -9,13 +9,21 @@ const Languages = () => {
   const { t } = useTranslation();
 
   const languageList = [
-    { id: "fa", flag: "IR", dir: "rtl", name: t("persion") },
     { id: "en", flag: "GB", dir: "ltr", name: t("english") },
+    { id: "fa", flag: "IR", dir: "rtl", name: t("persion") },
   ];
 
-    const {setLanguageApp}  = useAppStore((state) => ({
-      setLanguageApp: state.setLanguageApp,
-    }));
+  const { setLanguageApp } = useAppStore((state) => ({
+    setLanguageApp: state.setLanguageApp,
+  }));
+
+  function handleClick(e) {
+    const lang = languageList.filter((item) => {
+      if (item.id == e.target.value) return item;
+    });
+
+    setLanguageApp(lang[0].id, lang[0].dir);
+  }
 
   return (
     <>
@@ -23,22 +31,24 @@ const Languages = () => {
         Language
       </label>
       <select
-        onChange={() => setLanguageApp("fa", "rtl")}
+        onChange={(e) => handleClick(e)}
         id="states"
         className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
       >
         {languageList?.map((row, index) =>
           index === 0 ? (
-            <option key={index} defaultValue>
+            <option key={index} defaultValue value={row.id}>
               {row.name}
             </option>
           ) : (
-            <option key={index}>{row.name}</option>
+            <option key={index} value={row.id}>
+              {row.name}
+            </option>
           )
         )}
       </select>
     </>
   );
-}
+};
 
 export default Languages;

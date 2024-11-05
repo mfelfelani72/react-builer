@@ -2,12 +2,11 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import Languages from "./components/Language.jsx";
 
-export function Landing() {
+export default function Landing() {
   const { t } = useTranslation();
 
   return (
     <>
-      {t("login")}
       <nav className="bg-white border-gray-200 dark:bg-gray-900">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a
@@ -45,7 +44,8 @@ export function Landing() {
                 className="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500"
                 aria-current="page"
               >
-                This is a React builer to start your Project with best optimise
+                {t("text")}
+               
               </li>
             </ul>
           </div>

@@ -1,11 +1,8 @@
 import React, { useEffect, lazy, Suspense } from "react";
-import { useLocation } from "react-router-dom";
-
 import LoaderPage from "../../../features/core/components/LoaderPage.jsx";
-// const Landing = lazy(() => import("../../../features/core/Landing.js"));
-
 import i18n from "../../../../utils/services/i18n";
-import { Landing } from "../../../features/core/Landing.js";
+const Landing = lazy(() => import("../../../features/core/Landing.js"));
+
 
 const App = () => {
   useEffect(() => {
@@ -39,16 +36,12 @@ const App = () => {
     // initial theme mode }
   }, []);
 
-  const location = useLocation();
-  const { pathname } = location;
 
-  const guestRoutes = ["/"];
-
-  if(guestRoutes.includes(pathname));
+  
   return (
-    // <Suspense fallback={<LoaderPage />}>
-    <Landing />
-    // </Suspense>
+    <Suspense fallback={<LoaderPage />}>
+      <Landing />
+    </Suspense>
   );
 };
 
