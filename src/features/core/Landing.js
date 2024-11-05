@@ -1,9 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 import Languages from "./components/Language.jsx";
 
+function handleSwitchTheme(setThemeStatus) {
+  if (document.documentElement.classList.value) {
+    localStorage.setItem("theme", "light");
+    setThemeStatus("light");
+  } else {
+    localStorage.setItem("theme", "dark");
+    setThemeStatus("dark");
+  }
+
+  document.documentElement.classList.toggle("dark");
+}
+
 export default function Landing() {
   const { t } = useTranslation();
+
+  const [themeStatus, setThemeStatus] = useState(localStorage.getItem("theme"));
 
   return (
     <>
@@ -25,14 +39,28 @@ export default function Landing() {
           <div className="flex items-center md:order-2 space-x-1 md:space-x-0 ">
             <div className="flex">
               <label className="inline-flex items-center cursor-pointer px-3">
-                <input type="checkbox" value="" className="sr-only peer" />
+                {themeStatus === "dark" ? (
+                  <input
+                    type="checkbox"
+                    onClick={() => handleSwitchTheme(setThemeStatus)}
+                    defaultChecked
+                    className="sr-only peer"
+                  />
+                ) : (
+                  <input
+                    type="checkbox"
+                    onClick={() => handleSwitchTheme(setThemeStatus)}
+                    className="sr-only peer"
+                  />
+                )}
+
                 <div className="relative w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
                 <span className="ms-3 text-sm font-medium text-gray-900 dark:text-gray-300">
-                  Toggle me
+                  {t(themeStatus)}
                 </span>
               </label>
 
-             <Languages />
+              <Languages />
             </div>
           </div>
           <div
@@ -45,7 +73,6 @@ export default function Landing() {
                 aria-current="page"
               >
                 {t("text")}
-               
               </li>
             </ul>
           </div>
