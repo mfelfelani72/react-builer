@@ -7,6 +7,7 @@ import useAppStore from "../../../app/stores/AppStore.js";
 
 const Languages = () => {
   const { t } = useTranslation();
+  const currentLang = localStorage.getItem("currentLngId");
 
   const languageList = [
     { id: "en", flag: "GB", dir: "ltr", name: t("english") },
@@ -27,26 +28,24 @@ const Languages = () => {
 
   return (
     <>
-      <label htmlFor="states" className="sr-only">
-        Language
-      </label>
-      <select
-        onChange={(e) => handleClick(e)}
-        id="states"
-        className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-      >
-        {languageList?.map((row, index) =>
-          index === 0 ? (
-            <option key={index} defaultValue value={row.id}>
-              {row.name}
-            </option>
-          ) : (
-            <option key={index} value={row.id}>
-              {row.name}
-            </option>
-          )
-        )}
-      </select>
+      <div className="flex max-w-sm mx-auto">
+        <label htmlFor="countries"></label>
+        <select
+          onChange={(e) => handleClick(e)}
+          id="countries"
+          className="rtl:!pl-[3rem] bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+          value={currentLang ? currentLang : ""}
+        >
+          {languageList?.map(
+            (row, index) => (
+              <option key={index} value={row.id}>
+                {row.name}
+              </option>
+            )
+            // )
+          )}
+        </select>
+      </div>
     </>
   );
 };

@@ -22,7 +22,7 @@ export default function Landing() {
               Flowbite
             </span>
           </a>
-          <div className="flex items-center md:order-2 space-x-1 md:space-x-0 rtl:space-x-reverse">
+          <div className="flex items-center md:order-2 space-x-1 md:space-x-0 ">
             <div className="flex">
               <label className="inline-flex items-center cursor-pointer px-3">
                 <input type="checkbox" value="" className="sr-only peer" />
