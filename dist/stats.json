@@ -1,8 +1,8 @@
 {
-  "hash": "79e33da37b1edaaae258",
+  "hash": "8377aa623d6c79a7b748",
   "version": "5.96.1",
-  "time": 5193,
-  "builtAt": 1730721334912,
+  "time": 4986,
+  "builtAt": 1730783280793,
   "publicPath": "/",
   "outputPath": "/home/mohammad/Desktop/Projects/react-builer/dist",
   "assetsByChunkName": {},
@@ -30,15 +30,15 @@
     },
     {
       "type": "asset",
-      "name": "632.c039fbdc10297268dc1a.js.gz",
-      "size": 5348,
+      "name": "694.c6f925fc3dded5a775ca.js.gz",
+      "size": 5488,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "compressed": true,
         "immutable": true,
-        "size": 5348
+        "size": 5488
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -51,15 +51,15 @@
     },
     {
       "type": "asset",
-      "name": "main.513b78a4429fc7b29054.js.gz",
-      "size": 5201,
+      "name": "main.982c2ee95d572c9bc8a8.js.gz",
+      "size": 5303,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "compressed": true,
         "immutable": true,
-        "size": 5201
+        "size": 5303
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -262,7 +262,7 @@
       "parents": [
         551,
         588,
-        632,
+        694,
         767,
         792,
         976
@@ -284,10 +284,10 @@
           "identifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Landing.js",
           "name": "./src/features/core/Landing.js",
           "nameForCondition": "/home/mohammad/Desktop/Projects/react-builer/src/features/core/Landing.js",
-          "index": 22,
-          "preOrderIndex": 22,
-          "index2": 22,
-          "postOrderIndex": 22,
+          "index": 27,
+          "preOrderIndex": 27,
+          "index2": 27,
+          "postOrderIndex": 27,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -391,7 +391,7 @@
       "id": 551,
       "siblings": [
         588,
-        632,
+        694,
         767,
         792,
         976
@@ -526,7 +526,7 @@
       "id": 588,
       "siblings": [
         551,
-        632,
+        694,
         767,
         792,
         976
@@ -2126,9 +2126,9 @@
       "entry": false,
       "recorded": false,
       "reason": "split chunk (cache group: defaultVendors)",
-      "size": 21882,
+      "size": 22479,
       "sizes": {
-        "javascript": 21882
+        "javascript": 22479
       },
       "names": [],
       "idHints": [
@@ -2139,9 +2139,9 @@
       ],
       "files": [],
       "auxiliaryFiles": [],
-      "hash": "f593019661679e8f5730",
+      "hash": "b28bbe36dd1ec3b098fd",
       "childrenByOrder": {},
-      "id": 632,
+      "id": 694,
       "siblings": [
         551,
         588,
@@ -2202,7 +2202,7 @@
           "id": 314,
           "issuerId": 71,
           "chunks": [
-            632
+            694
           ],
           "assets": [],
           "reasons": [
@@ -2230,7 +2230,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../node_modules/css-loader/dist/runtime/api.js",
-              "loc": "4:30-57",
+              "loc": "9:30-57",
               "moduleId": 71,
               "resolvedModuleId": 71
             },
@@ -2254,6 +2254,152 @@
           "optimizationBailout": [
             "CommonJS bailout: module.exports is used directly at 7:0-14",
             "Statement (ExpressionStatement) with side effects in source code at 7:0-85:2",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 3
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 597,
+          "sizes": {
+            "javascript": 597
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/runtime/getUrl.js",
+          "name": "./node_modules/css-loader/dist/runtime/getUrl.js",
+          "nameForCondition": "/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/runtime/getUrl.js",
+          "index": 22,
+          "preOrderIndex": 22,
+          "index2": 19,
+          "postOrderIndex": 19,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "issuer": "/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/postcss-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/styles/style.css",
+          "issuerName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+          "issuerPath": [
+            {
+              "identifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/index.js",
+              "name": "./src/index.js",
+              "id": null
+            },
+            {
+              "identifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/style-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/postcss-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/styles/style.css",
+              "name": "./styles/style.css",
+              "id": null
+            },
+            {
+              "identifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/postcss-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/styles/style.css",
+              "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+              "id": 71
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 417,
+          "issuerId": 71,
+          "chunks": [
+            694
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/postcss-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/styles/style.css",
+              "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+              "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/postcss-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/styles/style.css",
+              "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../node_modules/css-loader/dist/runtime/getUrl.js",
+              "loc": "4:0-96",
+              "moduleId": 71,
+              "resolvedModuleId": 71
+            },
+            {
+              "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/postcss-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/styles/style.css",
+              "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+              "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/postcss-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/styles/style.css",
+              "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../node_modules/css-loader/dist/runtime/getUrl.js",
+              "loc": "10:41-72",
+              "moduleId": 71,
+              "resolvedModuleId": 71
+            },
+            {
+              "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/postcss-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/styles/style.css",
+              "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+              "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/postcss-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/styles/style.css",
+              "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../node_modules/css-loader/dist/runtime/getUrl.js",
+              "loc": "11:41-72",
+              "moduleId": 71,
+              "resolvedModuleId": 71
+            },
+            {
+              "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/postcss-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/styles/style.css",
+              "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+              "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/postcss-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/styles/style.css",
+              "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../node_modules/css-loader/dist/runtime/getUrl.js",
+              "loc": "12:41-72",
+              "moduleId": 71,
+              "resolvedModuleId": 71
+            },
+            {
+              "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/postcss-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/styles/style.css",
+              "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+              "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/postcss-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/styles/style.css",
+              "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../node_modules/css-loader/dist/runtime/getUrl.js",
+              "loc": "13:41-72",
+              "moduleId": 71,
+              "resolvedModuleId": 71
+            },
+            {
+              "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/runtime/getUrl.js",
+              "module": "./node_modules/css-loader/dist/runtime/getUrl.js",
+              "moduleName": "./node_modules/css-loader/dist/runtime/getUrl.js",
+              "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/runtime/getUrl.js",
+              "resolvedModule": "./node_modules/css-loader/dist/runtime/getUrl.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "3:0-14",
+              "moduleId": 417,
+              "resolvedModuleId": 417
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "CommonJS bailout: module.exports is used directly at 3:0-14",
+            "Statement (ExpressionStatement) with side effects in source code at 3:0-26:2",
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 3
@@ -2306,7 +2452,7 @@
           "id": 601,
           "issuerId": 71,
           "chunks": [
-            632
+            694
           ],
           "assets": [],
           "reasons": [
@@ -2334,7 +2480,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../node_modules/css-loader/dist/runtime/noSourceMaps.js",
-              "loc": "4:58-98",
+              "loc": "9:58-98",
               "moduleId": 71,
               "resolvedModuleId": 71
             },
@@ -2400,7 +2546,7 @@
           "id": 338,
           "issuerId": null,
           "chunks": [
-            632
+            694
           ],
           "assets": [],
           "reasons": [
@@ -2489,7 +2635,7 @@
           "id": 961,
           "issuerId": 338,
           "chunks": [
-            632
+            694
           ],
           "assets": [],
           "reasons": [
@@ -2600,7 +2746,7 @@
           "id": 287,
           "issuerId": 540,
           "chunks": [
-            632
+            694
           ],
           "assets": [],
           "reasons": [
@@ -2702,7 +2848,7 @@
           "id": 540,
           "issuerId": null,
           "chunks": [
-            632
+            694
           ],
           "assets": [],
           "reasons": [
@@ -5568,7 +5714,7 @@
           "id": 463,
           "issuerId": 982,
           "chunks": [
-            632
+            694
           ],
           "assets": [],
           "reasons": [
@@ -5743,7 +5889,7 @@
           "id": 982,
           "issuerId": 551,
           "chunks": [
-            632
+            694
           ],
           "assets": [],
           "reasons": [
@@ -5833,7 +5979,7 @@
           "id": 72,
           "issuerId": null,
           "chunks": [
-            632
+            694
           ],
           "assets": [],
           "reasons": [
@@ -5960,7 +6106,7 @@
           "id": 659,
           "issuerId": null,
           "chunks": [
-            632
+            694
           ],
           "assets": [],
           "reasons": [
@@ -6087,7 +6233,7 @@
           "id": 159,
           "issuerId": null,
           "chunks": [
-            632
+            694
           ],
           "assets": [],
           "reasons": [
@@ -6214,7 +6360,7 @@
           "id": 56,
           "issuerId": null,
           "chunks": [
-            632
+            694
           ],
           "assets": [],
           "reasons": [
@@ -6341,7 +6487,7 @@
           "id": 825,
           "issuerId": null,
           "chunks": [
-            632
+            694
           ],
           "assets": [],
           "reasons": [
@@ -6468,7 +6614,7 @@
           "id": 113,
           "issuerId": null,
           "chunks": [
-            632
+            694
           ],
           "assets": [],
           "reasons": [
@@ -6590,7 +6736,7 @@
       "siblings": [
         551,
         588,
-        632,
+        694,
         792,
         976
       ],
@@ -8018,10 +8164,10 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 21535,
+      "size": 26520.44,
       "sizes": {
-        "javascript": 13345,
-        "runtime": 8190
+        "javascript": 18280.44,
+        "runtime": 8240
       },
       "names": [
         "main"
@@ -8032,13 +8178,13 @@
       ],
       "files": [],
       "auxiliaryFiles": [],
-      "hash": "32f493437b13495651dc",
+      "hash": "1697ce3d66662d768fb7",
       "childrenByOrder": {},
       "id": 792,
       "siblings": [
         551,
         588,
-        632,
+        694,
         767,
         976
       ],
@@ -8051,9 +8197,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 11516,
+          "size": 15348,
           "sizes": {
-            "javascript": 11516
+            "javascript": 15348
           },
           "built": true,
           "codeGenerated": true,
@@ -8064,8 +8210,8 @@
           "nameForCondition": "/home/mohammad/Desktop/Projects/react-builer/styles/style.css",
           "index": 19,
           "preOrderIndex": 19,
-          "index2": 19,
-          "postOrderIndex": 19,
+          "index2": 24,
+          "postOrderIndex": 24,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -8298,7 +8444,7 @@
             "default"
           ],
           "optimizationBailout": [
-            "Statement (VariableDeclaration) with side effects in source code at 4:0-100",
+            "Statement (VariableDeclaration) with side effects in source code at 9:0-100",
             "ModuleConcatenation bailout: Module uses module.id"
           ],
           "depth": 2
@@ -8320,8 +8466,8 @@
           "nameForCondition": "/home/mohammad/Desktop/Projects/react-builer/src/index.js",
           "index": 0,
           "preOrderIndex": 0,
-          "index2": 21,
-          "postOrderIndex": 21,
+          "index2": 26,
+          "postOrderIndex": 26,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -8383,8 +8529,8 @@
               "nameForCondition": "/home/mohammad/Desktop/Projects/react-builer/src/index.js",
               "index": 0,
               "preOrderIndex": 0,
-              "index2": 21,
-              "postOrderIndex": 21,
+              "index2": 26,
+              "postOrderIndex": 26,
               "cacheable": true,
               "optional": false,
               "orphan": false,
@@ -8504,8 +8650,8 @@
               "nameForCondition": "/home/mohammad/Desktop/Projects/react-builer/styles/style.css",
               "index": 12,
               "preOrderIndex": 12,
-              "index2": 20,
-              "postOrderIndex": 20,
+              "index2": 25,
+              "postOrderIndex": 25,
               "cacheable": true,
               "optional": false,
               "orphan": false,
@@ -8552,6 +8698,294 @@
               "depth": 1
             }
           ]
+        },
+        {
+          "type": "module",
+          "moduleType": "asset/inline",
+          "layer": null,
+          "size": 179.38,
+          "sizes": {
+            "javascript": 179.38
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "asset/inline|data:image/svg+xml;charset=utf-8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 fill=%27%23fff%27 viewBox=%270 0 16 16%27%3E%3Ccircle cx=%278%27 cy=%278%27 r=%273%27/%3E%3C/svg%3E",
+          "name": "data:image/svg+xml;charset=utf-8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 fill=%27%23fff%27 viewBox=%270 0 16 16%27%3E%3Ccircle cx=%278%27 cy=%278%27 r=%273%27/%3E%3C/svg%3E",
+          "nameForCondition": "data:image/svg+xml;charset=utf-8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 fill=%27%23fff%27 viewBox=%270 0 16 16%27%3E%3Ccircle cx=%278%27 cy=%278%27 r=%273%27/%3E%3C/svg%3E",
+          "index": 25,
+          "preOrderIndex": 25,
+          "index2": 22,
+          "postOrderIndex": 22,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/postcss-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/styles/style.css",
+          "issuerName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+          "issuerPath": [
+            {
+              "identifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/index.js",
+              "name": "./src/index.js",
+              "id": null
+            },
+            {
+              "identifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/style-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/postcss-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/styles/style.css",
+              "name": "./styles/style.css",
+              "id": null
+            },
+            {
+              "identifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/postcss-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/styles/style.css",
+              "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+              "id": 71
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 945,
+          "issuerId": 71,
+          "chunks": [
+            792
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/postcss-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/styles/style.css",
+              "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+              "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/postcss-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/styles/style.css",
+              "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+              "type": "new URL()",
+              "active": true,
+              "explanation": "",
+              "userRequest": "data:image/svg+xml;charset=utf-8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 fill=%27%23fff%27 viewBox=%270 0 16 16%27%3E%3Ccircle cx=%278%27 cy=%278%27 r=%273%27/%3E%3C/svg%3E",
+              "loc": "7:36-242",
+              "moduleId": 71,
+              "resolvedModuleId": 71
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": 3
+        },
+        {
+          "type": "module",
+          "moduleType": "asset/inline",
+          "layer": null,
+          "size": 305.34000000000003,
+          "sizes": {
+            "javascript": 305.34000000000003
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "asset/inline|data:image/svg+xml;charset=utf-8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 fill=%27none%27 aria-hidden=%27true%27 viewBox=%270 0 10 6%27%3E%3Cpath stroke=%27%236B7280%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27 stroke-width=%272%27 d=%27m1 1 4 4 4-4%27/%3E%3C/svg%3E",
+          "name": "data:image/svg+xml;charset=utf-8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 fill=%27none%27 aria-hidden=%27true%27 viewBox=%270 0 10 6%27%3E%3Cpath stroke=%27%236B7280%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27 stroke-width=%272%27 d=%27m1 1 4 4 4-4%27/%3E%3C/svg%3E",
+          "nameForCondition": "data:image/svg+xml;charset=utf-8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 fill=%27none%27 aria-hidden=%27true%27 viewBox=%270 0 10 6%27%3E%3Cpath stroke=%27%236B7280%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27 stroke-width=%272%27 d=%27m1 1 4 4 4-4%27/%3E%3C/svg%3E",
+          "index": 23,
+          "preOrderIndex": 23,
+          "index2": 20,
+          "postOrderIndex": 20,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/postcss-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/styles/style.css",
+          "issuerName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+          "issuerPath": [
+            {
+              "identifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/index.js",
+              "name": "./src/index.js",
+              "id": null
+            },
+            {
+              "identifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/style-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/postcss-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/styles/style.css",
+              "name": "./styles/style.css",
+              "id": null
+            },
+            {
+              "identifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/postcss-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/styles/style.css",
+              "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+              "id": 71
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 62,
+          "issuerId": 71,
+          "chunks": [
+            792
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/postcss-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/styles/style.css",
+              "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+              "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/postcss-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/styles/style.css",
+              "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+              "type": "new URL()",
+              "active": true,
+              "explanation": "",
+              "userRequest": "data:image/svg+xml;charset=utf-8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 fill=%27none%27 aria-hidden=%27true%27 viewBox=%270 0 10 6%27%3E%3Cpath stroke=%27%236B7280%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27 stroke-width=%272%27 d=%27m1 1 4 4 4-4%27/%3E%3C/svg%3E",
+              "loc": "5:36-348",
+              "moduleId": 71,
+              "resolvedModuleId": 71
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": 3
+        },
+        {
+          "type": "module",
+          "moduleType": "asset/inline",
+          "layer": null,
+          "size": 297.3,
+          "sizes": {
+            "javascript": 297.3
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "asset/inline|data:image/svg+xml;charset=utf-8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 fill=%27none%27 aria-hidden=%27true%27 viewBox=%270 0 16 12%27%3E%3Cpath stroke=%27%23fff%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27 stroke-width=%273%27 d=%27M.5 6h14%27/%3E%3C/svg%3E",
+          "name": "data:image/svg+xml;charset=utf-8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 fill=%27none%27 aria-hidden=%27true%27 viewBox=%270 0 16 12%27%3E%3Cpath stroke=%27%23fff%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27 stroke-width=%273%27 d=%27M.5 6h14%27/%3E%3C/svg%3E",
+          "nameForCondition": "data:image/svg+xml;charset=utf-8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 fill=%27none%27 aria-hidden=%27true%27 viewBox=%270 0 16 12%27%3E%3Cpath stroke=%27%23fff%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27 stroke-width=%273%27 d=%27M.5 6h14%27/%3E%3C/svg%3E",
+          "index": 26,
+          "preOrderIndex": 26,
+          "index2": 23,
+          "postOrderIndex": 23,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/postcss-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/styles/style.css",
+          "issuerName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+          "issuerPath": [
+            {
+              "identifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/index.js",
+              "name": "./src/index.js",
+              "id": null
+            },
+            {
+              "identifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/style-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/postcss-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/styles/style.css",
+              "name": "./styles/style.css",
+              "id": null
+            },
+            {
+              "identifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/postcss-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/styles/style.css",
+              "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+              "id": 71
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 702,
+          "issuerId": 71,
+          "chunks": [
+            792
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/postcss-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/styles/style.css",
+              "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+              "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/postcss-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/styles/style.css",
+              "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+              "type": "new URL()",
+              "active": true,
+              "explanation": "",
+              "userRequest": "data:image/svg+xml;charset=utf-8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 fill=%27none%27 aria-hidden=%27true%27 viewBox=%270 0 16 12%27%3E%3Cpath stroke=%27%23fff%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27 stroke-width=%273%27 d=%27M.5 6h14%27/%3E%3C/svg%3E",
+              "loc": "8:36-342",
+              "moduleId": 71,
+              "resolvedModuleId": 71
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": 3
+        },
+        {
+          "type": "module",
+          "moduleType": "asset/inline",
+          "layer": null,
+          "size": 321.42,
+          "sizes": {
+            "javascript": 321.42
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "asset/inline|data:image/svg+xml;charset=utf-8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 fill=%27none%27 aria-hidden=%27true%27 viewBox=%270 0 16 12%27%3E%3Cpath stroke=%27%23fff%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27 stroke-width=%273%27 d=%27M1 5.917 5.724 10.5 15 1.5%27/%3E%3C/svg%3E",
+          "name": "data:image/svg+xml;charset=utf-8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 fill=%27none%27 aria-hidden=%27true%27 viewBox=%270 0 16 12%27%3E%3Cpath stroke=%27%23fff%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27 stroke-width=%273%27 d=%27M1 5.917 5.724 10.5 15 1.5%27/%3E%3C/svg%3E",
+          "nameForCondition": "data:image/svg+xml;charset=utf-8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 fill=%27none%27 aria-hidden=%27true%27 viewBox=%270 0 16 12%27%3E%3Cpath stroke=%27%23fff%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27 stroke-width=%273%27 d=%27M1 5.917 5.724 10.5 15 1.5%27/%3E%3C/svg%3E",
+          "index": 24,
+          "preOrderIndex": 24,
+          "index2": 21,
+          "postOrderIndex": 21,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/postcss-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/styles/style.css",
+          "issuerName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+          "issuerPath": [
+            {
+              "identifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/index.js",
+              "name": "./src/index.js",
+              "id": null
+            },
+            {
+              "identifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/style-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/postcss-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/styles/style.css",
+              "name": "./styles/style.css",
+              "id": null
+            },
+            {
+              "identifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/postcss-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/styles/style.css",
+              "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+              "id": 71
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 929,
+          "issuerId": 71,
+          "chunks": [
+            792
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/postcss-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/styles/style.css",
+              "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+              "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/postcss-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/styles/style.css",
+              "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+              "type": "new URL()",
+              "active": true,
+              "explanation": "",
+              "userRequest": "data:image/svg+xml;charset=utf-8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 fill=%27none%27 aria-hidden=%27true%27 viewBox=%270 0 16 12%27%3E%3Cpath stroke=%27%23fff%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27 stroke-width=%273%27 d=%27M1 5.917 5.724 10.5 15 1.5%27/%3E%3C/svg%3E",
+              "loc": "6:36-360",
+              "moduleId": 71,
+              "resolvedModuleId": 71
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": 3
         },
         {
           "type": "module",
@@ -8809,9 +9243,9 @@
           "type": "module",
           "moduleType": "runtime",
           "layer": null,
-          "size": 3138,
+          "size": 3188,
           "sizes": {
-            "runtime": 3138
+            "runtime": 3188
           },
           "built": false,
           "codeGenerated": true,
@@ -9023,7 +9457,7 @@
       "siblings": [
         551,
         588,
-        632,
+        694,
         767,
         792
       ],
@@ -9223,8 +9657,8 @@
       "nameForCondition": "/home/mohammad/Desktop/Projects/react-builer/src/index.js",
       "index": 0,
       "preOrderIndex": 0,
-      "index2": 21,
-      "postOrderIndex": 21,
+      "index2": 26,
+      "postOrderIndex": 26,
       "cacheable": true,
       "optional": false,
       "orphan": false,
@@ -9285,8 +9719,8 @@
           "nameForCondition": "/home/mohammad/Desktop/Projects/react-builer/src/index.js",
           "index": 0,
           "preOrderIndex": 0,
-          "index2": 21,
-          "postOrderIndex": 21,
+          "index2": 26,
+          "postOrderIndex": 26,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -9404,8 +9838,8 @@
           "nameForCondition": "/home/mohammad/Desktop/Projects/react-builer/styles/style.css",
           "index": 12,
           "preOrderIndex": 12,
-          "index2": 20,
-          "postOrderIndex": 20,
+          "index2": 25,
+          "postOrderIndex": 25,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -9489,7 +9923,7 @@
       "id": 540,
       "issuerId": null,
       "chunks": [
-        632
+        694
       ],
       "assets": [],
       "reasons": [
@@ -12334,7 +12768,7 @@
       "id": 338,
       "issuerId": null,
       "chunks": [
-        632
+        694
       ],
       "assets": [],
       "reasons": [
@@ -12636,8 +13070,8 @@
       "nameForCondition": "/home/mohammad/Desktop/Projects/react-builer/styles/style.css",
       "index": 12,
       "preOrderIndex": 12,
-      "index2": 20,
-      "postOrderIndex": 20,
+      "index2": 25,
+      "postOrderIndex": 25,
       "cacheable": true,
       "optional": false,
       "orphan": true,
@@ -12724,7 +13158,7 @@
       "id": 287,
       "issuerId": 540,
       "chunks": [
-        632
+        694
       ],
       "assets": [],
       "reasons": [
@@ -12830,7 +13264,7 @@
       "id": 961,
       "issuerId": 338,
       "chunks": [
-        632
+        694
       ],
       "assets": [],
       "reasons": [
@@ -15914,7 +16348,7 @@
       "id": 72,
       "issuerId": null,
       "chunks": [
-        632
+        694
       ],
       "assets": [],
       "reasons": [
@@ -16040,7 +16474,7 @@
       "id": 825,
       "issuerId": null,
       "chunks": [
-        632
+        694
       ],
       "assets": [],
       "reasons": [
@@ -16166,7 +16600,7 @@
       "id": 659,
       "issuerId": null,
       "chunks": [
-        632
+        694
       ],
       "assets": [],
       "reasons": [
@@ -16292,7 +16726,7 @@
       "id": 56,
       "issuerId": null,
       "chunks": [
-        632
+        694
       ],
       "assets": [],
       "reasons": [
@@ -16418,7 +16852,7 @@
       "id": 159,
       "issuerId": null,
       "chunks": [
-        632
+        694
       ],
       "assets": [],
       "reasons": [
@@ -16544,7 +16978,7 @@
       "id": 113,
       "issuerId": null,
       "chunks": [
-        632
+        694
       ],
       "assets": [],
       "reasons": [
@@ -16632,9 +17066,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 11516,
+      "size": 15348,
       "sizes": {
-        "javascript": 11516
+        "javascript": 15348
       },
       "built": true,
       "codeGenerated": true,
@@ -16645,8 +17079,8 @@
       "nameForCondition": "/home/mohammad/Desktop/Projects/react-builer/styles/style.css",
       "index": 19,
       "preOrderIndex": 19,
-      "index2": 19,
-      "postOrderIndex": 19,
+      "index2": 24,
+      "postOrderIndex": 24,
       "cacheable": true,
       "optional": false,
       "orphan": false,
@@ -16878,7 +17312,7 @@
         "default"
       ],
       "optimizationBailout": [
-        "Statement (VariableDeclaration) with side effects in source code at 4:0-100",
+        "Statement (VariableDeclaration) with side effects in source code at 9:0-100",
         "ModuleConcatenation bailout: Module uses module.id"
       ],
       "depth": 2
@@ -16898,10 +17332,10 @@
       "identifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Landing.js",
       "name": "./src/features/core/Landing.js",
       "nameForCondition": "/home/mohammad/Desktop/Projects/react-builer/src/features/core/Landing.js",
-      "index": 22,
-      "preOrderIndex": 22,
-      "index2": 22,
-      "postOrderIndex": 22,
+      "index": 27,
+      "preOrderIndex": 27,
+      "index2": 27,
+      "postOrderIndex": 27,
       "cacheable": true,
       "optional": false,
       "orphan": false,
@@ -17102,7 +17536,7 @@
       "id": 601,
       "issuerId": 71,
       "chunks": [
-        632
+        694
       ],
       "assets": [],
       "reasons": [
@@ -17130,7 +17564,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../node_modules/css-loader/dist/runtime/noSourceMaps.js",
-          "loc": "4:58-98",
+          "loc": "9:58-98",
           "moduleId": 71,
           "resolvedModuleId": 71
         },
@@ -17205,7 +17639,7 @@
       "id": 314,
       "issuerId": 71,
       "chunks": [
-        632
+        694
       ],
       "assets": [],
       "reasons": [
@@ -17233,7 +17667,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../node_modules/css-loader/dist/runtime/api.js",
-          "loc": "4:30-57",
+          "loc": "9:30-57",
           "moduleId": 71,
           "resolvedModuleId": 71
         },
@@ -17259,6 +17693,435 @@
         "Statement (ExpressionStatement) with side effects in source code at 7:0-85:2",
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
+      "depth": 3
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 597,
+      "sizes": {
+        "javascript": 597
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/runtime/getUrl.js",
+      "name": "./node_modules/css-loader/dist/runtime/getUrl.js",
+      "nameForCondition": "/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/runtime/getUrl.js",
+      "index": 22,
+      "preOrderIndex": 22,
+      "index2": 19,
+      "postOrderIndex": 19,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/postcss-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/styles/style.css",
+      "issuerName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+      "issuerPath": [
+        {
+          "identifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/index.js",
+          "name": "./src/index.js",
+          "id": null
+        },
+        {
+          "identifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/style-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/postcss-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/styles/style.css",
+          "name": "./styles/style.css",
+          "id": null
+        },
+        {
+          "identifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/postcss-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/styles/style.css",
+          "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+          "id": 71
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 417,
+      "issuerId": 71,
+      "chunks": [
+        694
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/postcss-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/styles/style.css",
+          "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+          "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+          "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/postcss-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/styles/style.css",
+          "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../node_modules/css-loader/dist/runtime/getUrl.js",
+          "loc": "4:0-96",
+          "moduleId": 71,
+          "resolvedModuleId": 71
+        },
+        {
+          "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/postcss-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/styles/style.css",
+          "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+          "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+          "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/postcss-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/styles/style.css",
+          "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../node_modules/css-loader/dist/runtime/getUrl.js",
+          "loc": "10:41-72",
+          "moduleId": 71,
+          "resolvedModuleId": 71
+        },
+        {
+          "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/postcss-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/styles/style.css",
+          "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+          "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+          "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/postcss-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/styles/style.css",
+          "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../node_modules/css-loader/dist/runtime/getUrl.js",
+          "loc": "11:41-72",
+          "moduleId": 71,
+          "resolvedModuleId": 71
+        },
+        {
+          "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/postcss-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/styles/style.css",
+          "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+          "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+          "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/postcss-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/styles/style.css",
+          "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../node_modules/css-loader/dist/runtime/getUrl.js",
+          "loc": "12:41-72",
+          "moduleId": 71,
+          "resolvedModuleId": 71
+        },
+        {
+          "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/postcss-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/styles/style.css",
+          "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+          "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+          "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/postcss-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/styles/style.css",
+          "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../node_modules/css-loader/dist/runtime/getUrl.js",
+          "loc": "13:41-72",
+          "moduleId": 71,
+          "resolvedModuleId": 71
+        },
+        {
+          "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/runtime/getUrl.js",
+          "module": "./node_modules/css-loader/dist/runtime/getUrl.js",
+          "moduleName": "./node_modules/css-loader/dist/runtime/getUrl.js",
+          "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/runtime/getUrl.js",
+          "resolvedModule": "./node_modules/css-loader/dist/runtime/getUrl.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "3:0-14",
+          "moduleId": 417,
+          "resolvedModuleId": 417
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [
+        "CommonJS bailout: module.exports is used directly at 3:0-14",
+        "Statement (ExpressionStatement) with side effects in source code at 3:0-26:2",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 3
+    },
+    {
+      "type": "module",
+      "moduleType": "asset/inline",
+      "layer": null,
+      "size": 305.34000000000003,
+      "sizes": {
+        "javascript": 305.34000000000003
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "asset/inline|data:image/svg+xml;charset=utf-8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 fill=%27none%27 aria-hidden=%27true%27 viewBox=%270 0 10 6%27%3E%3Cpath stroke=%27%236B7280%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27 stroke-width=%272%27 d=%27m1 1 4 4 4-4%27/%3E%3C/svg%3E",
+      "name": "data:image/svg+xml;charset=utf-8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 fill=%27none%27 aria-hidden=%27true%27 viewBox=%270 0 10 6%27%3E%3Cpath stroke=%27%236B7280%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27 stroke-width=%272%27 d=%27m1 1 4 4 4-4%27/%3E%3C/svg%3E",
+      "nameForCondition": "data:image/svg+xml;charset=utf-8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 fill=%27none%27 aria-hidden=%27true%27 viewBox=%270 0 10 6%27%3E%3Cpath stroke=%27%236B7280%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27 stroke-width=%272%27 d=%27m1 1 4 4 4-4%27/%3E%3C/svg%3E",
+      "index": 23,
+      "preOrderIndex": 23,
+      "index2": 20,
+      "postOrderIndex": 20,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/postcss-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/styles/style.css",
+      "issuerName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+      "issuerPath": [
+        {
+          "identifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/index.js",
+          "name": "./src/index.js",
+          "id": null
+        },
+        {
+          "identifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/style-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/postcss-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/styles/style.css",
+          "name": "./styles/style.css",
+          "id": null
+        },
+        {
+          "identifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/postcss-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/styles/style.css",
+          "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+          "id": 71
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 62,
+      "issuerId": 71,
+      "chunks": [
+        792
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/postcss-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/styles/style.css",
+          "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+          "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+          "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/postcss-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/styles/style.css",
+          "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+          "type": "new URL()",
+          "active": true,
+          "explanation": "",
+          "userRequest": "data:image/svg+xml;charset=utf-8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 fill=%27none%27 aria-hidden=%27true%27 viewBox=%270 0 10 6%27%3E%3Cpath stroke=%27%236B7280%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27 stroke-width=%272%27 d=%27m1 1 4 4 4-4%27/%3E%3C/svg%3E",
+          "loc": "5:36-348",
+          "moduleId": 71,
+          "resolvedModuleId": 71
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": 3
+    },
+    {
+      "type": "module",
+      "moduleType": "asset/inline",
+      "layer": null,
+      "size": 321.42,
+      "sizes": {
+        "javascript": 321.42
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "asset/inline|data:image/svg+xml;charset=utf-8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 fill=%27none%27 aria-hidden=%27true%27 viewBox=%270 0 16 12%27%3E%3Cpath stroke=%27%23fff%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27 stroke-width=%273%27 d=%27M1 5.917 5.724 10.5 15 1.5%27/%3E%3C/svg%3E",
+      "name": "data:image/svg+xml;charset=utf-8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 fill=%27none%27 aria-hidden=%27true%27 viewBox=%270 0 16 12%27%3E%3Cpath stroke=%27%23fff%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27 stroke-width=%273%27 d=%27M1 5.917 5.724 10.5 15 1.5%27/%3E%3C/svg%3E",
+      "nameForCondition": "data:image/svg+xml;charset=utf-8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 fill=%27none%27 aria-hidden=%27true%27 viewBox=%270 0 16 12%27%3E%3Cpath stroke=%27%23fff%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27 stroke-width=%273%27 d=%27M1 5.917 5.724 10.5 15 1.5%27/%3E%3C/svg%3E",
+      "index": 24,
+      "preOrderIndex": 24,
+      "index2": 21,
+      "postOrderIndex": 21,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/postcss-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/styles/style.css",
+      "issuerName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+      "issuerPath": [
+        {
+          "identifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/index.js",
+          "name": "./src/index.js",
+          "id": null
+        },
+        {
+          "identifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/style-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/postcss-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/styles/style.css",
+          "name": "./styles/style.css",
+          "id": null
+        },
+        {
+          "identifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/postcss-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/styles/style.css",
+          "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+          "id": 71
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 929,
+      "issuerId": 71,
+      "chunks": [
+        792
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/postcss-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/styles/style.css",
+          "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+          "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+          "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/postcss-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/styles/style.css",
+          "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+          "type": "new URL()",
+          "active": true,
+          "explanation": "",
+          "userRequest": "data:image/svg+xml;charset=utf-8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 fill=%27none%27 aria-hidden=%27true%27 viewBox=%270 0 16 12%27%3E%3Cpath stroke=%27%23fff%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27 stroke-width=%273%27 d=%27M1 5.917 5.724 10.5 15 1.5%27/%3E%3C/svg%3E",
+          "loc": "6:36-360",
+          "moduleId": 71,
+          "resolvedModuleId": 71
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": 3
+    },
+    {
+      "type": "module",
+      "moduleType": "asset/inline",
+      "layer": null,
+      "size": 179.38,
+      "sizes": {
+        "javascript": 179.38
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "asset/inline|data:image/svg+xml;charset=utf-8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 fill=%27%23fff%27 viewBox=%270 0 16 16%27%3E%3Ccircle cx=%278%27 cy=%278%27 r=%273%27/%3E%3C/svg%3E",
+      "name": "data:image/svg+xml;charset=utf-8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 fill=%27%23fff%27 viewBox=%270 0 16 16%27%3E%3Ccircle cx=%278%27 cy=%278%27 r=%273%27/%3E%3C/svg%3E",
+      "nameForCondition": "data:image/svg+xml;charset=utf-8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 fill=%27%23fff%27 viewBox=%270 0 16 16%27%3E%3Ccircle cx=%278%27 cy=%278%27 r=%273%27/%3E%3C/svg%3E",
+      "index": 25,
+      "preOrderIndex": 25,
+      "index2": 22,
+      "postOrderIndex": 22,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/postcss-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/styles/style.css",
+      "issuerName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+      "issuerPath": [
+        {
+          "identifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/index.js",
+          "name": "./src/index.js",
+          "id": null
+        },
+        {
+          "identifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/style-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/postcss-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/styles/style.css",
+          "name": "./styles/style.css",
+          "id": null
+        },
+        {
+          "identifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/postcss-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/styles/style.css",
+          "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+          "id": 71
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 945,
+      "issuerId": 71,
+      "chunks": [
+        792
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/postcss-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/styles/style.css",
+          "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+          "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+          "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/postcss-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/styles/style.css",
+          "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+          "type": "new URL()",
+          "active": true,
+          "explanation": "",
+          "userRequest": "data:image/svg+xml;charset=utf-8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 fill=%27%23fff%27 viewBox=%270 0 16 16%27%3E%3Ccircle cx=%278%27 cy=%278%27 r=%273%27/%3E%3C/svg%3E",
+          "loc": "7:36-242",
+          "moduleId": 71,
+          "resolvedModuleId": 71
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": 3
+    },
+    {
+      "type": "module",
+      "moduleType": "asset/inline",
+      "layer": null,
+      "size": 297.3,
+      "sizes": {
+        "javascript": 297.3
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "asset/inline|data:image/svg+xml;charset=utf-8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 fill=%27none%27 aria-hidden=%27true%27 viewBox=%270 0 16 12%27%3E%3Cpath stroke=%27%23fff%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27 stroke-width=%273%27 d=%27M.5 6h14%27/%3E%3C/svg%3E",
+      "name": "data:image/svg+xml;charset=utf-8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 fill=%27none%27 aria-hidden=%27true%27 viewBox=%270 0 16 12%27%3E%3Cpath stroke=%27%23fff%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27 stroke-width=%273%27 d=%27M.5 6h14%27/%3E%3C/svg%3E",
+      "nameForCondition": "data:image/svg+xml;charset=utf-8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 fill=%27none%27 aria-hidden=%27true%27 viewBox=%270 0 16 12%27%3E%3Cpath stroke=%27%23fff%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27 stroke-width=%273%27 d=%27M.5 6h14%27/%3E%3C/svg%3E",
+      "index": 26,
+      "preOrderIndex": 26,
+      "index2": 23,
+      "postOrderIndex": 23,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/postcss-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/styles/style.css",
+      "issuerName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+      "issuerPath": [
+        {
+          "identifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/index.js",
+          "name": "./src/index.js",
+          "id": null
+        },
+        {
+          "identifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/style-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/postcss-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/styles/style.css",
+          "name": "./styles/style.css",
+          "id": null
+        },
+        {
+          "identifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/postcss-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/styles/style.css",
+          "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+          "id": 71
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 702,
+      "issuerId": 71,
+      "chunks": [
+        792
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/postcss-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/styles/style.css",
+          "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+          "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+          "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/css-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/postcss-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/styles/style.css",
+          "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./styles/style.css",
+          "type": "new URL()",
+          "active": true,
+          "explanation": "",
+          "userRequest": "data:image/svg+xml;charset=utf-8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 fill=%27none%27 aria-hidden=%27true%27 viewBox=%270 0 16 12%27%3E%3Cpath stroke=%27%23fff%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27 stroke-width=%273%27 d=%27M.5 6h14%27/%3E%3C/svg%3E",
+          "loc": "8:36-342",
+          "moduleId": 71,
+          "resolvedModuleId": 71
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [],
+      "optimizationBailout": [],
       "depth": 3
     },
     {
@@ -17313,7 +18176,7 @@
       "id": 982,
       "issuerId": 551,
       "chunks": [
-        632
+        694
       ],
       "assets": [],
       "reasons": [
@@ -17417,7 +18280,7 @@
       "id": 463,
       "issuerId": 982,
       "chunks": [
-        632
+        694
       ],
       "assets": [],
       "reasons": [
@@ -17788,9 +18651,9 @@
       "type": "module",
       "moduleType": "runtime",
       "layer": null,
-      "size": 3138,
+      "size": 3188,
       "sizes": {
-        "runtime": 3138
+        "runtime": 3188
       },
       "built": false,
       "codeGenerated": true,
@@ -17964,7 +18827,7 @@
     "main": {
       "name": "main",
       "chunks": [
-        632,
+        694,
         551,
         976,
         767,
@@ -17999,7 +18862,7 @@
     "main": {
       "name": "main",
       "chunks": [
-        632,
+        694,
         551,
         976,
         767,
@@ -18039,8 +18902,8 @@
       "name": "HtmlWebpackCompiler",
       "hash": "03e300b9b119c4c003ca",
       "version": "5.96.1",
-      "time": 412,
-      "builtAt": 1730721330158,
+      "time": 246,
+      "builtAt": 1730783276082,
       "publicPath": "",
       "outputPath": "/home/mohammad/Desktop/Projects/react-builer/dist",
       "assetsByChunkName": {},
