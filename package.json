@@ -25,7 +25,7 @@
     "react-router-dom": "^6.27.0",
     "tailwind-merge": "^2.5.4",
     "tw-elements-react": "^1.0.0-alpha-end",
-    "zustand": "^5.0.1"
+    "zustand": "^4.5.5"
   },
   "scripts": {
     "dev": "webpack serve --config webpack.dev.js",

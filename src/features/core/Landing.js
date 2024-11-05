@@ -1,8 +1,13 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
+import Languages from "./components/Language.jsx";
 
-export default function Landing() {
+export function Landing() {
+  const { t } = useTranslation();
+
   return (
     <>
+      {t("login")}
       <nav className="bg-white border-gray-200 dark:bg-gray-900">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a
@@ -28,16 +33,7 @@ export default function Landing() {
                 </span>
               </label>
 
-              <label for="states" class="sr-only">
-                Language
-              </label>
-              <select
-                id="states"
-                className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-              >
-                <option defaultValue>EN</option>
-                <option value="CA">FA</option>
-              </select>
+             <Languages />
             </div>
           </div>
           <div
