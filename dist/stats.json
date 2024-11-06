@@ -1,8 +1,8 @@
 {
   "hash": "7e276e040275434c9518",
   "version": "5.96.1",
-  "time": 5908,
-  "builtAt": 1730884693510,
+  "time": 5418,
+  "builtAt": 1730887267478,
   "publicPath": "/",
   "outputPath": "/home/mohammad/Desktop/Projects/react-builer/dist",
   "assetsByChunkName": {
@@ -14,12 +14,12 @@
     {
       "type": "asset",
       "name": "icon-512x512.png",
-      "size": 64963,
+      "size": 258744,
       "emitted": false,
       "comparedForEmit": true,
       "cached": false,
       "info": {
-        "size": 64963
+        "size": 258744
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -126,26 +126,6 @@
     },
     {
       "type": "asset",
-      "name": "workbox-c7969274.js.gz",
-      "size": 7169,
-      "emitted": false,
-      "comparedForEmit": true,
-      "cached": false,
-      "info": {
-        "compressed": true,
-        "size": 7169
-      },
-      "chunkNames": [],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "related": [],
-      "chunks": [],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
       "name": "main-c9c31c89.e99c36a1a773be371041.js.gz",
       "size": 6701,
       "emitted": false,
@@ -176,6 +156,26 @@
         "compressed": true,
         "immutable": true,
         "size": 6569
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": [],
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "workbox-27b4add1.js.gz",
+      "size": 5103,
+      "emitted": false,
+      "comparedForEmit": true,
+      "cached": false,
+      "info": {
+        "compressed": true,
+        "size": 5103
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -243,13 +243,13 @@
     {
       "type": "asset",
       "name": "service-worker.js",
-      "size": 1569,
-      "emitted": true,
+      "size": 1509,
+      "emitted": false,
       "comparedForEmit": true,
       "cached": false,
       "info": {
         "minimized": true,
-        "size": 1569
+        "size": 1509
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -264,7 +264,7 @@
       "type": "asset",
       "name": "index.html",
       "size": 1373,
-      "emitted": true,
+      "emitted": false,
       "comparedForEmit": true,
       "cached": false,
       "info": {
@@ -337,9 +337,9 @@
       "type": "asset",
       "name": "85844e0ca7f47950c7a0.json",
       "size": 964,
-      "emitted": true,
+      "emitted": false,
       "comparedForEmit": false,
-      "cached": false,
+      "cached": true,
       "info": {
         "sourceFilename": "manifest.json",
         "immutable": true,
@@ -33343,8 +33343,8 @@
       "name": "HtmlWebpackCompiler",
       "hash": "7213c8c2e196aa5dbcaa",
       "version": "5.96.1",
-      "time": 271,
-      "builtAt": 1730884687898,
+      "time": 270,
+      "builtAt": 1730887262353,
       "publicPath": "",
       "outputPath": "/home/mohammad/Desktop/Projects/react-builer/dist",
       "assetsByChunkName": {},

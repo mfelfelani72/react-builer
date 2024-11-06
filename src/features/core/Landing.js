@@ -38,7 +38,7 @@ export default function Landing() {
           </a>
           <div className="flex items-center md:order-2 space-x-1 md:space-x-0 ">
             <div className="flex">
-              <label className="inline-flex items-center px-3">
+              <div className="inline-flex items-center px-3">
                 {themeStatus === "dark" ? (
                   <input
                     type="checkbox"
@@ -46,14 +46,14 @@ export default function Landing() {
                     className="sr-only peer"
                   />
                 ) : (
-                  <input type="checkbox" className="sr-only peer" />
+                  <input type="checkbox" aria-label="themeStatus" className="sr-only peer" />
                 )}
 
                 <div
                   onClick={() => handleSwitchTheme(setThemeStatus)}
                   className="relative w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"
                 ></div>
-              </label>
+              </div>
               <span className="inline-flex items-center ltr:pr-3 rtl:pl-3 text-sm font-medium text-gray-900 dark:text-gray-300">
                 {t(themeStatus)}
               </span>

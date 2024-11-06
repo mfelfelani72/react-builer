@@ -76,10 +76,10 @@ module.exports = merge(common, {
           handler: "StaleWhileRevalidate",
           options: {
             cacheName: "all-resources",
-            expiration: {
-              maxEntries: 50,
-              maxAgeSeconds: 30 * 24 * 60 * 60, // 30 days
-            },
+            // expiration: {
+            //   maxEntries: 50,
+            //   maxAgeSeconds: 30 * 24 * 60 * 60, // 30 days
+            // },
           },
         },
       ],
