@@ -8,6 +8,7 @@ const CompressionPlugin = require("compression-webpack-plugin");
 const zlib = require("zlib");
 const TerserPlugin = require("terser-webpack-plugin");
 
+const AddManifest = require("./webpack-files/pwa/AddManifest.js")
 const UnregisterServiceWorker = require('./webpack-files/service-worker/unregister/UnregisterServiceWorker.js');
 
 // for optimise }
@@ -20,8 +21,11 @@ module.exports = merge(common, {
       template: "./public/index.html",
       inject: "body",
       scriptLoading: "defer",
+      minify: true,
+      favicon: './assets/images/icon-512x512.png',
     }),
-    
+    new AddManifest(),//////////////////////////////////////////
+
     new UnregisterServiceWorker(),
   
     new CompressionPlugin({

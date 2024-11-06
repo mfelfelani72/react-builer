@@ -1,8 +1,8 @@
 {
-  "hash": "7e276e040275434c9518",
+  "hash": "c785e3116ecf98f241e1",
   "version": "5.96.1",
-  "time": 5418,
-  "builtAt": 1730887267478,
+  "time": 5517,
+  "builtAt": 1730891233821,
   "publicPath": "/",
   "outputPath": "/home/mohammad/Desktop/Projects/react-builer/dist",
   "assetsByChunkName": {
@@ -101,17 +101,17 @@
     },
     {
       "type": "asset",
-      "name": "706.923f46de9ec983830a58.js",
-      "size": 7304,
+      "name": "706.b0eb7150d3949b95867c.js",
+      "size": 7307,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
       "info": {
         "immutable": true,
-        "contenthash": "923f46de9ec983830a58",
+        "contenthash": "b0eb7150d3949b95867c",
         "javascriptModule": false,
         "minimized": true,
-        "size": 7304
+        "size": 7307
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -126,15 +126,15 @@
     },
     {
       "type": "asset",
-      "name": "main-c9c31c89.e99c36a1a773be371041.js.gz",
-      "size": 6701,
+      "name": "main-c9c31c89.4a41737e167b62aa9503.js.gz",
+      "size": 6702,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
       "info": {
         "compressed": true,
         "immutable": true,
-        "size": 6701
+        "size": 6702
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -6471,7 +6471,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "53:19-38",
+              "loc": "54:19-38",
               "moduleId": 706,
               "resolvedModuleId": null
             },
@@ -6485,7 +6485,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "58:20-39",
+              "loc": "59:20-39",
               "moduleId": 706,
               "resolvedModuleId": null
             },
@@ -6499,7 +6499,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "60:35-54",
+              "loc": "61:35-54",
               "moduleId": 706,
               "resolvedModuleId": null
             },
@@ -6513,7 +6513,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "60:88-107",
+              "loc": "61:88-107",
               "moduleId": 706,
               "resolvedModuleId": null
             },
@@ -6527,7 +6527,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "63:18-37",
+              "loc": "64:18-37",
               "moduleId": 706,
               "resolvedModuleId": null
             },
@@ -6541,7 +6541,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "65:18-37",
+              "loc": "66:18-37",
               "moduleId": 706,
               "resolvedModuleId": null
             },
@@ -6625,21 +6625,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "38:19-38",
-              "moduleId": 706,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Landing.js|4e8c1bbf013b6a53a641e6f34499b046",
-              "module": "./src/features/core/Landing.js + 4 modules",
-              "moduleName": "./src/features/core/Landing.js + 4 modules",
-              "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/Language.jsx",
-              "resolvedModule": "./src/features/core/components/Language.jsx",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "react",
-              "loc": "46:24-43",
+              "loc": "45:24-43",
               "moduleId": 706,
               "resolvedModuleId": null
             },
@@ -6751,21 +6737,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "38:19-38",
-              "moduleId": null,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/Language.jsx",
-              "module": "./src/features/core/components/Language.jsx",
-              "moduleName": "./src/features/core/components/Language.jsx",
-              "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/Language.jsx",
-              "resolvedModule": "./src/features/core/components/Language.jsx",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "react",
-              "loc": "46:24-43",
+              "loc": "45:24-43",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -11688,9 +11660,9 @@
       "initial": false,
       "entry": false,
       "recorded": false,
-      "size": 14171,
+      "size": 14158,
       "sizes": {
-        "javascript": 14171
+        "javascript": 14158
       },
       "names": [],
       "idHints": [],
@@ -11698,10 +11670,10 @@
         "main"
       ],
       "files": [
-        "706.923f46de9ec983830a58.js"
+        "706.b0eb7150d3949b95867c.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "46ae556269971eb61733",
+      "hash": "32b0e045ab7b4e93f7aa",
       "childrenByOrder": {},
       "id": 706,
       "siblings": [],
@@ -12166,9 +12138,9 @@
           "type": "module",
           "moduleType": "javascript/esm",
           "layer": null,
-          "size": 11515,
+          "size": 11502,
           "sizes": {
-            "javascript": 11515
+            "javascript": 11502
           },
           "built": true,
           "codeGenerated": true,
@@ -12239,9 +12211,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 5050,
+              "size": 5081,
               "sizes": {
-                "javascript": 5050
+                "javascript": 5081
               },
               "built": true,
               "codeGenerated": false,
@@ -12293,9 +12265,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 1877,
+              "size": 1833,
               "sizes": {
-                "javascript": 1877
+                "javascript": 1833
               },
               "built": true,
               "codeGenerated": false,
@@ -12363,7 +12335,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "./components/Language.jsx",
-                  "loc": "60:55-64",
+                  "loc": "61:55-64",
                   "moduleId": null,
                   "resolvedModuleId": null
                 }
@@ -15452,7 +15424,7 @@
       ],
       "files": [],
       "auxiliaryFiles": [],
-      "hash": "7b504a74471024b87732",
+      "hash": "f90bfe04209ea052ac64",
       "childrenByOrder": {},
       "id": 838,
       "siblings": [
@@ -17231,7 +17203,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "53:19-38",
+          "loc": "54:19-38",
           "moduleId": 706,
           "resolvedModuleId": null
         },
@@ -17245,7 +17217,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "58:20-39",
+          "loc": "59:20-39",
           "moduleId": 706,
           "resolvedModuleId": null
         },
@@ -17259,7 +17231,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "60:35-54",
+          "loc": "61:35-54",
           "moduleId": 706,
           "resolvedModuleId": null
         },
@@ -17273,7 +17245,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "60:88-107",
+          "loc": "61:88-107",
           "moduleId": 706,
           "resolvedModuleId": null
         },
@@ -17287,7 +17259,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "63:18-37",
+          "loc": "64:18-37",
           "moduleId": 706,
           "resolvedModuleId": null
         },
@@ -17301,7 +17273,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "65:18-37",
+          "loc": "66:18-37",
           "moduleId": 706,
           "resolvedModuleId": null
         },
@@ -17385,21 +17357,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "38:19-38",
-          "moduleId": 706,
-          "resolvedModuleId": null
-        },
-        {
-          "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Landing.js|4e8c1bbf013b6a53a641e6f34499b046",
-          "module": "./src/features/core/Landing.js + 4 modules",
-          "moduleName": "./src/features/core/Landing.js + 4 modules",
-          "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/Language.jsx",
-          "resolvedModule": "./src/features/core/components/Language.jsx",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "react",
-          "loc": "46:24-43",
+          "loc": "45:24-43",
           "moduleId": 706,
           "resolvedModuleId": null
         },
@@ -17511,21 +17469,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "38:19-38",
-          "moduleId": null,
-          "resolvedModuleId": null
-        },
-        {
-          "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/Language.jsx",
-          "module": "./src/features/core/components/Language.jsx",
-          "moduleName": "./src/features/core/components/Language.jsx",
-          "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/Language.jsx",
-          "resolvedModule": "./src/features/core/components/Language.jsx",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "react",
-          "loc": "46:24-43",
+          "loc": "45:24-43",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -26001,9 +25945,9 @@
       "type": "module",
       "moduleType": "javascript/esm",
       "layer": null,
-      "size": 11515,
+      "size": 11502,
       "sizes": {
-        "javascript": 11515
+        "javascript": 11502
       },
       "built": true,
       "codeGenerated": true,
@@ -26073,9 +26017,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 5050,
+          "size": 5081,
           "sizes": {
-            "javascript": 5050
+            "javascript": 5081
           },
           "built": true,
           "codeGenerated": false,
@@ -26126,9 +26070,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 1877,
+          "size": 1833,
           "sizes": {
-            "javascript": 1877
+            "javascript": 1833
           },
           "built": true,
           "codeGenerated": false,
@@ -26195,7 +26139,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./components/Language.jsx",
-              "loc": "60:55-64",
+              "loc": "61:55-64",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -28334,9 +28278,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 1877,
+      "size": 1833,
       "sizes": {
-        "javascript": 1877
+        "javascript": 1833
       },
       "built": true,
       "codeGenerated": false,
@@ -28403,7 +28347,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./components/Language.jsx",
-          "loc": "60:55-64",
+          "loc": "61:55-64",
           "moduleId": null,
           "resolvedModuleId": null
         }
@@ -33343,8 +33287,8 @@
       "name": "HtmlWebpackCompiler",
       "hash": "7213c8c2e196aa5dbcaa",
       "version": "5.96.1",
-      "time": 270,
-      "builtAt": 1730887262353,
+      "time": 326,
+      "builtAt": 1730891228654,
       "publicPath": "",
       "outputPath": "/home/mohammad/Desktop/Projects/react-builer/dist",
       "assetsByChunkName": {},
