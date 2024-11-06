@@ -3,6 +3,7 @@ const common = require("./webpack.common.js");
 
 // { for optimise
 
+const HTMLWebpackPlugin = require("html-webpack-plugin");
 const CompressionPlugin = require("compression-webpack-plugin");
 const zlib = require("zlib");
 const TerserPlugin = require("terser-webpack-plugin");
@@ -15,6 +16,11 @@ module.exports = merge(common, {
   mode: "development",
   devtool: "source-map",
   plugins: [
+    new HTMLWebpackPlugin({
+      template: "./public/index.html",
+      inject: "body",
+      scriptLoading: "defer",
+    }),
     
     new UnregisterServiceWorker(),
   

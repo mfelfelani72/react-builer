@@ -1,8 +1,8 @@
 {
-  "hash": "ee4e9be2a238a4de07f4",
+  "hash": "0a8781aa1d5a176d713a",
   "version": "5.96.1",
-  "time": 6952,
-  "builtAt": 1730873265939,
+  "time": 5688,
+  "builtAt": 1730876695623,
   "publicPath": "/",
   "outputPath": "/home/mohammad/Desktop/Projects/react-builer/dist",
   "assetsByChunkName": {
@@ -22,6 +22,25 @@
         "compressed": true,
         "immutable": true,
         "size": 41207
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": [],
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "icon.png",
+      "size": 33196,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "size": 33196
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -107,14 +126,14 @@
     },
     {
       "type": "asset",
-      "name": "workbox-1f0a6092.js.gz",
-      "size": 7186,
+      "name": "workbox-c7969274.js.gz",
+      "size": 7169,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "compressed": true,
-        "size": 7186
+        "size": 7169
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -224,13 +243,32 @@
     {
       "type": "asset",
       "name": "service-worker.js",
-      "size": 1538,
+      "size": 1561,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "minimized": true,
-        "size": 1538
+        "size": 1561
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": [],
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "index.html",
+      "size": 1365,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "size": 1365
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -270,25 +308,6 @@
     },
     {
       "type": "asset",
-      "name": "index.html",
-      "size": 1219,
-      "emitted": true,
-      "comparedForEmit": false,
-      "cached": false,
-      "info": {
-        "size": 1219
-      },
-      "chunkNames": [],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "related": [],
-      "chunks": [],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
       "name": "767.e839286a4a491f6e5a19.js",
       "size": 1159,
       "emitted": true,
@@ -311,6 +330,28 @@
       "chunks": [
         767
       ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "6dd873d5644fdb42f362.json",
+      "size": 443,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "sourceFilename": "manifest.json",
+        "immutable": true,
+        "contenthash": "6dd873d5644fdb42f362",
+        "size": 443
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": [],
+      "chunks": [],
       "auxiliaryChunks": [],
       "isOverSizeLimit": false
     }
@@ -33300,24 +33341,51 @@
   "children": [
     {
       "name": "HtmlWebpackCompiler",
-      "hash": "d5a22dc0b7f878e0f6a1",
+      "hash": "263f02ab68c072f55bbb",
       "version": "5.96.1",
-      "time": 362,
-      "builtAt": 1730873259394,
+      "time": 273,
+      "builtAt": 1730876690231,
       "publicPath": "",
       "outputPath": "/home/mohammad/Desktop/Projects/react-builer/dist",
       "assetsByChunkName": {},
-      "assets": [],
+      "assets": [
+        {
+          "type": "asset",
+          "name": "6dd873d5644fdb42f362.json",
+          "size": 443,
+          "emitted": false,
+          "comparedForEmit": false,
+          "cached": true,
+          "info": {
+            "sourceFilename": "manifest.json",
+            "immutable": true,
+            "contenthash": "6dd873d5644fdb42f362"
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [
+            "HtmlWebpackPlugin_0-/home/mohammad/Desktop/Projects/react-builer/node_modules/html-webpack-plugin/lib/loader.js!/home/mohammad/Desktop/Projects/react-builer/public/index.html"
+          ],
+          "auxiliaryChunkIdHints": [],
+          "related": [],
+          "chunks": [],
+          "auxiliaryChunks": [
+            411
+          ],
+          "isOverSizeLimit": false
+        }
+      ],
       "chunks": [
         {
           "rendered": true,
           "initial": true,
           "entry": true,
           "recorded": false,
-          "size": 1446,
+          "size": 2579,
           "sizes": {
-            "javascript": 371,
-            "runtime": 1075
+            "javascript": 576,
+            "asset": 443,
+            "runtime": 1560
           },
           "names": [
             "HtmlWebpackPlugin_0-/home/mohammad/Desktop/Projects/react-builer/node_modules/html-webpack-plugin/lib/loader.js!/home/mohammad/Desktop/Projects/react-builer/public/index.html"
@@ -33327,8 +33395,10 @@
             "HtmlWebpackPlugin_0-/home/mohammad/Desktop/Projects/react-builer/node_modules/html-webpack-plugin/lib/loader.js!./public/index.html"
           ],
           "files": [],
-          "auxiliaryFiles": [],
-          "hash": "3de381195cf950de17b2",
+          "auxiliaryFiles": [
+            "6dd873d5644fdb42f362.json"
+          ],
+          "hash": "d80d1b8386dc28c9a6f4",
           "childrenByOrder": {},
           "id": 411,
           "siblings": [],
@@ -33337,11 +33407,74 @@
           "modules": [
             {
               "type": "module",
+              "moduleType": "asset/resource",
+              "layer": null,
+              "size": 42,
+              "sizes": {
+                "asset": 443,
+                "javascript": 42
+              },
+              "built": true,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "asset/resource|/home/mohammad/Desktop/Projects/react-builer/manifest.json",
+              "name": "./manifest.json",
+              "nameForCondition": "/home/mohammad/Desktop/Projects/react-builer/manifest.json",
+              "index": 2,
+              "preOrderIndex": 2,
+              "index2": 1,
+              "postOrderIndex": 1,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": "/home/mohammad/Desktop/Projects/react-builer/node_modules/html-webpack-plugin/lib/loader.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/html-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/public/index.html",
+              "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html",
+              "issuerPath": [
+                {
+                  "identifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/html-webpack-plugin/lib/loader.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/html-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/public/index.html",
+                  "name": "./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html",
+                  "id": 955
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": 414,
+              "issuerId": 955,
+              "chunks": [
+                411
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/html-webpack-plugin/lib/loader.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/html-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/public/index.html",
+                  "module": "./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html",
+                  "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html",
+                  "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/html-webpack-plugin/lib/loader.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/html-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/public/index.html",
+                  "resolvedModule": "./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html",
+                  "type": "new URL()",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../manifest.json",
+                  "loc": "2:33-77",
+                  "moduleId": 955,
+                  "resolvedModuleId": 955
+                }
+              ],
+              "usedExports": true,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": 1
+            },
+            {
+              "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 294,
+              "size": 457,
               "sizes": {
-                "javascript": 294
+                "javascript": 457
               },
               "built": true,
               "codeGenerated": true,
@@ -33352,8 +33485,8 @@
               "nameForCondition": "/home/mohammad/Desktop/Projects/react-builer/public/index.html",
               "index": 1,
               "preOrderIndex": 1,
-              "index2": 1,
-              "postOrderIndex": 1,
+              "index2": 2,
+              "postOrderIndex": 2,
               "cacheable": true,
               "optional": false,
               "orphan": false,
@@ -33403,7 +33536,9 @@
               "providedExports": [
                 "default"
               ],
-              "optimizationBailout": [],
+              "optimizationBailout": [
+                "Dependency (new URL()) with side effects at 2:33-77"
+              ],
               "depth": 0
             },
             {
@@ -33612,6 +33747,42 @@
               "type": "module",
               "moduleType": "runtime",
               "layer": null,
+              "size": 485,
+              "sizes": {
+                "runtime": 485
+              },
+              "built": false,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "webpack/runtime/relative url",
+              "name": "webpack/runtime/relative url",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                411
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
               "size": 378,
               "sizes": {
                 "runtime": 378
@@ -33725,9 +33896,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 294,
+          "size": 457,
           "sizes": {
-            "javascript": 294
+            "javascript": 457
           },
           "built": true,
           "codeGenerated": true,
@@ -33738,8 +33909,8 @@
           "nameForCondition": "/home/mohammad/Desktop/Projects/react-builer/public/index.html",
           "index": 1,
           "preOrderIndex": 1,
-          "index2": 1,
-          "postOrderIndex": 1,
+          "index2": 2,
+          "postOrderIndex": 2,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -33788,8 +33959,72 @@
           "providedExports": [
             "default"
           ],
-          "optimizationBailout": [],
+          "optimizationBailout": [
+            "Dependency (new URL()) with side effects at 2:33-77"
+          ],
           "depth": 0
+        },
+        {
+          "type": "module",
+          "moduleType": "asset/resource",
+          "layer": null,
+          "size": 42,
+          "sizes": {
+            "asset": 443,
+            "javascript": 42
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "asset/resource|/home/mohammad/Desktop/Projects/react-builer/manifest.json",
+          "name": "./manifest.json",
+          "nameForCondition": "/home/mohammad/Desktop/Projects/react-builer/manifest.json",
+          "index": 2,
+          "preOrderIndex": 2,
+          "index2": 1,
+          "postOrderIndex": 1,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": "/home/mohammad/Desktop/Projects/react-builer/node_modules/html-webpack-plugin/lib/loader.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/html-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/public/index.html",
+          "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html",
+          "issuerPath": [
+            {
+              "identifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/html-webpack-plugin/lib/loader.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/html-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/public/index.html",
+              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html",
+              "id": 955
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 414,
+          "issuerId": 955,
+          "chunks": [
+            411
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/html-webpack-plugin/lib/loader.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/html-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/public/index.html",
+              "module": "./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html",
+              "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html",
+              "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/html-webpack-plugin/lib/loader.js!/home/mohammad/Desktop/Projects/react-builer/node_modules/html-loader/dist/cjs.js!/home/mohammad/Desktop/Projects/react-builer/public/index.html",
+              "resolvedModule": "./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html",
+              "type": "new URL()",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../manifest.json",
+              "loc": "2:33-77",
+              "moduleId": 955,
+              "resolvedModuleId": 955
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": 1
         },
         {
           "type": "module",
@@ -33935,6 +34170,41 @@
           "type": "module",
           "moduleType": "runtime",
           "layer": null,
+          "size": 485,
+          "sizes": {
+            "runtime": 485
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/relative url",
+          "name": "webpack/runtime/relative url",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            411
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
           "size": 378,
           "sizes": {
             "runtime": 378
@@ -33976,9 +34246,13 @@
           "assets": [],
           "filteredAssets": 0,
           "assetsSize": 0,
-          "auxiliaryAssets": [],
+          "auxiliaryAssets": [
+            {
+              "name": "6dd873d5644fdb42f362.json"
+            }
+          ],
           "filteredAuxiliaryAssets": 0,
-          "auxiliaryAssetsSize": 0,
+          "auxiliaryAssetsSize": null,
           "children": {},
           "childAssets": {},
           "isOverSizeLimit": false
@@ -33993,9 +34267,13 @@
           "assets": [],
           "filteredAssets": 0,
           "assetsSize": 0,
-          "auxiliaryAssets": [],
+          "auxiliaryAssets": [
+            {
+              "name": "6dd873d5644fdb42f362.json"
+            }
+          ],
           "filteredAuxiliaryAssets": 0,
-          "auxiliaryAssetsSize": 0,
+          "auxiliaryAssetsSize": null,
           "children": {},
           "childAssets": {},
           "isOverSizeLimit": false

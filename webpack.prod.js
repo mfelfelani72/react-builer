@@ -3,6 +3,7 @@ const common = require("./webpack.common.js");
 
 // { for optimise
 
+const HTMLWebpackPlugin = require("html-webpack-plugin");
 const CompressionPlugin = require("compression-webpack-plugin");
 const zlib = require("zlib");
 const TerserPlugin = require("terser-webpack-plugin");
@@ -36,6 +37,21 @@ module.exports = merge(common, {
     ],
   },
   plugins: [
+
+    new HTMLWebpackPlugin({
+      template: "./public/index.html",
+      // inject: "body",
+      scriptLoading: "defer",
+      // Add manifest and meta tags for PWA
+      inject: true,
+      minify: true,
+      favicon: './assets/images/icon.png',
+      meta: {
+        'theme-color': '#ffffff'
+      },
+      manifest: './manifest.json',
+    }),
+
     new RegisterServiceWorker(),
 
     new CompressionPlugin({

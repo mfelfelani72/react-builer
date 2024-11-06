@@ -1,7 +1,6 @@
 // { for initial
 
 const path = require("path");
-const HTMLWebpackPlugin = require("html-webpack-plugin");
 const Dotenv = require("dotenv-webpack");
 const glob = require("glob");
 
@@ -54,11 +53,7 @@ module.exports = {
   },
 
   plugins: [
-    new HTMLWebpackPlugin({
-      template: "./public/index.html",
-      inject: "body",
-      scriptLoading: "defer",
-    }),
+   
     new Dotenv({
       path: ".env",
       safe: true,
