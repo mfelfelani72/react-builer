@@ -1,8 +1,8 @@
 {
   "hash": "56e79e590fd5f9d8ce70",
   "version": "5.96.1",
-  "time": 5715,
-  "builtAt": 1730894182452,
+  "time": 5293,
+  "builtAt": 1730897489491,
   "publicPath": "/",
   "outputPath": "/home/mohammad/Desktop/Projects/react-builer/dist",
   "assetsByChunkName": {
@@ -13,6 +13,27 @@
   "assets": [
     {
       "type": "asset",
+      "name": "assets/images/icon-512x512.png",
+      "size": 258744,
+      "emitted": false,
+      "comparedForEmit": true,
+      "cached": false,
+      "info": {
+        "copied": true,
+        "sourceFilename": "assets/images/icon-512x512.png",
+        "size": 258744
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": [],
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
       "name": "icon-512x512.png",
       "size": 258744,
       "emitted": false,
@@ -20,6 +41,27 @@
       "cached": false,
       "info": {
         "size": 258744
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": [],
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "assets/images/icon-192x192.png",
+      "size": 49561,
+      "emitted": false,
+      "comparedForEmit": true,
+      "cached": false,
+      "info": {
+        "copied": true,
+        "sourceFilename": "assets/images/icon-192x192.png",
+        "size": 49561
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -53,6 +95,48 @@
     },
     {
       "type": "asset",
+      "name": "assets/images/icon-144x144.png",
+      "size": 30664,
+      "emitted": false,
+      "comparedForEmit": true,
+      "cached": false,
+      "info": {
+        "copied": true,
+        "sourceFilename": "assets/images/icon-144x144.png",
+        "size": 30664
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": [],
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "assets/images/icon-96x96.png",
+      "size": 15227,
+      "emitted": false,
+      "comparedForEmit": true,
+      "cached": false,
+      "info": {
+        "copied": true,
+        "sourceFilename": "assets/images/icon-96x96.png",
+        "size": 15227
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": [],
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
       "name": "635.124a0fca0b0c4a44fb3c.js.gz",
       "size": 14283,
       "emitted": false,
@@ -62,6 +146,27 @@
         "compressed": true,
         "immutable": true,
         "size": 14283
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": [],
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "assets/images/icon-72x72.png",
+      "size": 9419,
+      "emitted": false,
+      "comparedForEmit": true,
+      "cached": false,
+      "info": {
+        "copied": true,
+        "sourceFilename": "assets/images/icon-72x72.png",
+        "size": 9419
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -128,9 +233,9 @@
       "type": "asset",
       "name": "main-c9c31c89.4667128d1ba1cf96d60e.js.gz",
       "size": 6736,
-      "emitted": true,
+      "emitted": false,
       "comparedForEmit": false,
-      "cached": false,
+      "cached": true,
       "info": {
         "compressed": true,
         "immutable": true,
@@ -176,6 +281,27 @@
       "info": {
         "compressed": true,
         "size": 5103
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": [],
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "assets/images/icon-48x48.png",
+      "size": 4759,
+      "emitted": false,
+      "comparedForEmit": true,
+      "cached": false,
+      "info": {
+        "copied": true,
+        "sourceFilename": "assets/images/icon-48x48.png",
+        "size": 4759
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -242,14 +368,35 @@
     },
     {
       "type": "asset",
+      "name": "assets/images/icon-36x36.png",
+      "size": 2978,
+      "emitted": false,
+      "comparedForEmit": true,
+      "cached": false,
+      "info": {
+        "copied": true,
+        "sourceFilename": "assets/images/icon-36x36.png",
+        "size": 2978
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": [],
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
       "name": "service-worker.js",
-      "size": 1509,
+      "size": 2089,
       "emitted": true,
       "comparedForEmit": true,
       "cached": false,
       "info": {
         "minimized": true,
-        "size": 1509
+        "size": 2089
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -33399,8 +33546,8 @@
       "name": "HtmlWebpackCompiler",
       "hash": "7213c8c2e196aa5dbcaa",
       "version": "5.96.1",
-      "time": 393,
-      "builtAt": 1730894177162,
+      "time": 275,
+      "builtAt": 1730897484497,
       "publicPath": "",
       "outputPath": "/home/mohammad/Desktop/Projects/react-builer/dist",
       "assetsByChunkName": {},

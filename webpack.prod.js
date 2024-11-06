@@ -9,8 +9,9 @@ const zlib = require("zlib");
 const TerserPlugin = require("terser-webpack-plugin");
 const { BundleAnalyzerPlugin } = require("webpack-bundle-analyzer");
 
-const WorkboxPlugin = require("workbox-webpack-plugin");
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
+const WorkboxPlugin = require("workbox-webpack-plugin");
 const RegisterServiceWorker = require("./webpack-files/service-worker/register/RegisterServiceWorker.js");
 
 // for optimise }
@@ -80,6 +81,12 @@ module.exports = merge(common, {
             // },
           },
         },
+      ],
+    }),
+
+    new CopyWebpackPlugin({
+      patterns: [
+        { from: 'assets/images', to: 'assets/images' }, // Copy images folder
       ],
     }),
     new BundleAnalyzerPlugin({
