@@ -8,6 +8,14 @@
 .bg-color-white{
     background-color: #fff;
 }
+.dev-banner {
+    width: 100vw;
+    --tw-bg-opacity: 1;
+    background-color: rgb(190 18 60 / var(--tw-bg-opacity));
+    text-align: center;
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+}
 
 
 

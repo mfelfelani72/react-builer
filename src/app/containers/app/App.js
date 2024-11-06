@@ -9,15 +9,15 @@ const Landing = lazy(() => import("../../../features/core/Landing.js"));
 
 const App = () => {
   useEffect(() => {
-
-   prepareApp();
-    
+    prepareApp();
   }, []);
 
   return (
-    <Suspense fallback={<LoaderPage />}>
-      <Landing />
-    </Suspense>
+    <>
+      <Suspense fallback={<LoaderPage />}>
+        <Landing />
+      </Suspense>
+    </>
   );
 };
 
