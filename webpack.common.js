@@ -30,6 +30,7 @@ module.exports = {
     filename: "[name].[contenthash].js",
     path: path.resolve("dist"),
     publicPath: "/",
+    clean: true,
   },
 
   parallelism: 8, // It usually depends on the number of CPU cores in your computer
@@ -147,9 +148,9 @@ module.exports = {
               },
             },
           },
-          {
-            loader: "file-loader",
-          },
+          // {
+          //   loader: "file-loader",
+          // },
         ],
       },
     ],

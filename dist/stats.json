@@ -1,8 +1,8 @@
 {
-  "hash": "0a8781aa1d5a176d713a",
+  "hash": "7e276e040275434c9518",
   "version": "5.96.1",
-  "time": 5995,
-  "builtAt": 1730878785801,
+  "time": 5908,
+  "builtAt": 1730884693510,
   "publicPath": "/",
   "outputPath": "/home/mohammad/Desktop/Projects/react-builer/dist",
   "assetsByChunkName": {
@@ -13,11 +13,30 @@
   "assets": [
     {
       "type": "asset",
+      "name": "icon-512x512.png",
+      "size": 64963,
+      "emitted": false,
+      "comparedForEmit": true,
+      "cached": false,
+      "info": {
+        "size": 64963
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": [],
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
       "name": "551.7dcef2de76037374d7eb.js.gz",
       "size": 41207,
-      "emitted": true,
+      "emitted": false,
       "comparedForEmit": false,
-      "cached": false,
+      "cached": true,
       "info": {
         "compressed": true,
         "immutable": true,
@@ -34,30 +53,11 @@
     },
     {
       "type": "asset",
-      "name": "icon.png",
-      "size": 33196,
-      "emitted": true,
-      "comparedForEmit": false,
-      "cached": false,
-      "info": {
-        "size": 33196
-      },
-      "chunkNames": [],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "related": [],
-      "chunks": [],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
       "name": "635.124a0fca0b0c4a44fb3c.js.gz",
       "size": 14283,
-      "emitted": true,
+      "emitted": false,
       "comparedForEmit": false,
-      "cached": false,
+      "cached": true,
       "info": {
         "compressed": true,
         "immutable": true,
@@ -76,9 +76,9 @@
       "type": "asset",
       "name": "322.19f3969ad05601c3922e.js",
       "size": 8154,
-      "emitted": true,
+      "emitted": false,
       "comparedForEmit": false,
-      "cached": false,
+      "cached": true,
       "info": {
         "immutable": true,
         "contenthash": "19f3969ad05601c3922e",
@@ -103,9 +103,9 @@
       "type": "asset",
       "name": "706.923f46de9ec983830a58.js",
       "size": 7304,
-      "emitted": true,
+      "emitted": false,
       "comparedForEmit": false,
-      "cached": false,
+      "cached": true,
       "info": {
         "immutable": true,
         "contenthash": "923f46de9ec983830a58",
@@ -128,8 +128,8 @@
       "type": "asset",
       "name": "workbox-c7969274.js.gz",
       "size": 7169,
-      "emitted": true,
-      "comparedForEmit": false,
+      "emitted": false,
+      "comparedForEmit": true,
       "cached": false,
       "info": {
         "compressed": true,
@@ -148,9 +148,9 @@
       "type": "asset",
       "name": "main-c9c31c89.e99c36a1a773be371041.js.gz",
       "size": 6701,
-      "emitted": true,
+      "emitted": false,
       "comparedForEmit": false,
-      "cached": false,
+      "cached": true,
       "info": {
         "compressed": true,
         "immutable": true,
@@ -169,9 +169,9 @@
       "type": "asset",
       "name": "679.d8323fca867bca4dee8e.js.gz",
       "size": 6569,
-      "emitted": true,
+      "emitted": false,
       "comparedForEmit": false,
-      "cached": false,
+      "cached": true,
       "info": {
         "compressed": true,
         "immutable": true,
@@ -190,9 +190,9 @@
       "type": "asset",
       "name": "main-5d3f7ed2.c932ca6d4c089ff9d685.js",
       "size": 3389,
-      "emitted": true,
+      "emitted": false,
       "comparedForEmit": false,
-      "cached": false,
+      "cached": true,
       "info": {
         "immutable": true,
         "contenthash": "c932ca6d4c089ff9d685",
@@ -217,9 +217,9 @@
       "type": "asset",
       "name": "588.38cc34ba5e1d475f8652.js",
       "size": 3249,
-      "emitted": true,
+      "emitted": false,
       "comparedForEmit": false,
-      "cached": false,
+      "cached": true,
       "info": {
         "immutable": true,
         "contenthash": "38cc34ba5e1d475f8652",
@@ -243,13 +243,13 @@
     {
       "type": "asset",
       "name": "service-worker.js",
-      "size": 1561,
+      "size": 1569,
       "emitted": true,
-      "comparedForEmit": false,
+      "comparedForEmit": true,
       "cached": false,
       "info": {
         "minimized": true,
-        "size": 1561
+        "size": 1569
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -263,12 +263,12 @@
     {
       "type": "asset",
       "name": "index.html",
-      "size": 1365,
+      "size": 1373,
       "emitted": true,
-      "comparedForEmit": false,
+      "comparedForEmit": true,
       "cached": false,
       "info": {
-        "size": 1365
+        "size": 1373
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -283,9 +283,9 @@
       "type": "asset",
       "name": "976.cebf3a08326da70f0488.js",
       "size": 1270,
-      "emitted": true,
+      "emitted": false,
       "comparedForEmit": false,
-      "cached": false,
+      "cached": true,
       "info": {
         "immutable": true,
         "contenthash": "cebf3a08326da70f0488",
@@ -310,9 +310,9 @@
       "type": "asset",
       "name": "767.e839286a4a491f6e5a19.js",
       "size": 1159,
-      "emitted": true,
+      "emitted": false,
       "comparedForEmit": false,
-      "cached": false,
+      "cached": true,
       "info": {
         "immutable": true,
         "contenthash": "e839286a4a491f6e5a19",
@@ -335,16 +335,16 @@
     },
     {
       "type": "asset",
-      "name": "6dd873d5644fdb42f362.json",
-      "size": 443,
+      "name": "85844e0ca7f47950c7a0.json",
+      "size": 964,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "sourceFilename": "manifest.json",
         "immutable": true,
-        "contenthash": "6dd873d5644fdb42f362",
-        "size": 443
+        "contenthash": "85844e0ca7f47950c7a0",
+        "size": 964
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -33341,25 +33341,25 @@
   "children": [
     {
       "name": "HtmlWebpackCompiler",
-      "hash": "263f02ab68c072f55bbb",
+      "hash": "7213c8c2e196aa5dbcaa",
       "version": "5.96.1",
-      "time": 291,
-      "builtAt": 1730878780127,
+      "time": 271,
+      "builtAt": 1730884687898,
       "publicPath": "",
       "outputPath": "/home/mohammad/Desktop/Projects/react-builer/dist",
       "assetsByChunkName": {},
       "assets": [
         {
           "type": "asset",
-          "name": "6dd873d5644fdb42f362.json",
-          "size": 443,
+          "name": "85844e0ca7f47950c7a0.json",
+          "size": 964,
           "emitted": false,
           "comparedForEmit": false,
           "cached": true,
           "info": {
             "sourceFilename": "manifest.json",
             "immutable": true,
-            "contenthash": "6dd873d5644fdb42f362"
+            "contenthash": "85844e0ca7f47950c7a0"
           },
           "chunkNames": [],
           "chunkIdHints": [],
@@ -33381,10 +33381,10 @@
           "initial": true,
           "entry": true,
           "recorded": false,
-          "size": 2579,
+          "size": 3100,
           "sizes": {
             "javascript": 576,
-            "asset": 443,
+            "asset": 964,
             "runtime": 1560
           },
           "names": [
@@ -33396,9 +33396,9 @@
           ],
           "files": [],
           "auxiliaryFiles": [
-            "6dd873d5644fdb42f362.json"
+            "85844e0ca7f47950c7a0.json"
           ],
-          "hash": "d80d1b8386dc28c9a6f4",
+          "hash": "55c71e51f6e666f2f760",
           "childrenByOrder": {},
           "id": 411,
           "siblings": [],
@@ -33411,7 +33411,7 @@
               "layer": null,
               "size": 42,
               "sizes": {
-                "asset": 443,
+                "asset": 964,
                 "javascript": 42
               },
               "built": true,
@@ -33970,7 +33970,7 @@
           "layer": null,
           "size": 42,
           "sizes": {
-            "asset": 443,
+            "asset": 964,
             "javascript": 42
           },
           "built": true,
@@ -34248,7 +34248,7 @@
           "assetsSize": 0,
           "auxiliaryAssets": [
             {
-              "name": "6dd873d5644fdb42f362.json"
+              "name": "85844e0ca7f47950c7a0.json"
             }
           ],
           "filteredAuxiliaryAssets": 0,
@@ -34269,7 +34269,7 @@
           "assetsSize": 0,
           "auxiliaryAssets": [
             {
-              "name": "6dd873d5644fdb42f362.json"
+              "name": "85844e0ca7f47950c7a0.json"
             }
           ],
           "filteredAuxiliaryAssets": 0,

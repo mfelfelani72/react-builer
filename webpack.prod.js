@@ -45,7 +45,7 @@ module.exports = merge(common, {
       // Add manifest and meta tags for PWA
       inject: true,
       minify: true,
-      favicon: './assets/images/icon.png',
+      favicon: './assets/images/icon-512x512.png',
       meta: {
         'theme-color': '#ffffff'
       },
