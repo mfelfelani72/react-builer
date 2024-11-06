@@ -10,7 +10,7 @@ const { BundleAnalyzerPlugin } = require("webpack-bundle-analyzer");
 
 const WorkboxPlugin = require("workbox-webpack-plugin");
 
-const RegisterServiceWorker = require('./webpack-files/service-worker/register/RegisterServiceWorker.js');
+const RegisterServiceWorker = require("./webpack-files/service-worker/register/RegisterServiceWorker.js");
 
 // for optimise }
 
@@ -36,13 +36,12 @@ module.exports = merge(common, {
     ],
   },
   plugins: [
-    
     new RegisterServiceWorker(),
 
     new CompressionPlugin({
       filename: "[path][base].gz",
       algorithm: "gzip",
-      deleteOriginalAssets: 'keep-source-map',
+      deleteOriginalAssets: "keep-source-map",
       // deleteOriginalAssets: true,
       test: /\.(js|jsx|css|html|svg)$/,
       threshold: 10240,
@@ -55,6 +54,19 @@ module.exports = merge(common, {
     new WorkboxPlugin.GenerateSW({
       clientsClaim: true,
       skipWaiting: true,
+      runtimeCaching: [
+        {
+          urlPattern: /.*/,
+          handler: "StaleWhileRevalidate",
+          options: {
+            cacheName: "all-resources",
+            expiration: {
+              maxEntries: 50,
+              maxAgeSeconds: 30 * 24 * 60 * 60, // 30 days
+            },
+          },
+        },
+      ],
     }),
     new BundleAnalyzerPlugin({
       analyzerMode: "static",
