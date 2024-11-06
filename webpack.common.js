@@ -50,6 +50,9 @@ module.exports = {
       logging: "info",
     },
     port: process.env.PORT,
+    // host: '0.0.0.0', // Listen on all network interfaces
+    // open: true,
+    // allowedHosts: 'all',
   },
 
   plugins: [

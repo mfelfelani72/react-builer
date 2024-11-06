@@ -1,8 +1,8 @@
 {
   "hash": "0a8781aa1d5a176d713a",
   "version": "5.96.1",
-  "time": 5688,
-  "builtAt": 1730876695623,
+  "time": 5995,
+  "builtAt": 1730878785801,
   "publicPath": "/",
   "outputPath": "/home/mohammad/Desktop/Projects/react-builer/dist",
   "assetsByChunkName": {
@@ -33343,8 +33343,8 @@
       "name": "HtmlWebpackCompiler",
       "hash": "263f02ab68c072f55bbb",
       "version": "5.96.1",
-      "time": 273,
-      "builtAt": 1730876690231,
+      "time": 291,
+      "builtAt": 1730878780127,
       "publicPath": "",
       "outputPath": "/home/mohammad/Desktop/Projects/react-builer/dist",
       "assetsByChunkName": {},
