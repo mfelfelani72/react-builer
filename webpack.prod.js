@@ -40,9 +40,7 @@ module.exports = merge(common, {
 
     new HTMLWebpackPlugin({
       template: "./public/index.html",
-      // inject: "body",
       scriptLoading: "defer",
-      // Add manifest and meta tags for PWA
       inject: true,
       minify: true,
       favicon: './assets/images/icon-512x512.png',

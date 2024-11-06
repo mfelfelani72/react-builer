@@ -1,13 +1,13 @@
 {
-  "hash": "c785e3116ecf98f241e1",
+  "hash": "56e79e590fd5f9d8ce70",
   "version": "5.96.1",
-  "time": 5517,
-  "builtAt": 1730891233821,
+  "time": 5715,
+  "builtAt": 1730894182452,
   "publicPath": "/",
   "outputPath": "/home/mohammad/Desktop/Projects/react-builer/dist",
   "assetsByChunkName": {
     "main-5d3f7ed2": [
-      "main-5d3f7ed2.c932ca6d4c089ff9d685.js"
+      "main-5d3f7ed2.8582faa7cb555230fd34.js"
     ]
   },
   "assets": [
@@ -126,15 +126,15 @@
     },
     {
       "type": "asset",
-      "name": "main-c9c31c89.4a41737e167b62aa9503.js.gz",
-      "size": 6702,
-      "emitted": false,
+      "name": "main-c9c31c89.4667128d1ba1cf96d60e.js.gz",
+      "size": 6736,
+      "emitted": true,
       "comparedForEmit": false,
-      "cached": true,
+      "cached": false,
       "info": {
         "compressed": true,
         "immutable": true,
-        "size": 6702
+        "size": 6736
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -188,17 +188,17 @@
     },
     {
       "type": "asset",
-      "name": "main-5d3f7ed2.c932ca6d4c089ff9d685.js",
-      "size": 3389,
-      "emitted": false,
+      "name": "main-5d3f7ed2.8582faa7cb555230fd34.js",
+      "size": 3422,
+      "emitted": true,
       "comparedForEmit": false,
-      "cached": true,
+      "cached": false,
       "info": {
         "immutable": true,
-        "contenthash": "c932ca6d4c089ff9d685",
+        "contenthash": "8582faa7cb555230fd34",
         "javascriptModule": false,
         "minimized": true,
-        "size": 3389
+        "size": 3422
       },
       "chunkNames": [
         "main-5d3f7ed2"
@@ -244,7 +244,7 @@
       "type": "asset",
       "name": "service-worker.js",
       "size": 1509,
-      "emitted": false,
+      "emitted": true,
       "comparedForEmit": true,
       "cached": false,
       "info": {
@@ -264,7 +264,7 @@
       "type": "asset",
       "name": "index.html",
       "size": 1373,
-      "emitted": false,
+      "emitted": true,
       "comparedForEmit": true,
       "cached": false,
       "info": {
@@ -6233,7 +6233,35 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "15:42-50",
+              "loc": "15:42-56",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/app/containers/app/App.js",
+              "module": "./src/app/containers/app/App.js",
+              "moduleName": "./src/app/containers/app/App.js",
+              "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/app/containers/app/App.js",
+              "resolvedModule": "./src/app/containers/app/App.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "15:77-96",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/app/containers/app/App.js",
+              "module": "./src/app/containers/app/App.js",
+              "moduleName": "./src/app/containers/app/App.js",
+              "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/app/containers/app/App.js",
+              "resolvedModule": "./src/app/containers/app/App.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "15:97-105",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -6905,7 +6933,35 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "15:42-50",
+              "loc": "15:42-56",
+              "moduleId": 166,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/index.js|4c2f1a8f44a6282f6e688289dce0aabc",
+              "module": "./src/index.js + 5 modules",
+              "moduleName": "./src/index.js + 5 modules",
+              "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/app/containers/app/App.js",
+              "resolvedModule": "./src/app/containers/app/App.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "15:77-96",
+              "moduleId": 166,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/index.js|4c2f1a8f44a6282f6e688289dce0aabc",
+              "module": "./src/index.js + 5 modules",
+              "moduleName": "./src/index.js + 5 modules",
+              "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/app/containers/app/App.js",
+              "resolvedModule": "./src/app/containers/app/App.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "15:97-105",
               "moduleId": 166,
               "resolvedModuleId": null
             },
@@ -14151,9 +14207,9 @@
       "initial": true,
       "entry": false,
       "recorded": false,
-      "size": 6244.4400000000005,
+      "size": 6300.4400000000005,
       "sizes": {
-        "javascript": 6244.4400000000005
+        "javascript": 6300.4400000000005
       },
       "names": [
         "main-5d3f7ed2"
@@ -14163,10 +14219,10 @@
         "main"
       ],
       "files": [
-        "main-5d3f7ed2.c932ca6d4c089ff9d685.js"
+        "main-5d3f7ed2.8582faa7cb555230fd34.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "ce39c90daf8cb2c1604d",
+      "hash": "082126f0150be9c985e3",
       "childrenByOrder": {},
       "id": 807,
       "siblings": [
@@ -14188,9 +14244,9 @@
           "type": "module",
           "moduleType": "javascript/esm",
           "layer": null,
-          "size": 3790,
+          "size": 3846,
           "sizes": {
-            "javascript": 3790
+            "javascript": 3846
           },
           "built": true,
           "codeGenerated": true,
@@ -14293,9 +14349,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 605,
+              "size": 661,
               "sizes": {
-                "javascript": 605
+                "javascript": 661
               },
               "built": true,
               "codeGenerated": false,
@@ -15410,9 +15466,9 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 33881,
+      "size": 34060,
       "sizes": {
-        "javascript": 25641,
+        "javascript": 25820,
         "runtime": 8240
       },
       "names": [
@@ -15424,7 +15480,7 @@
       ],
       "files": [],
       "auxiliaryFiles": [],
-      "hash": "f90bfe04209ea052ac64",
+      "hash": "bc474cbc371c7594f9f4",
       "childrenByOrder": {},
       "id": 838,
       "siblings": [
@@ -15446,9 +15502,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 25641,
+          "size": 25820,
           "sizes": {
-            "javascript": 25641
+            "javascript": 25820
           },
           "built": true,
           "codeGenerated": true,
@@ -16358,9 +16414,9 @@
       "type": "module",
       "moduleType": "javascript/esm",
       "layer": null,
-      "size": 3790,
+      "size": 3846,
       "sizes": {
-        "javascript": 3790
+        "javascript": 3846
       },
       "built": true,
       "codeGenerated": true,
@@ -16461,9 +16517,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 605,
+          "size": 661,
           "sizes": {
-            "javascript": 605
+            "javascript": 661
           },
           "built": true,
           "codeGenerated": false,
@@ -16965,7 +17021,35 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "15:42-50",
+          "loc": "15:42-56",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/app/containers/app/App.js",
+          "module": "./src/app/containers/app/App.js",
+          "moduleName": "./src/app/containers/app/App.js",
+          "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/app/containers/app/App.js",
+          "resolvedModule": "./src/app/containers/app/App.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "15:77-96",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/app/containers/app/App.js",
+          "module": "./src/app/containers/app/App.js",
+          "moduleName": "./src/app/containers/app/App.js",
+          "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/app/containers/app/App.js",
+          "resolvedModule": "./src/app/containers/app/App.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "15:97-105",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -17637,7 +17721,35 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "15:42-50",
+          "loc": "15:42-56",
+          "moduleId": 166,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/index.js|4c2f1a8f44a6282f6e688289dce0aabc",
+          "module": "./src/index.js + 5 modules",
+          "moduleName": "./src/index.js + 5 modules",
+          "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/app/containers/app/App.js",
+          "resolvedModule": "./src/app/containers/app/App.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "15:77-96",
+          "moduleId": 166,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/index.js|4c2f1a8f44a6282f6e688289dce0aabc",
+          "module": "./src/index.js + 5 modules",
+          "moduleName": "./src/index.js + 5 modules",
+          "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/app/containers/app/App.js",
+          "resolvedModule": "./src/app/containers/app/App.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "15:97-105",
           "moduleId": 166,
           "resolvedModuleId": null
         },
@@ -21434,9 +21546,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 605,
+      "size": 661,
       "sizes": {
-        "javascript": 605
+        "javascript": 661
       },
       "built": true,
       "codeGenerated": false,
@@ -25690,9 +25802,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 25641,
+      "size": 25820,
       "sizes": {
-        "javascript": 25641
+        "javascript": 25820
       },
       "built": true,
       "codeGenerated": true,
@@ -33218,12 +33330,12 @@
           "size": 3249
         },
         {
-          "name": "main-5d3f7ed2.c932ca6d4c089ff9d685.js",
-          "size": 3389
+          "name": "main-5d3f7ed2.8582faa7cb555230fd34.js",
+          "size": 3422
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 17221,
+      "assetsSize": 17254,
       "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
       "auxiliaryAssetsSize": 0,
@@ -33264,12 +33376,12 @@
           "size": 3249
         },
         {
-          "name": "main-5d3f7ed2.c932ca6d4c089ff9d685.js",
-          "size": 3389
+          "name": "main-5d3f7ed2.8582faa7cb555230fd34.js",
+          "size": 3422
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 17221,
+      "assetsSize": 17254,
       "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
       "auxiliaryAssetsSize": 0,
@@ -33287,8 +33399,8 @@
       "name": "HtmlWebpackCompiler",
       "hash": "7213c8c2e196aa5dbcaa",
       "version": "5.96.1",
-      "time": 326,
-      "builtAt": 1730891228654,
+      "time": 393,
+      "builtAt": 1730894177162,
       "publicPath": "",
       "outputPath": "/home/mohammad/Desktop/Projects/react-builer/dist",
       "assetsByChunkName": {},
