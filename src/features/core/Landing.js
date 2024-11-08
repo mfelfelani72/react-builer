@@ -2,8 +2,6 @@ import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 import Languages from "./components/Language.jsx";
 
-import { LazyLoadImage } from "react-lazy-load-image-component";
-
 const handleSwitchTheme = (setThemeStatus) => {
   if (document.documentElement.classList.value) {
     localStorage.setItem("theme", "light");
@@ -31,12 +29,13 @@ const Landing = () => {
             href="https://flowbite.com/"
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
-            <LazyLoadImage
+            <img
               src="https://flowbite.com/docs/images/logo.svg"
               className="h-full w-full"
               alt="Flowbite Logo"
+              loading="lazy"
             />
-            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+            <span className="self-center font-semibold whitespace-nowrap dark:text-white">
               Flowbite
             </span>
           </a>
