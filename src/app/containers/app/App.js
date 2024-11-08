@@ -5,7 +5,7 @@ import prepareApp from "../../../../utils/lib/prepareApp.js";
 
 // Components
 import LoaderPage from "../../../features/core/components/LoaderPage.jsx";
-const Landing = lazy(() => import("../../../features/core/Landing.js"));
+const Middleware = lazy(() => import("../Middleware.js"));
 
 const App = () => {
   useEffect(() => {
@@ -16,7 +16,7 @@ const App = () => {
     <>
     
       <Suspense fallback={<LoaderPage />}>
-        <Landing />
+        <Middleware />
       </Suspense>
     </>
   );
