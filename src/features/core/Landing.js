@@ -44,7 +44,7 @@ const Landing = () => {
                   {themeStatus === "dark" ? (
                     <input
                       type="checkbox"
-                      defaultChecked
+                      checked="checked"
                       aria-label="themeStatus"
                       className="sr-only peer"
                     />

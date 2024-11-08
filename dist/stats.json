@@ -1,8 +1,8 @@
 {
-  "hash": "25904d243185a89b5ce8",
+  "hash": "2d399d7c2cd98c8276bd",
   "version": "5.96.1",
-  "time": 8591,
-  "builtAt": 1731085093523,
+  "time": 11232,
+  "builtAt": 1731092539866,
   "publicPath": "/",
   "outputPath": "/home/mohammad/Project in hand/react-builer/dist",
   "assetsByChunkName": {
@@ -206,17 +206,17 @@
     },
     {
       "type": "asset",
-      "name": "706.c0a34b45f7c51828235e.js",
-      "size": 7348,
-      "emitted": false,
+      "name": "706.c4bd2fe6d58ac474ce34.js",
+      "size": 7393,
+      "emitted": true,
       "comparedForEmit": false,
-      "cached": true,
+      "cached": false,
       "info": {
         "immutable": true,
-        "contenthash": "c0a34b45f7c51828235e",
+        "contenthash": "c4bd2fe6d58ac474ce34",
         "javascriptModule": false,
         "minimized": true,
-        "size": 7348
+        "size": 7393
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -231,15 +231,15 @@
     },
     {
       "type": "asset",
-      "name": "main-c9c31c89.74908f092b2c5a16c24e.js.gz",
-      "size": 6724,
+      "name": "main-c9c31c89.d2a3ec7caad80bf4cafd.js.gz",
+      "size": 6734,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "compressed": true,
         "immutable": true,
-        "size": 6724
+        "size": 6734
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -316,9 +316,9 @@
       "type": "asset",
       "name": "main-5d3f7ed2.6d32c08cf41db67a431d.js",
       "size": 3422,
-      "emitted": true,
+      "emitted": false,
       "comparedForEmit": false,
-      "cached": false,
+      "cached": true,
       "info": {
         "immutable": true,
         "contenthash": "6d32c08cf41db67a431d",
@@ -392,7 +392,7 @@
       "name": "service-worker.js",
       "size": 2140,
       "emitted": true,
-      "comparedForEmit": false,
+      "comparedForEmit": true,
       "cached": false,
       "info": {
         "minimized": true,
@@ -506,9 +506,9 @@
       "type": "asset",
       "name": "160.a611eaf404210766f24e.js",
       "size": 256,
-      "emitted": true,
+      "emitted": false,
       "comparedForEmit": false,
-      "cached": false,
+      "cached": true,
       "info": {
         "immutable": true,
         "contenthash": "a611eaf404210766f24e",
@@ -6760,7 +6760,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "28:22-41",
+              "loc": "27:22-41",
               "moduleId": 706,
               "resolvedModuleId": null
             },
@@ -6774,7 +6774,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "28:42-56",
+              "loc": "27:42-56",
               "moduleId": 706,
               "resolvedModuleId": null
             },
@@ -6788,7 +6788,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "28:77-96",
+              "loc": "27:77-96",
               "moduleId": 706,
               "resolvedModuleId": null
             },
@@ -6802,7 +6802,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "30:18-37",
+              "loc": "29:18-37",
               "moduleId": 706,
               "resolvedModuleId": null
             },
@@ -6816,7 +6816,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "32:18-37",
+              "loc": "31:18-37",
               "moduleId": 706,
               "resolvedModuleId": null
             },
@@ -6830,7 +6830,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "35:18-37",
+              "loc": "34:18-37",
               "moduleId": 706,
               "resolvedModuleId": null
             },
@@ -6844,7 +6844,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "40:19-38",
+              "loc": "39:19-38",
               "moduleId": 706,
               "resolvedModuleId": null
             },
@@ -6858,7 +6858,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "42:32-51",
+              "loc": "41:32-51",
               "moduleId": 706,
               "resolvedModuleId": null
             },
@@ -6872,7 +6872,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "44:18-37",
+              "loc": "43:18-37",
               "moduleId": 706,
               "resolvedModuleId": null
             },
@@ -6886,7 +6886,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "46:18-37",
+              "loc": "45:18-37",
               "moduleId": 706,
               "resolvedModuleId": null
             },
@@ -6900,7 +6900,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "48:43-62",
+              "loc": "47:18-37",
               "moduleId": 706,
               "resolvedModuleId": null
             },
@@ -6914,7 +6914,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "52:20-39",
+              "loc": "49:43-62",
               "moduleId": 706,
               "resolvedModuleId": null
             },
@@ -6928,7 +6928,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "56:19-38",
+              "loc": "54:20-39",
               "moduleId": 706,
               "resolvedModuleId": null
             },
@@ -6942,7 +6942,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "61:20-39",
+              "loc": "58:19-38",
               "moduleId": 706,
               "resolvedModuleId": null
             },
@@ -6956,7 +6956,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "63:35-54",
+              "loc": "63:21-40",
               "moduleId": 706,
               "resolvedModuleId": null
             },
@@ -6970,7 +6970,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "63:88-107",
+              "loc": "65:35-54",
               "moduleId": 706,
               "resolvedModuleId": null
             },
@@ -6984,7 +6984,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "66:18-37",
+              "loc": "65:88-107",
               "moduleId": 706,
               "resolvedModuleId": null
             },
@@ -6999,6 +6999,20 @@
               "explanation": "",
               "userRequest": "react",
               "loc": "68:18-37",
+              "moduleId": 706,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/mohammad/Project in hand/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Project in hand/react-builer/src/features/core/Landing.js|4e8c1bbf013b6a53a641e6f34499b046",
+              "module": "./src/features/core/Landing.js + 4 modules",
+              "moduleName": "./src/features/core/Landing.js + 4 modules",
+              "resolvedModuleIdentifier": "/home/mohammad/Project in hand/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Project in hand/react-builer/src/features/core/Landing.js",
+              "resolvedModule": "./src/features/core/Landing.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "70:18-37",
               "moduleId": 706,
               "resolvedModuleId": null
             },
@@ -12150,9 +12164,9 @@
       "initial": false,
       "entry": false,
       "recorded": false,
-      "size": 14318,
+      "size": 14368,
       "sizes": {
-        "javascript": 14318
+        "javascript": 14368
       },
       "names": [],
       "idHints": [],
@@ -12160,10 +12174,10 @@
         "main"
       ],
       "files": [
-        "706.c0a34b45f7c51828235e.js"
+        "706.c4bd2fe6d58ac474ce34.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "264d169a674604b24584",
+      "hash": "74571c490d4d30c453f3",
       "childrenByOrder": {},
       "id": 706,
       "siblings": [],
@@ -12640,9 +12654,9 @@
           "type": "module",
           "moduleType": "javascript/esm",
           "layer": null,
-          "size": 11662,
+          "size": 11712,
           "sizes": {
-            "javascript": 11662
+            "javascript": 11712
           },
           "built": true,
           "codeGenerated": true,
@@ -12699,9 +12713,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 5201,
+              "size": 5251,
               "sizes": {
-                "javascript": 5201
+                "javascript": 5251
               },
               "built": true,
               "codeGenerated": false,
@@ -12833,7 +12847,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "./components/Language.jsx",
-                  "loc": "63:55-64",
+                  "loc": "65:55-64",
                   "moduleId": null,
                   "resolvedModuleId": null
                 }
@@ -15923,9 +15937,9 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 34062,
+      "size": 34093,
       "sizes": {
-        "javascript": 25776,
+        "javascript": 25807,
         "runtime": 8286
       },
       "names": [
@@ -15937,7 +15951,7 @@
       ],
       "files": [],
       "auxiliaryFiles": [],
-      "hash": "6c9104471af3f193b97b",
+      "hash": "409915260cca064dcfa4",
       "childrenByOrder": {},
       "id": 838,
       "siblings": [
@@ -15959,9 +15973,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 25776,
+          "size": 25807,
           "sizes": {
-            "javascript": 25776
+            "javascript": 25807
           },
           "built": true,
           "codeGenerated": true,
@@ -17618,7 +17632,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "28:22-41",
+          "loc": "27:22-41",
           "moduleId": 706,
           "resolvedModuleId": null
         },
@@ -17632,7 +17646,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "28:42-56",
+          "loc": "27:42-56",
           "moduleId": 706,
           "resolvedModuleId": null
         },
@@ -17646,7 +17660,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "28:77-96",
+          "loc": "27:77-96",
           "moduleId": 706,
           "resolvedModuleId": null
         },
@@ -17660,7 +17674,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "30:18-37",
+          "loc": "29:18-37",
           "moduleId": 706,
           "resolvedModuleId": null
         },
@@ -17674,7 +17688,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "32:18-37",
+          "loc": "31:18-37",
           "moduleId": 706,
           "resolvedModuleId": null
         },
@@ -17688,7 +17702,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "35:18-37",
+          "loc": "34:18-37",
           "moduleId": 706,
           "resolvedModuleId": null
         },
@@ -17702,7 +17716,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "40:19-38",
+          "loc": "39:19-38",
           "moduleId": 706,
           "resolvedModuleId": null
         },
@@ -17716,7 +17730,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "42:32-51",
+          "loc": "41:32-51",
           "moduleId": 706,
           "resolvedModuleId": null
         },
@@ -17730,7 +17744,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "44:18-37",
+          "loc": "43:18-37",
           "moduleId": 706,
           "resolvedModuleId": null
         },
@@ -17744,7 +17758,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "46:18-37",
+          "loc": "45:18-37",
           "moduleId": 706,
           "resolvedModuleId": null
         },
@@ -17758,7 +17772,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "48:43-62",
+          "loc": "47:18-37",
           "moduleId": 706,
           "resolvedModuleId": null
         },
@@ -17772,7 +17786,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "52:20-39",
+          "loc": "49:43-62",
           "moduleId": 706,
           "resolvedModuleId": null
         },
@@ -17786,7 +17800,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "56:19-38",
+          "loc": "54:20-39",
           "moduleId": 706,
           "resolvedModuleId": null
         },
@@ -17800,7 +17814,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "61:20-39",
+          "loc": "58:19-38",
           "moduleId": 706,
           "resolvedModuleId": null
         },
@@ -17814,7 +17828,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "63:35-54",
+          "loc": "63:21-40",
           "moduleId": 706,
           "resolvedModuleId": null
         },
@@ -17828,7 +17842,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "63:88-107",
+          "loc": "65:35-54",
           "moduleId": 706,
           "resolvedModuleId": null
         },
@@ -17842,7 +17856,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "66:18-37",
+          "loc": "65:88-107",
           "moduleId": 706,
           "resolvedModuleId": null
         },
@@ -17857,6 +17871,20 @@
           "explanation": "",
           "userRequest": "react",
           "loc": "68:18-37",
+          "moduleId": 706,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/home/mohammad/Project in hand/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Project in hand/react-builer/src/features/core/Landing.js|4e8c1bbf013b6a53a641e6f34499b046",
+          "module": "./src/features/core/Landing.js + 4 modules",
+          "moduleName": "./src/features/core/Landing.js + 4 modules",
+          "resolvedModuleIdentifier": "/home/mohammad/Project in hand/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Project in hand/react-builer/src/features/core/Landing.js",
+          "resolvedModule": "./src/features/core/Landing.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "70:18-37",
           "moduleId": 706,
           "resolvedModuleId": null
         },
@@ -26301,9 +26329,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 25776,
+      "size": 25807,
       "sizes": {
-        "javascript": 25776
+        "javascript": 25807
       },
       "built": true,
       "codeGenerated": true,
@@ -27859,9 +27887,9 @@
       "type": "module",
       "moduleType": "javascript/esm",
       "layer": null,
-      "size": 11662,
+      "size": 11712,
       "sizes": {
-        "javascript": 11662
+        "javascript": 11712
       },
       "built": true,
       "codeGenerated": true,
@@ -27917,9 +27945,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 5201,
+          "size": 5251,
           "sizes": {
-            "javascript": 5201
+            "javascript": 5251
           },
           "built": true,
           "codeGenerated": false,
@@ -28049,7 +28077,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./components/Language.jsx",
-              "loc": "63:55-64",
+              "loc": "65:55-64",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -29586,7 +29614,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./components/Language.jsx",
-          "loc": "63:55-64",
+          "loc": "65:55-64",
           "moduleId": null,
           "resolvedModuleId": null
         }
@@ -34139,8 +34167,8 @@
       "name": "HtmlWebpackCompiler",
       "hash": "1a1ac60bfcc33156416a",
       "version": "5.96.1",
-      "time": 477,
-      "builtAt": 1731085085447,
+      "time": 684,
+      "builtAt": 1731092529360,
       "publicPath": "",
       "outputPath": "/home/mohammad/Project in hand/react-builer/dist",
       "assetsByChunkName": {},
