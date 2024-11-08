@@ -1,7 +1,6 @@
 import i18n from "../services/i18n";
 
-function prepareApp() {
-    
+const prepareApp = () => {
   // { initial language
 
   const rootHtml = document.getElementById("root-html");
@@ -30,7 +29,6 @@ function prepareApp() {
   }
 
   // initial theme mode }
+};
 
-}
-
-export default prepareApp
+export default prepareApp;

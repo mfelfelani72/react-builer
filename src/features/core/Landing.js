@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 import Languages from "./components/Language.jsx";
 
-import { LazyLoadImage } from 'react-lazy-load-image-component';
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
-function handleSwitchTheme(setThemeStatus) {
+const handleSwitchTheme = (setThemeStatus) => {
   if (document.documentElement.classList.value) {
     localStorage.setItem("theme", "light");
     setThemeStatus("light");
@@ -14,12 +14,14 @@ function handleSwitchTheme(setThemeStatus) {
   }
 
   document.documentElement.classList.toggle("dark");
-}
+};
 
-export default function Landing() {
+const Landing = () => {
   const { t } = useTranslation();
 
-  const [themeStatus, setThemeStatus] = useState(localStorage.getItem("theme"));
+  const [themeStatus, setTheme = Status] = useState(
+    localStorage.getItem("theme")
+  );
 
   return (
     <>
@@ -48,7 +50,11 @@ export default function Landing() {
                     className="sr-only peer"
                   />
                 ) : (
-                  <input type="checkbox" aria-label="themeStatus" className="sr-only peer" />
+                  <input
+                    type="checkbox"
+                    aria-label="themeStatus"
+                    className="sr-only peer"
+                  />
                 )}
 
                 <div
@@ -80,4 +86,6 @@ export default function Landing() {
       </nav>
     </>
   );
-}
+};
+
+export default Landing;

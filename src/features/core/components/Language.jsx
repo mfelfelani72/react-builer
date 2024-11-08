@@ -18,13 +18,13 @@ const Languages = () => {
     setLanguageApp: state.setLanguageApp,
   }));
 
-  function handleClick(e) {
+  const handleClick = (e) => {
     const lang = languageList.filter((item) => {
       if (item.id == e.target.value) return item;
     });
 
     setLanguageApp(lang[0].id, lang[0].dir);
-  }
+  };
 
   return (
     <>

@@ -16,7 +16,7 @@ class UnregisterServiceWorker {
               });
             });
 
-            function clearCacheStorage() {
+            const clearCacheStorage =() => {
               if ("caches" in window) {
                 caches
                   .keys()
