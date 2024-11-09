@@ -28,7 +28,7 @@ const Content = () => {
               </a>
             </li>
             <li>
-              <details className="group px-1 select-none cursor-pointer">
+              <details className="group flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group select-none cursor-pointer">
                 <summary>
                   <div className="flex">
                     <svg
