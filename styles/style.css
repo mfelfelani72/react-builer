@@ -16,7 +16,12 @@
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity));
     position: fixed;
+    top:0;
     z-index:9999;
+}
+
+.mt{
+    margin-top: 1.5rem
 }
 
 summary::marker {

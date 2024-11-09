@@ -1,8 +1,8 @@
 {
-  "hash": "728901f1894f5dc28763",
+  "hash": "4e48414babd59949d7db",
   "version": "5.96.1",
-  "time": 5345,
-  "builtAt": 1731135477820,
+  "time": 5262,
+  "builtAt": 1731138025146,
   "publicPath": "/",
   "outputPath": "/home/mohammad/Desktop/Projects/react-builer/dist",
   "assetsByChunkName": {
@@ -206,15 +206,15 @@
     },
     {
       "type": "asset",
-      "name": "main-c9c31c89.2dc9d4b77b24c1977be2.js.gz",
-      "size": 7486,
+      "name": "main-c9c31c89.4a93b34e5e9e828e2e8b.js.gz",
+      "size": 7489,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "compressed": true,
         "immutable": true,
-        "size": 7486
+        "size": 7489
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -389,15 +389,15 @@
     },
     {
       "type": "asset",
-      "name": "280.63b62a96b51f7dc3a733.js.gz",
-      "size": 2345,
+      "name": "280.ffa5edefba496192e40b.js.gz",
+      "size": 2341,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "compressed": true,
         "immutable": true,
-        "size": 2345
+        "size": 2341
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -413,7 +413,7 @@
       "name": "service-worker.js",
       "size": 2242,
       "emitted": true,
-      "comparedForEmit": false,
+      "comparedForEmit": true,
       "cached": false,
       "info": {
         "minimized": true,
@@ -527,9 +527,9 @@
       "type": "asset",
       "name": "478.8d16514f33194f02c99d.js",
       "size": 377,
-      "emitted": true,
+      "emitted": false,
       "comparedForEmit": false,
-      "cached": false,
+      "cached": true,
       "info": {
         "immutable": true,
         "contenthash": "8d16514f33194f02c99d",
@@ -715,9 +715,9 @@
       "initial": false,
       "entry": false,
       "recorded": false,
-      "size": 19535,
+      "size": 19529,
       "sizes": {
-        "javascript": 19535
+        "javascript": 19529
       },
       "names": [],
       "idHints": [],
@@ -726,7 +726,7 @@
       ],
       "files": [],
       "auxiliaryFiles": [],
-      "hash": "973fa9600055924d7eaf",
+      "hash": "e8c0be153a8f924e6a4c",
       "childrenByOrder": {},
       "id": 280,
       "siblings": [],
@@ -739,9 +739,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 19535,
+          "size": 19529,
           "sizes": {
-            "javascript": 19535
+            "javascript": 19529
           },
           "built": true,
           "codeGenerated": true,
@@ -7237,8 +7237,8 @@
           "optional": false,
           "orphan": false,
           "dependent": true,
-          "issuer": "javascript/esm|/home/mohammad/Desktop/Projects/react-builer/node_modules/react-i18next/dist/es/withTranslation.js",
-          "issuerName": "./node_modules/react-i18next/dist/es/withTranslation.js",
+          "issuer": "javascript/esm|/home/mohammad/Desktop/Projects/react-builer/node_modules/react-i18next/dist/es/TransWithoutContext.js",
+          "issuerName": "./node_modules/react-i18next/dist/es/TransWithoutContext.js",
           "issuerPath": [
             {
               "identifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/index.js",
@@ -7266,8 +7266,8 @@
               "id": null
             },
             {
-              "identifier": "javascript/esm|/home/mohammad/Desktop/Projects/react-builer/node_modules/react-i18next/dist/es/withTranslation.js",
-              "name": "./node_modules/react-i18next/dist/es/withTranslation.js",
+              "identifier": "javascript/esm|/home/mohammad/Desktop/Projects/react-builer/node_modules/react-i18next/dist/es/TransWithoutContext.js",
+              "name": "./node_modules/react-i18next/dist/es/TransWithoutContext.js",
               "id": null
             }
           ],
@@ -18030,9 +18030,9 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 38450,
+      "size": 38465,
       "sizes": {
-        "javascript": 30106,
+        "javascript": 30121,
         "runtime": 8344
       },
       "names": [
@@ -18044,7 +18044,7 @@
       ],
       "files": [],
       "auxiliaryFiles": [],
-      "hash": "0e4dd12b33989d253cb7",
+      "hash": "f272f81788b8df9a8082",
       "childrenByOrder": {},
       "id": 838,
       "siblings": [
@@ -18066,9 +18066,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 30106,
+          "size": 30121,
           "sizes": {
-            "javascript": 30106
+            "javascript": 30121
           },
           "built": true,
           "codeGenerated": true,
@@ -30186,9 +30186,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 30106,
+      "size": 30121,
       "sizes": {
-        "javascript": 30106
+        "javascript": 30121
       },
       "built": true,
       "codeGenerated": true,
@@ -33498,9 +33498,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 19535,
+      "size": 19529,
       "sizes": {
-        "javascript": 19535
+        "javascript": 19529
       },
       "built": true,
       "codeGenerated": true,
@@ -36074,8 +36074,8 @@
       "cacheable": true,
       "optional": false,
       "orphan": false,
-      "issuer": "javascript/esm|/home/mohammad/Desktop/Projects/react-builer/node_modules/react-i18next/dist/es/withTranslation.js",
-      "issuerName": "./node_modules/react-i18next/dist/es/withTranslation.js",
+      "issuer": "javascript/esm|/home/mohammad/Desktop/Projects/react-builer/node_modules/react-i18next/dist/es/TransWithoutContext.js",
+      "issuerName": "./node_modules/react-i18next/dist/es/TransWithoutContext.js",
       "issuerPath": [
         {
           "identifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/index.js",
@@ -36103,8 +36103,8 @@
           "id": null
         },
         {
-          "identifier": "javascript/esm|/home/mohammad/Desktop/Projects/react-builer/node_modules/react-i18next/dist/es/withTranslation.js",
-          "name": "./node_modules/react-i18next/dist/es/withTranslation.js",
+          "identifier": "javascript/esm|/home/mohammad/Desktop/Projects/react-builer/node_modules/react-i18next/dist/es/TransWithoutContext.js",
+          "name": "./node_modules/react-i18next/dist/es/TransWithoutContext.js",
           "id": null
         }
       ],
@@ -38246,8 +38246,8 @@
       "name": "HtmlWebpackCompiler",
       "hash": "7213c8c2e196aa5dbcaa",
       "version": "5.96.1",
-      "time": 275,
-      "builtAt": 1731135472775,
+      "time": 280,
+      "builtAt": 1731138020189,
       "publicPath": "",
       "outputPath": "/home/mohammad/Desktop/Projects/react-builer/dist",
       "assetsByChunkName": {},

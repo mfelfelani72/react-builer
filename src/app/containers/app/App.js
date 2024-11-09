@@ -14,7 +14,6 @@ const App = () => {
 
   return (
     <>
-    
       <Suspense fallback={<LoaderPage />}>
         <Middleware />
       </Suspense>
