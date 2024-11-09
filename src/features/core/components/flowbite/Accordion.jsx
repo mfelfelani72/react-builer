@@ -15,6 +15,7 @@ const Accordion = () => {
   return (
     <>
       <div>
+        <div className="p-1 pb-5 text-sm font-semibold">All children can remain open</div>
         <details className="group">
           <summary className="focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 border border-b-0 rounded-t-xl">
             <h2 className="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border-gray-200 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3">
@@ -161,6 +162,7 @@ const Accordion = () => {
       </div>
 
       <div className="my-5" id="details">
+      <div className="p-1 pb-5 text-sm font-semibold">All children can't remain open</div>
         <details id="1" className="group">
           <summary onClick={()=>handleToggle(1)} className="focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 border border-b-0 rounded-t-xl">
             <h2 className="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border-gray-200 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3">
