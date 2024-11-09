@@ -40,24 +40,27 @@ const Landing = () => {
           <div className="flex items-center md:order-2 space-x-1 md:space-x-0 ">
             <div className="flex">
               <div className="inline-flex items-center px-3">
-                <label class="cursor-pointer">
+                <label className="cursor-pointer">
                   {themeStatus === "dark" ? (
                     <input
                       type="checkbox"
-                      checked="checked"
+                      defaultChecked="checked"
                       aria-label="themeStatus"
                       className="sr-only peer"
+                      value=""
+                      onClick={() => handleSwitchTheme(setThemeStatus)}
                     />
                   ) : (
                     <input
                       type="checkbox"
                       aria-label="themeStatus"
                       className="sr-only peer"
+                      value=""
+                      onClick={() => handleSwitchTheme(setThemeStatus)}
                     />
                   )}
                   <div
-                    onClick={() => handleSwitchTheme(setThemeStatus)}
-                    class="relative w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"
+                    className="relative w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"
                   ></div>
                 </label>
               </div>
