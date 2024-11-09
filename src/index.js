@@ -4,8 +4,9 @@ import { BrowserRouter } from "react-router-dom";
 import App from "./app/containers/app/App.js";
 import '../styles/style.css'
 
-createRoot(document.getElementById("root")).render(
+createRoot(document.getElementById('root')).render(
+
   <BrowserRouter basename="/">
-    <App />
+         <App />
   </BrowserRouter>
 );
