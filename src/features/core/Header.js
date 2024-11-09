@@ -20,13 +20,12 @@ const Header = () => {
   const [themeStatus, setThemeStatus] = useState(localStorage.getItem("theme"));
   return (
     <>
-      <nav className="fixed ltr:sm:pl-64 rtl:sm:pr-64 w-full bg-white border-gray-200 dark:bg-gray-900 shadow-md">
-        <div className="flex flew-row ">
-          <button
-            type="button"
-            className="inline-flex items-center p-2 text-sm text-gray-500 sm:hidden hover:bg-gray-100 focus:outline-none dark:text-gray-400 dark:hover:bg-gray-700"
+      <nav className="fixed ltr:md:pl-64 rtl:md:pr-64 w-full bg-white border-gray-200 dark:bg-gray-900 shadow-md">
+        <div className="flex flew-row">
+          <label
+            htmlFor="sidebar-toggle"
+            className="inline-flex items-center p-2 text-sm text-gray-500 md:hidden hover:bg-gray-100 focus:outline-none dark:text-gray-400 dark:hover:bg-gray-700"
           >
-            <span className="sr-only">Open sidebar</span>
             <svg
               className="w-6 h-6"
               aria-hidden="true"
@@ -40,7 +39,7 @@ const Header = () => {
                 d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zm0 10.5a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5a.75.75 0 01-.75-.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10z"
               ></path>
             </svg>
-          </button>
+          </label>
 
           <div className="w-full flex flex-wrap items-center justify-between p-4">
             <a

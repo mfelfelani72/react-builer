@@ -3,11 +3,27 @@ import React from "react";
 const Sidebar = () => {
   return (
     <>
+      <input type="checkbox" id="sidebar-toggle" className="hidden" />
       <aside
-        className="fixed left-0 rtl:right-0 z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0"
+        className="sidebar fixed left-0 rtl:right-0 z-40 w-64 h-screen transition-transform ltr:md:translate-x-0 rtl:md:translate-x-0 ltr:-translate-x-full rtl:translate-x-full"
         aria-label="Sidebar"
       >
         <div className="h-full px-3 py-4 overflow-y-auto bg-gray-50 dark:bg-gray-800">
+          <label
+            htmlFor="sidebar-toggle"
+            className="flex flex-reverse justify-self-end p-2 text-sm text-gray-500 md:hidden hover:bg-gray-100 focus:outline-none dark:text-gray-400 dark:hover:bg-gray-700"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+            >
+              <path d="M 4.2382812 2.9882812 A 1.250125 1.250125 0 0 0 3.3671875 5.1347656 L 10.232422 12 L 3.3613281 18.869141 A 1.2512475 1.2512475 0 1 0 5.1308594 20.638672 L 12 13.767578 L 18.865234 20.632812 A 1.250125 1.250125 0 1 0 20.632812 18.865234 L 13.767578 12 L 20.625 5.1425781 A 1.250125 1.250125 0 1 0 18.857422 3.375 L 12 10.232422 L 5.1347656 3.3671875 A 1.250125 1.250125 0 0 0 4.2382812 2.9882812 z"></path>
+            </svg>
+          </label>
           <ul className="space-y-2 font-medium">
             <li>
               <a
