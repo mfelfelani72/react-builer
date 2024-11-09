@@ -39,12 +39,14 @@ const Header = () => {
                 d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zm0 10.5a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5a.75.75 0 01-.75-.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10z"
               ></path>
             </svg>
+            <span className="px-1 font-semibold">Menu</span>
           </label>
 
-          <div className="w-full flex flex-wrap items-center justify-between p-4">
+          <div className="w-full flex flex-row-reverse xs:flex-row xs:justify-between p-4">
+            
             <a
               href="https://flowbite.com/"
-              className="flex items-center space-x-3 rtl:space-x-reverse"
+              className="hidden xs:flex items-center  space-x-3 rtl:space-x-reverse"
             >
               <img
                 src="https://flowbite.com/docs/images/logo.svg"
@@ -87,19 +89,6 @@ const Header = () => {
 
                 <Languages />
               </div>
-            </div>
-            <div
-              className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
-              id="navbar-language"
-            >
-              <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-                <li
-                  className="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500"
-                  aria-current="page"
-                >
-                  {t("text")}
-                </li>
-              </ul>
             </div>
           </div>
         </div>

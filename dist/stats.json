@@ -1,8 +1,8 @@
 {
-  "hash": "e736117cc9117656e3c8",
+  "hash": "1ae46720826b71e0d457",
   "version": "5.96.1",
-  "time": 7499,
-  "builtAt": 1731145299751,
+  "time": 6145,
+  "builtAt": 1731148369680,
   "publicPath": "/",
   "outputPath": "/home/mohammad/Desktop/Projects/react-builer/dist",
   "assetsByChunkName": {
@@ -158,31 +158,6 @@
     },
     {
       "type": "asset",
-      "name": "409.679dff31b9e5d5995324.js",
-      "size": 10108,
-      "emitted": true,
-      "comparedForEmit": false,
-      "cached": false,
-      "info": {
-        "immutable": true,
-        "contenthash": "679dff31b9e5d5995324",
-        "javascriptModule": false,
-        "minimized": true,
-        "size": 10108
-      },
-      "chunkNames": [],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "related": [],
-      "chunks": [
-        409
-      ],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
       "name": "assets/images/icon-72x72.png",
       "size": 9419,
       "emitted": false,
@@ -199,31 +174,6 @@
       "auxiliaryChunkIdHints": [],
       "related": [],
       "chunks": [],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
-      "name": "445.415d817580276b8d3f3e.js",
-      "size": 8175,
-      "emitted": true,
-      "comparedForEmit": false,
-      "cached": false,
-      "info": {
-        "immutable": true,
-        "contenthash": "415d817580276b8d3f3e",
-        "javascriptModule": false,
-        "minimized": true,
-        "size": 8175
-      },
-      "chunkNames": [],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "related": [],
-      "chunks": [
-        445
-      ],
       "auxiliaryChunks": [],
       "isOverSizeLimit": false
     },
@@ -256,15 +206,40 @@
     },
     {
       "type": "asset",
-      "name": "main-c9c31c89.0ec1767fa027499cd082.js.gz",
-      "size": 7605,
+      "name": "445.260ee57954b4d27e94e7.js",
+      "size": 7692,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "immutable": true,
+        "contenthash": "260ee57954b4d27e94e7",
+        "javascriptModule": false,
+        "minimized": true,
+        "size": 7692
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": [],
+      "chunks": [
+        445
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "main-c9c31c89.23035ce293a0046cfccd.js.gz",
+      "size": 7495,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "compressed": true,
         "immutable": true,
-        "size": 7605
+        "size": 7495
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -300,9 +275,9 @@
       "type": "asset",
       "name": "280.a33e959317cb67b5432b.js",
       "size": 6475,
-      "emitted": true,
+      "emitted": false,
       "comparedForEmit": false,
-      "cached": false,
+      "cached": true,
       "info": {
         "immutable": true,
         "contenthash": "a33e959317cb67b5432b",
@@ -427,6 +402,27 @@
         "copied": true,
         "sourceFilename": "assets/images/icon-36x36.png",
         "size": 2978
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": [],
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "409.b0ee8c38130ff416558a.js.gz",
+      "size": 2570,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "compressed": true,
+        "immutable": true,
+        "size": 2570
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -3029,20 +3025,18 @@
       "initial": false,
       "entry": false,
       "recorded": false,
-      "size": 12101,
+      "size": 12803,
       "sizes": {
-        "javascript": 12101
+        "javascript": 12803
       },
       "names": [],
       "idHints": [],
       "runtime": [
         "main"
       ],
-      "files": [
-        "409.679dff31b9e5d5995324.js"
-      ],
+      "files": [],
       "auxiliaryFiles": [],
-      "hash": "4ceb1bd8091f2b3733e7",
+      "hash": "7a82e6fda43e1cb00d11",
       "childrenByOrder": {},
       "id": 409,
       "siblings": [],
@@ -3055,9 +3049,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 12101,
+          "size": 12803,
           "sizes": {
-            "javascript": 12101
+            "javascript": 12803
           },
           "built": true,
           "codeGenerated": true,
@@ -3150,9 +3144,9 @@
       "initial": false,
       "entry": false,
       "recorded": false,
-      "size": 15358,
+      "size": 14807,
       "sizes": {
-        "javascript": 15358
+        "javascript": 14807
       },
       "names": [],
       "idHints": [],
@@ -3160,10 +3154,10 @@
         "main"
       ],
       "files": [
-        "445.415d817580276b8d3f3e.js"
+        "445.260ee57954b4d27e94e7.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "38841d1a4b486bf3aa4d",
+      "hash": "1245d63292654aa10747",
       "childrenByOrder": {},
       "id": 445,
       "siblings": [],
@@ -3660,9 +3654,9 @@
           "type": "module",
           "moduleType": "javascript/esm",
           "layer": null,
-          "size": 12702,
+          "size": 12151,
           "sizes": {
-            "javascript": 12702
+            "javascript": 12151
           },
           "built": true,
           "codeGenerated": true,
@@ -3719,9 +3713,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 6241,
+              "size": 5690,
               "sizes": {
-                "javascript": 6241
+                "javascript": 5690
               },
               "built": true,
               "codeGenerated": false,
@@ -3863,7 +3857,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "./components/Language.jsx",
-                  "loc": "85:55-64",
+                  "loc": "87:55-64",
                   "moduleId": null,
                   "resolvedModuleId": null
                 }
@@ -7390,8 +7384,8 @@
           "optional": false,
           "orphan": false,
           "dependent": true,
-          "issuer": "javascript/esm|/home/mohammad/Desktop/Projects/react-builer/node_modules/react-i18next/dist/es/TransWithoutContext.js",
-          "issuerName": "./node_modules/react-i18next/dist/es/TransWithoutContext.js",
+          "issuer": "javascript/esm|/home/mohammad/Desktop/Projects/react-builer/node_modules/react-i18next/dist/es/useTranslation.js",
+          "issuerName": "./node_modules/react-i18next/dist/es/useTranslation.js",
           "issuerPath": [
             {
               "identifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/index.js",
@@ -7419,16 +7413,16 @@
               "id": null
             },
             {
-              "identifier": "javascript/esm|/home/mohammad/Desktop/Projects/react-builer/node_modules/react-i18next/dist/es/TransWithoutContext.js",
-              "name": "./node_modules/react-i18next/dist/es/TransWithoutContext.js",
-              "id": null
+              "identifier": "javascript/esm|/home/mohammad/Desktop/Projects/react-builer/node_modules/react-i18next/dist/es/useTranslation.js",
+              "name": "./node_modules/react-i18next/dist/es/useTranslation.js",
+              "id": 437
             }
           ],
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "id": 454,
-          "issuerId": null,
+          "issuerId": 437,
           "chunks": [
             679
           ],
@@ -9241,7 +9235,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "44:21-40",
+              "loc": "44:20-39",
               "moduleId": 445,
               "resolvedModuleId": null
             },
@@ -9255,7 +9249,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "46:18-37",
+              "loc": "46:28-47",
               "moduleId": 445,
               "resolvedModuleId": null
             },
@@ -9269,7 +9263,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "49:18-37",
+              "loc": "48:18-37",
               "moduleId": 445,
               "resolvedModuleId": null
             },
@@ -9283,7 +9277,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "54:19-38",
+              "loc": "51:18-37",
               "moduleId": 445,
               "resolvedModuleId": null
             },
@@ -9297,7 +9291,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "56:32-51",
+              "loc": "56:19-38",
               "moduleId": 445,
               "resolvedModuleId": null
             },
@@ -9311,7 +9305,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "58:18-37",
+              "loc": "58:32-51",
               "moduleId": 445,
               "resolvedModuleId": null
             },
@@ -9353,7 +9347,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "64:43-62",
+              "loc": "64:18-37",
               "moduleId": 445,
               "resolvedModuleId": null
             },
@@ -9367,7 +9361,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "73:20-39",
+              "loc": "66:43-62",
               "moduleId": 445,
               "resolvedModuleId": null
             },
@@ -9381,7 +9375,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "81:19-38",
+              "loc": "75:20-39",
               "moduleId": 445,
               "resolvedModuleId": null
             },
@@ -9395,7 +9389,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "83:21-40",
+              "loc": "83:19-38",
               "moduleId": 445,
               "resolvedModuleId": null
             },
@@ -9409,7 +9403,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "85:35-54",
+              "loc": "85:21-40",
               "moduleId": 445,
               "resolvedModuleId": null
             },
@@ -9423,35 +9417,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "85:88-107",
-              "moduleId": 445,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Header.js|d2d3ac30bf3a43c1fb4c6832b1fcda29",
-              "module": "./src/features/core/Header.js + 4 modules",
-              "moduleName": "./src/features/core/Header.js + 4 modules",
-              "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Header.js",
-              "resolvedModule": "./src/features/core/Header.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "react",
-              "loc": "88:18-37",
-              "moduleId": 445,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Header.js|d2d3ac30bf3a43c1fb4c6832b1fcda29",
-              "module": "./src/features/core/Header.js + 4 modules",
-              "moduleName": "./src/features/core/Header.js + 4 modules",
-              "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Header.js",
-              "resolvedModule": "./src/features/core/Header.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "react",
-              "loc": "90:18-37",
+              "loc": "87:35-54",
               "moduleId": 445,
               "resolvedModuleId": null
             },
@@ -9801,7 +9767,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "15:18-37",
+              "loc": "14:18-37",
               "moduleId": 409,
               "resolvedModuleId": 409
             },
@@ -9815,7 +9781,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "22:18-37",
+              "loc": "16:18-37",
               "moduleId": 409,
               "resolvedModuleId": 409
             },
@@ -9829,7 +9795,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "24:21-40",
+              "loc": "19:18-37",
               "moduleId": 409,
               "resolvedModuleId": 409
             },
@@ -9843,7 +9809,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "26:18-37",
+              "loc": "24:19-38",
               "moduleId": 409,
               "resolvedModuleId": 409
             },
@@ -9857,7 +9823,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "26:63-82",
+              "loc": "26:33-52",
               "moduleId": 409,
               "resolvedModuleId": 409
             },
@@ -9871,7 +9837,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "29:18-37",
+              "loc": "28:18-37",
               "moduleId": 409,
               "resolvedModuleId": 409
             },
@@ -9885,7 +9851,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "35:18-37",
+              "loc": "31:18-37",
               "moduleId": 409,
               "resolvedModuleId": 409
             },
@@ -9899,7 +9865,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "37:19-38",
+              "loc": "38:18-37",
               "moduleId": 409,
               "resolvedModuleId": 409
             },
@@ -9913,7 +9879,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "39:20-39",
+              "loc": "40:23-42",
               "moduleId": 409,
               "resolvedModuleId": 409
             },
@@ -9927,7 +9893,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "41:34-53",
+              "loc": "42:18-37",
               "moduleId": 409,
               "resolvedModuleId": 409
             },
@@ -9941,35 +9907,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "41:79-98",
-              "moduleId": 409,
-              "resolvedModuleId": 409
-            },
-            {
-              "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Sidebar.js",
-              "module": "./src/features/core/Sidebar.js",
-              "moduleName": "./src/features/core/Sidebar.js",
-              "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Sidebar.js",
-              "resolvedModule": "./src/features/core/Sidebar.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "react",
-              "loc": "43:18-37",
-              "moduleId": 409,
-              "resolvedModuleId": 409
-            },
-            {
-              "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Sidebar.js",
-              "module": "./src/features/core/Sidebar.js",
-              "moduleName": "./src/features/core/Sidebar.js",
-              "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Sidebar.js",
-              "resolvedModule": "./src/features/core/Sidebar.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "react",
-              "loc": "43:68-87",
+              "loc": "42:63-82",
               "moduleId": 409,
               "resolvedModuleId": 409
             },
@@ -10011,7 +9949,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "53:20-39",
+              "loc": "53:19-38",
               "moduleId": 409,
               "resolvedModuleId": 409
             },
@@ -10025,7 +9963,63 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "55:33-52",
+              "loc": "55:20-39",
+              "moduleId": 409,
+              "resolvedModuleId": 409
+            },
+            {
+              "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Sidebar.js",
+              "module": "./src/features/core/Sidebar.js",
+              "moduleName": "./src/features/core/Sidebar.js",
+              "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Sidebar.js",
+              "resolvedModule": "./src/features/core/Sidebar.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "57:34-53",
+              "moduleId": 409,
+              "resolvedModuleId": 409
+            },
+            {
+              "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Sidebar.js",
+              "module": "./src/features/core/Sidebar.js",
+              "moduleName": "./src/features/core/Sidebar.js",
+              "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Sidebar.js",
+              "resolvedModule": "./src/features/core/Sidebar.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "57:79-98",
+              "moduleId": 409,
+              "resolvedModuleId": 409
+            },
+            {
+              "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Sidebar.js",
+              "module": "./src/features/core/Sidebar.js",
+              "moduleName": "./src/features/core/Sidebar.js",
+              "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Sidebar.js",
+              "resolvedModule": "./src/features/core/Sidebar.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "59:18-37",
+              "moduleId": 409,
+              "resolvedModuleId": 409
+            },
+            {
+              "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Sidebar.js",
+              "module": "./src/features/core/Sidebar.js",
+              "moduleName": "./src/features/core/Sidebar.js",
+              "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Sidebar.js",
+              "resolvedModule": "./src/features/core/Sidebar.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "59:68-87",
               "moduleId": 409,
               "resolvedModuleId": 409
             },
@@ -10053,7 +10047,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "66:22-41",
+              "loc": "67:18-37",
               "moduleId": 409,
               "resolvedModuleId": 409
             },
@@ -10067,7 +10061,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "68:18-37",
+              "loc": "69:20-39",
               "moduleId": 409,
               "resolvedModuleId": 409
             },
@@ -10081,7 +10075,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "68:63-82",
+              "loc": "71:33-52",
               "moduleId": 409,
               "resolvedModuleId": 409
             },
@@ -10095,7 +10089,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "71:32-51",
+              "loc": "77:18-37",
               "moduleId": 409,
               "resolvedModuleId": 409
             },
@@ -10109,7 +10103,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "71:77-96",
+              "loc": "82:22-41",
               "moduleId": 409,
               "resolvedModuleId": 409
             },
@@ -10123,7 +10117,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "74:31-50",
+              "loc": "84:18-37",
               "moduleId": 409,
               "resolvedModuleId": 409
             },
@@ -10137,7 +10131,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "74:76-95",
+              "loc": "84:63-82",
               "moduleId": 409,
               "resolvedModuleId": 409
             },
@@ -10151,7 +10145,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "77:34-53",
+              "loc": "87:32-51",
               "moduleId": 409,
               "resolvedModuleId": 409
             },
@@ -10165,7 +10159,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "77:79-98",
+              "loc": "87:77-96",
               "moduleId": 409,
               "resolvedModuleId": 409
             },
@@ -10179,7 +10173,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "80:18-37",
+              "loc": "90:31-50",
               "moduleId": 409,
               "resolvedModuleId": 409
             },
@@ -10193,7 +10187,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "86:18-37",
+              "loc": "90:76-95",
               "moduleId": 409,
               "resolvedModuleId": 409
             },
@@ -10207,7 +10201,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "88:20-39",
+              "loc": "93:34-53",
               "moduleId": 409,
               "resolvedModuleId": 409
             },
@@ -10221,7 +10215,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "90:29-48",
+              "loc": "93:79-98",
               "moduleId": 409,
               "resolvedModuleId": 409
             },
@@ -10235,7 +10229,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "92:28-47",
+              "loc": "96:18-37",
               "moduleId": 409,
               "resolvedModuleId": 409
             },
@@ -10249,7 +10243,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "92:73-92",
+              "loc": "102:18-37",
               "moduleId": 409,
               "resolvedModuleId": 409
             },
@@ -10263,7 +10257,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "95:18-37",
+              "loc": "104:20-39",
               "moduleId": 409,
               "resolvedModuleId": 409
             },
@@ -10277,7 +10271,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "101:18-37",
+              "loc": "106:29-48",
               "moduleId": 409,
               "resolvedModuleId": 409
             },
@@ -10291,7 +10285,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "103:20-39",
+              "loc": "108:28-47",
               "moduleId": 409,
               "resolvedModuleId": 409
             },
@@ -10305,7 +10299,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "105:28-47",
+              "loc": "108:73-92",
               "moduleId": 409,
               "resolvedModuleId": 409
             },
@@ -10319,7 +10313,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "107:26-45",
+              "loc": "111:18-37",
               "moduleId": 409,
               "resolvedModuleId": 409
             },
@@ -10333,7 +10327,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "107:71-90",
+              "loc": "117:18-37",
               "moduleId": 409,
               "resolvedModuleId": 409
             },
@@ -10347,7 +10341,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "110:18-37",
+              "loc": "119:20-39",
               "moduleId": 409,
               "resolvedModuleId": 409
             },
@@ -10361,7 +10355,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "116:18-37",
+              "loc": "121:28-47",
               "moduleId": 409,
               "resolvedModuleId": 409
             },
@@ -10375,7 +10369,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "118:20-39",
+              "loc": "123:26-45",
               "moduleId": 409,
               "resolvedModuleId": 409
             },
@@ -10389,7 +10383,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "120:30-49",
+              "loc": "123:71-90",
               "moduleId": 409,
               "resolvedModuleId": 409
             },
@@ -10403,7 +10397,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "120:75-94",
+              "loc": "126:18-37",
               "moduleId": 409,
               "resolvedModuleId": 409
             },
@@ -10417,7 +10411,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "123:18-37",
+              "loc": "132:18-37",
               "moduleId": 409,
               "resolvedModuleId": 409
             },
@@ -10431,7 +10425,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "129:18-37",
+              "loc": "134:20-39",
               "moduleId": 409,
               "resolvedModuleId": 409
             },
@@ -10445,7 +10439,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "131:20-39",
+              "loc": "136:30-49",
               "moduleId": 409,
               "resolvedModuleId": 409
             },
@@ -10459,7 +10453,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "133:33-52",
+              "loc": "136:75-94",
               "moduleId": 409,
               "resolvedModuleId": 409
             },
@@ -10473,7 +10467,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "133:78-97",
+              "loc": "139:18-37",
               "moduleId": 409,
               "resolvedModuleId": 409
             },
@@ -10487,7 +10481,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "136:18-37",
+              "loc": "145:18-37",
               "moduleId": 409,
               "resolvedModuleId": 409
             },
@@ -10501,7 +10495,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "142:18-37",
+              "loc": "147:20-39",
               "moduleId": 409,
               "resolvedModuleId": 409
             },
@@ -10515,7 +10509,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "148:20-39",
+              "loc": "149:33-52",
               "moduleId": 409,
               "resolvedModuleId": 409
             },
@@ -10529,7 +10523,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "150:32-51",
+              "loc": "149:78-97",
               "moduleId": 409,
               "resolvedModuleId": 409
             },
@@ -10543,7 +10537,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "150:77-96",
+              "loc": "152:18-37",
               "moduleId": 409,
               "resolvedModuleId": 409
             },
@@ -10557,7 +10551,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "153:18-37",
+              "loc": "158:18-37",
               "moduleId": 409,
               "resolvedModuleId": 409
             },
@@ -10571,7 +10565,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "159:18-37",
+              "loc": "164:20-39",
               "moduleId": 409,
               "resolvedModuleId": 409
             },
@@ -10585,7 +10579,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "161:19-38",
+              "loc": "166:32-51",
               "moduleId": 409,
               "resolvedModuleId": 409
             },
@@ -10599,7 +10593,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "163:19-38",
+              "loc": "166:77-96",
               "moduleId": 409,
               "resolvedModuleId": 409
             },
@@ -10613,7 +10607,63 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "165:20-39",
+              "loc": "169:18-37",
+              "moduleId": 409,
+              "resolvedModuleId": 409
+            },
+            {
+              "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Sidebar.js",
+              "module": "./src/features/core/Sidebar.js",
+              "moduleName": "./src/features/core/Sidebar.js",
+              "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Sidebar.js",
+              "resolvedModule": "./src/features/core/Sidebar.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "175:18-37",
+              "moduleId": 409,
+              "resolvedModuleId": 409
+            },
+            {
+              "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Sidebar.js",
+              "module": "./src/features/core/Sidebar.js",
+              "moduleName": "./src/features/core/Sidebar.js",
+              "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Sidebar.js",
+              "resolvedModule": "./src/features/core/Sidebar.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "177:19-38",
+              "moduleId": 409,
+              "resolvedModuleId": 409
+            },
+            {
+              "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Sidebar.js",
+              "module": "./src/features/core/Sidebar.js",
+              "moduleName": "./src/features/core/Sidebar.js",
+              "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Sidebar.js",
+              "resolvedModule": "./src/features/core/Sidebar.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "179:19-38",
+              "moduleId": 409,
+              "resolvedModuleId": 409
+            },
+            {
+              "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Sidebar.js",
+              "module": "./src/features/core/Sidebar.js",
+              "moduleName": "./src/features/core/Sidebar.js",
+              "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Sidebar.js",
+              "resolvedModule": "./src/features/core/Sidebar.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "181:20-39",
               "moduleId": 409,
               "resolvedModuleId": 409
             },
@@ -18365,9 +18415,9 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 39681,
+      "size": 38885,
       "sizes": {
-        "javascript": 31308,
+        "javascript": 30512,
         "runtime": 8373
       },
       "names": [
@@ -18379,7 +18429,7 @@
       ],
       "files": [],
       "auxiliaryFiles": [],
-      "hash": "527f29b209eb960552ee",
+      "hash": "0ae3ca9ce421ca2988ce",
       "childrenByOrder": {},
       "id": 838,
       "siblings": [
@@ -18401,9 +18451,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 31308,
+          "size": 30512,
           "sizes": {
-            "javascript": 31308
+            "javascript": 30512
           },
           "built": true,
           "codeGenerated": true,
@@ -20998,7 +21048,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "44:21-40",
+          "loc": "44:20-39",
           "moduleId": 445,
           "resolvedModuleId": null
         },
@@ -21012,7 +21062,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "46:18-37",
+          "loc": "46:28-47",
           "moduleId": 445,
           "resolvedModuleId": null
         },
@@ -21026,7 +21076,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "49:18-37",
+          "loc": "48:18-37",
           "moduleId": 445,
           "resolvedModuleId": null
         },
@@ -21040,7 +21090,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "54:19-38",
+          "loc": "51:18-37",
           "moduleId": 445,
           "resolvedModuleId": null
         },
@@ -21054,7 +21104,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "56:32-51",
+          "loc": "56:19-38",
           "moduleId": 445,
           "resolvedModuleId": null
         },
@@ -21068,7 +21118,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "58:18-37",
+          "loc": "58:32-51",
           "moduleId": 445,
           "resolvedModuleId": null
         },
@@ -21110,7 +21160,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "64:43-62",
+          "loc": "64:18-37",
           "moduleId": 445,
           "resolvedModuleId": null
         },
@@ -21124,7 +21174,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "73:20-39",
+          "loc": "66:43-62",
           "moduleId": 445,
           "resolvedModuleId": null
         },
@@ -21138,7 +21188,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "81:19-38",
+          "loc": "75:20-39",
           "moduleId": 445,
           "resolvedModuleId": null
         },
@@ -21152,7 +21202,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "83:21-40",
+          "loc": "83:19-38",
           "moduleId": 445,
           "resolvedModuleId": null
         },
@@ -21166,7 +21216,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "85:35-54",
+          "loc": "85:21-40",
           "moduleId": 445,
           "resolvedModuleId": null
         },
@@ -21180,35 +21230,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "85:88-107",
-          "moduleId": 445,
-          "resolvedModuleId": null
-        },
-        {
-          "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Header.js|d2d3ac30bf3a43c1fb4c6832b1fcda29",
-          "module": "./src/features/core/Header.js + 4 modules",
-          "moduleName": "./src/features/core/Header.js + 4 modules",
-          "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Header.js",
-          "resolvedModule": "./src/features/core/Header.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "react",
-          "loc": "88:18-37",
-          "moduleId": 445,
-          "resolvedModuleId": null
-        },
-        {
-          "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Header.js|d2d3ac30bf3a43c1fb4c6832b1fcda29",
-          "module": "./src/features/core/Header.js + 4 modules",
-          "moduleName": "./src/features/core/Header.js + 4 modules",
-          "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Header.js",
-          "resolvedModule": "./src/features/core/Header.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "react",
-          "loc": "90:18-37",
+          "loc": "87:35-54",
           "moduleId": 445,
           "resolvedModuleId": null
         },
@@ -21558,7 +21580,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "15:18-37",
+          "loc": "14:18-37",
           "moduleId": 409,
           "resolvedModuleId": 409
         },
@@ -21572,7 +21594,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "22:18-37",
+          "loc": "16:18-37",
           "moduleId": 409,
           "resolvedModuleId": 409
         },
@@ -21586,7 +21608,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "24:21-40",
+          "loc": "19:18-37",
           "moduleId": 409,
           "resolvedModuleId": 409
         },
@@ -21600,7 +21622,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "26:18-37",
+          "loc": "24:19-38",
           "moduleId": 409,
           "resolvedModuleId": 409
         },
@@ -21614,7 +21636,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "26:63-82",
+          "loc": "26:33-52",
           "moduleId": 409,
           "resolvedModuleId": 409
         },
@@ -21628,7 +21650,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "29:18-37",
+          "loc": "28:18-37",
           "moduleId": 409,
           "resolvedModuleId": 409
         },
@@ -21642,7 +21664,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "35:18-37",
+          "loc": "31:18-37",
           "moduleId": 409,
           "resolvedModuleId": 409
         },
@@ -21656,7 +21678,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "37:19-38",
+          "loc": "38:18-37",
           "moduleId": 409,
           "resolvedModuleId": 409
         },
@@ -21670,7 +21692,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "39:20-39",
+          "loc": "40:23-42",
           "moduleId": 409,
           "resolvedModuleId": 409
         },
@@ -21684,7 +21706,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "41:34-53",
+          "loc": "42:18-37",
           "moduleId": 409,
           "resolvedModuleId": 409
         },
@@ -21698,35 +21720,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "41:79-98",
-          "moduleId": 409,
-          "resolvedModuleId": 409
-        },
-        {
-          "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Sidebar.js",
-          "module": "./src/features/core/Sidebar.js",
-          "moduleName": "./src/features/core/Sidebar.js",
-          "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Sidebar.js",
-          "resolvedModule": "./src/features/core/Sidebar.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "react",
-          "loc": "43:18-37",
-          "moduleId": 409,
-          "resolvedModuleId": 409
-        },
-        {
-          "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Sidebar.js",
-          "module": "./src/features/core/Sidebar.js",
-          "moduleName": "./src/features/core/Sidebar.js",
-          "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Sidebar.js",
-          "resolvedModule": "./src/features/core/Sidebar.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "react",
-          "loc": "43:68-87",
+          "loc": "42:63-82",
           "moduleId": 409,
           "resolvedModuleId": 409
         },
@@ -21768,7 +21762,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "53:20-39",
+          "loc": "53:19-38",
           "moduleId": 409,
           "resolvedModuleId": 409
         },
@@ -21782,7 +21776,63 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "55:33-52",
+          "loc": "55:20-39",
+          "moduleId": 409,
+          "resolvedModuleId": 409
+        },
+        {
+          "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Sidebar.js",
+          "module": "./src/features/core/Sidebar.js",
+          "moduleName": "./src/features/core/Sidebar.js",
+          "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Sidebar.js",
+          "resolvedModule": "./src/features/core/Sidebar.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "57:34-53",
+          "moduleId": 409,
+          "resolvedModuleId": 409
+        },
+        {
+          "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Sidebar.js",
+          "module": "./src/features/core/Sidebar.js",
+          "moduleName": "./src/features/core/Sidebar.js",
+          "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Sidebar.js",
+          "resolvedModule": "./src/features/core/Sidebar.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "57:79-98",
+          "moduleId": 409,
+          "resolvedModuleId": 409
+        },
+        {
+          "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Sidebar.js",
+          "module": "./src/features/core/Sidebar.js",
+          "moduleName": "./src/features/core/Sidebar.js",
+          "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Sidebar.js",
+          "resolvedModule": "./src/features/core/Sidebar.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "59:18-37",
+          "moduleId": 409,
+          "resolvedModuleId": 409
+        },
+        {
+          "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Sidebar.js",
+          "module": "./src/features/core/Sidebar.js",
+          "moduleName": "./src/features/core/Sidebar.js",
+          "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Sidebar.js",
+          "resolvedModule": "./src/features/core/Sidebar.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "59:68-87",
           "moduleId": 409,
           "resolvedModuleId": 409
         },
@@ -21810,7 +21860,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "66:22-41",
+          "loc": "67:18-37",
           "moduleId": 409,
           "resolvedModuleId": 409
         },
@@ -21824,7 +21874,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "68:18-37",
+          "loc": "69:20-39",
           "moduleId": 409,
           "resolvedModuleId": 409
         },
@@ -21838,7 +21888,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "68:63-82",
+          "loc": "71:33-52",
           "moduleId": 409,
           "resolvedModuleId": 409
         },
@@ -21852,7 +21902,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "71:32-51",
+          "loc": "77:18-37",
           "moduleId": 409,
           "resolvedModuleId": 409
         },
@@ -21866,7 +21916,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "71:77-96",
+          "loc": "82:22-41",
           "moduleId": 409,
           "resolvedModuleId": 409
         },
@@ -21880,7 +21930,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "74:31-50",
+          "loc": "84:18-37",
           "moduleId": 409,
           "resolvedModuleId": 409
         },
@@ -21894,7 +21944,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "74:76-95",
+          "loc": "84:63-82",
           "moduleId": 409,
           "resolvedModuleId": 409
         },
@@ -21908,7 +21958,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "77:34-53",
+          "loc": "87:32-51",
           "moduleId": 409,
           "resolvedModuleId": 409
         },
@@ -21922,7 +21972,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "77:79-98",
+          "loc": "87:77-96",
           "moduleId": 409,
           "resolvedModuleId": 409
         },
@@ -21936,7 +21986,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "80:18-37",
+          "loc": "90:31-50",
           "moduleId": 409,
           "resolvedModuleId": 409
         },
@@ -21950,7 +22000,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "86:18-37",
+          "loc": "90:76-95",
           "moduleId": 409,
           "resolvedModuleId": 409
         },
@@ -21964,7 +22014,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "88:20-39",
+          "loc": "93:34-53",
           "moduleId": 409,
           "resolvedModuleId": 409
         },
@@ -21978,7 +22028,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "90:29-48",
+          "loc": "93:79-98",
           "moduleId": 409,
           "resolvedModuleId": 409
         },
@@ -21992,7 +22042,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "92:28-47",
+          "loc": "96:18-37",
           "moduleId": 409,
           "resolvedModuleId": 409
         },
@@ -22006,7 +22056,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "92:73-92",
+          "loc": "102:18-37",
           "moduleId": 409,
           "resolvedModuleId": 409
         },
@@ -22020,7 +22070,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "95:18-37",
+          "loc": "104:20-39",
           "moduleId": 409,
           "resolvedModuleId": 409
         },
@@ -22034,7 +22084,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "101:18-37",
+          "loc": "106:29-48",
           "moduleId": 409,
           "resolvedModuleId": 409
         },
@@ -22048,7 +22098,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "103:20-39",
+          "loc": "108:28-47",
           "moduleId": 409,
           "resolvedModuleId": 409
         },
@@ -22062,7 +22112,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "105:28-47",
+          "loc": "108:73-92",
           "moduleId": 409,
           "resolvedModuleId": 409
         },
@@ -22076,7 +22126,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "107:26-45",
+          "loc": "111:18-37",
           "moduleId": 409,
           "resolvedModuleId": 409
         },
@@ -22090,7 +22140,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "107:71-90",
+          "loc": "117:18-37",
           "moduleId": 409,
           "resolvedModuleId": 409
         },
@@ -22104,7 +22154,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "110:18-37",
+          "loc": "119:20-39",
           "moduleId": 409,
           "resolvedModuleId": 409
         },
@@ -22118,7 +22168,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "116:18-37",
+          "loc": "121:28-47",
           "moduleId": 409,
           "resolvedModuleId": 409
         },
@@ -22132,7 +22182,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "118:20-39",
+          "loc": "123:26-45",
           "moduleId": 409,
           "resolvedModuleId": 409
         },
@@ -22146,7 +22196,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "120:30-49",
+          "loc": "123:71-90",
           "moduleId": 409,
           "resolvedModuleId": 409
         },
@@ -22160,7 +22210,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "120:75-94",
+          "loc": "126:18-37",
           "moduleId": 409,
           "resolvedModuleId": 409
         },
@@ -22174,7 +22224,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "123:18-37",
+          "loc": "132:18-37",
           "moduleId": 409,
           "resolvedModuleId": 409
         },
@@ -22188,7 +22238,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "129:18-37",
+          "loc": "134:20-39",
           "moduleId": 409,
           "resolvedModuleId": 409
         },
@@ -22202,7 +22252,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "131:20-39",
+          "loc": "136:30-49",
           "moduleId": 409,
           "resolvedModuleId": 409
         },
@@ -22216,7 +22266,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "133:33-52",
+          "loc": "136:75-94",
           "moduleId": 409,
           "resolvedModuleId": 409
         },
@@ -22230,7 +22280,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "133:78-97",
+          "loc": "139:18-37",
           "moduleId": 409,
           "resolvedModuleId": 409
         },
@@ -22244,7 +22294,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "136:18-37",
+          "loc": "145:18-37",
           "moduleId": 409,
           "resolvedModuleId": 409
         },
@@ -22258,7 +22308,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "142:18-37",
+          "loc": "147:20-39",
           "moduleId": 409,
           "resolvedModuleId": 409
         },
@@ -22272,7 +22322,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "148:20-39",
+          "loc": "149:33-52",
           "moduleId": 409,
           "resolvedModuleId": 409
         },
@@ -22286,7 +22336,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "150:32-51",
+          "loc": "149:78-97",
           "moduleId": 409,
           "resolvedModuleId": 409
         },
@@ -22300,7 +22350,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "150:77-96",
+          "loc": "152:18-37",
           "moduleId": 409,
           "resolvedModuleId": 409
         },
@@ -22314,7 +22364,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "153:18-37",
+          "loc": "158:18-37",
           "moduleId": 409,
           "resolvedModuleId": 409
         },
@@ -22328,7 +22378,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "159:18-37",
+          "loc": "164:20-39",
           "moduleId": 409,
           "resolvedModuleId": 409
         },
@@ -22342,7 +22392,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "161:19-38",
+          "loc": "166:32-51",
           "moduleId": 409,
           "resolvedModuleId": 409
         },
@@ -22356,7 +22406,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "163:19-38",
+          "loc": "166:77-96",
           "moduleId": 409,
           "resolvedModuleId": 409
         },
@@ -22370,7 +22420,63 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "165:20-39",
+          "loc": "169:18-37",
+          "moduleId": 409,
+          "resolvedModuleId": 409
+        },
+        {
+          "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Sidebar.js",
+          "module": "./src/features/core/Sidebar.js",
+          "moduleName": "./src/features/core/Sidebar.js",
+          "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Sidebar.js",
+          "resolvedModule": "./src/features/core/Sidebar.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "175:18-37",
+          "moduleId": 409,
+          "resolvedModuleId": 409
+        },
+        {
+          "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Sidebar.js",
+          "module": "./src/features/core/Sidebar.js",
+          "moduleName": "./src/features/core/Sidebar.js",
+          "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Sidebar.js",
+          "resolvedModule": "./src/features/core/Sidebar.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "177:19-38",
+          "moduleId": 409,
+          "resolvedModuleId": 409
+        },
+        {
+          "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Sidebar.js",
+          "module": "./src/features/core/Sidebar.js",
+          "moduleName": "./src/features/core/Sidebar.js",
+          "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Sidebar.js",
+          "resolvedModule": "./src/features/core/Sidebar.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "179:19-38",
+          "moduleId": 409,
+          "resolvedModuleId": 409
+        },
+        {
+          "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Sidebar.js",
+          "module": "./src/features/core/Sidebar.js",
+          "moduleName": "./src/features/core/Sidebar.js",
+          "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Sidebar.js",
+          "resolvedModule": "./src/features/core/Sidebar.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "181:20-39",
           "moduleId": 409,
           "resolvedModuleId": 409
         },
@@ -30703,9 +30809,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 31308,
+      "size": 30512,
       "sizes": {
-        "javascript": 31308
+        "javascript": 30512
       },
       "built": true,
       "codeGenerated": true,
@@ -33438,9 +33544,9 @@
       "type": "module",
       "moduleType": "javascript/esm",
       "layer": null,
-      "size": 12702,
+      "size": 12151,
       "sizes": {
-        "javascript": 12702
+        "javascript": 12151
       },
       "built": true,
       "codeGenerated": true,
@@ -33496,9 +33602,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 6241,
+          "size": 5690,
           "sizes": {
-            "javascript": 6241
+            "javascript": 5690
           },
           "built": true,
           "codeGenerated": false,
@@ -33638,7 +33744,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./components/Language.jsx",
-              "loc": "85:55-64",
+              "loc": "87:55-64",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -34015,9 +34121,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 12101,
+      "size": 12803,
       "sizes": {
-        "javascript": 12101
+        "javascript": 12803
       },
       "built": true,
       "codeGenerated": true,
@@ -36532,7 +36638,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./components/Language.jsx",
-          "loc": "85:55-64",
+          "loc": "87:55-64",
           "moduleId": null,
           "resolvedModuleId": null
         }
@@ -36672,8 +36778,8 @@
       "cacheable": true,
       "optional": false,
       "orphan": false,
-      "issuer": "javascript/esm|/home/mohammad/Desktop/Projects/react-builer/node_modules/react-i18next/dist/es/TransWithoutContext.js",
-      "issuerName": "./node_modules/react-i18next/dist/es/TransWithoutContext.js",
+      "issuer": "javascript/esm|/home/mohammad/Desktop/Projects/react-builer/node_modules/react-i18next/dist/es/useTranslation.js",
+      "issuerName": "./node_modules/react-i18next/dist/es/useTranslation.js",
       "issuerPath": [
         {
           "identifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/index.js",
@@ -36701,16 +36807,16 @@
           "id": null
         },
         {
-          "identifier": "javascript/esm|/home/mohammad/Desktop/Projects/react-builer/node_modules/react-i18next/dist/es/TransWithoutContext.js",
-          "name": "./node_modules/react-i18next/dist/es/TransWithoutContext.js",
-          "id": null
+          "identifier": "javascript/esm|/home/mohammad/Desktop/Projects/react-builer/node_modules/react-i18next/dist/es/useTranslation.js",
+          "name": "./node_modules/react-i18next/dist/es/useTranslation.js",
+          "id": 437
         }
       ],
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "id": 454,
-      "issuerId": null,
+      "issuerId": 437,
       "chunks": [
         679
       ],
@@ -38845,7 +38951,7 @@
       "hash": "7213c8c2e196aa5dbcaa",
       "version": "5.96.1",
       "time": 285,
-      "builtAt": 1731145292578,
+      "builtAt": 1731148363847,
       "publicPath": "",
       "outputPath": "/home/mohammad/Desktop/Projects/react-builer/dist",
       "assetsByChunkName": {},

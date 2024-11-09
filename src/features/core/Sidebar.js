@@ -4,26 +4,49 @@ const Sidebar = () => {
   return (
     <>
       <input type="checkbox" id="sidebar-toggle" className="hidden" />
+
       <aside
         className="sidebar fixed left-0 rtl:right-0 z-40 w-64 h-screen transition-transform ltr:md:translate-x-0 rtl:md:translate-x-0 ltr:-translate-x-full rtl:translate-x-full"
         aria-label="Sidebar"
       >
         <div className="h-full px-3 py-4 overflow-y-auto bg-gray-50 dark:bg-gray-800">
-          <label
-            htmlFor="sidebar-toggle"
-            className="flex flex-reverse justify-self-end p-2 text-sm text-gray-500 md:hidden hover:bg-gray-100 focus:outline-none dark:text-gray-400 dark:hover:bg-gray-700"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              x="0px"
-              y="0px"
-              width="20"
-              height="20"
-              viewBox="0 0 24 24"
-            >
-              <path d="M 4.2382812 2.9882812 A 1.250125 1.250125 0 0 0 3.3671875 5.1347656 L 10.232422 12 L 3.3613281 18.869141 A 1.2512475 1.2512475 0 1 0 5.1308594 20.638672 L 12 13.767578 L 18.865234 20.632812 A 1.250125 1.250125 0 1 0 20.632812 18.865234 L 13.767578 12 L 20.625 5.1425781 A 1.250125 1.250125 0 1 0 18.857422 3.375 L 12 10.232422 L 5.1347656 3.3671875 A 1.250125 1.250125 0 0 0 4.2382812 2.9882812 z"></path>
-            </svg>
-          </label>
+
+          <div className="flex flex-row xs:flex-row-reverse justify-between w-full pb-2">
+            <div className="xs:hidden">
+              <a
+                href="https://flowbite.com/"
+                className="flex items-center space-x-3 rtl:space-x-reverse"
+              >
+                <img
+                  src="https://flowbite.com/docs/images/logo.svg"
+                  className="h-full w-full"
+                  alt="Flowbite Logo"
+                  loading="lazy"
+                />
+                <span className="self-center font-semibold whitespace-nowrap dark:text-white">
+                  Flowbite
+                </span>
+              </a>
+            </div>
+            <div className="">
+              <label
+                htmlFor="sidebar-toggle"
+                className="flex p-2 text-sm text-gray-500 md:hidden hover:bg-gray-100 focus:outline-none dark:text-gray-400 dark:hover:bg-gray-700"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  x="0px"
+                  y="0px"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M 4.2382812 2.9882812 A 1.250125 1.250125 0 0 0 3.3671875 5.1347656 L 10.232422 12 L 3.3613281 18.869141 A 1.2512475 1.2512475 0 1 0 5.1308594 20.638672 L 12 13.767578 L 18.865234 20.632812 A 1.250125 1.250125 0 1 0 20.632812 18.865234 L 13.767578 12 L 20.625 5.1425781 A 1.250125 1.250125 0 1 0 18.857422 3.375 L 12 10.232422 L 5.1347656 3.3671875 A 1.250125 1.250125 0 0 0 4.2382812 2.9882812 z"></path>
+                </svg>
+              </label>
+            </div>
+          </div>
+
           <ul className="space-y-2 font-medium">
             <li>
               <a
