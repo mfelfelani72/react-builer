@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbuiler=self.webpackChunkbuiler||[]).push([[478],{478:(e,n,t)=>{t.r(n),t.d(n,{default:()=>a});var l=t(540),u=(0,l.lazy)((function(){return t.e(445).then(t.bind(t,445))})),r=(0,l.lazy)((function(){return t.e(280).then(t.bind(t,280))}));const a=function(){return l.createElement(l.Fragment,null,l.createElement(u,null),l.createElement(r,null))}}}]);
