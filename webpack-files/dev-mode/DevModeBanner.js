@@ -8,7 +8,7 @@ class DevModeBanner {
         (data, cb) => {
           data.html = data.html.replace(
             `<body>`,
-            `<body> <div class="dev-banner">You are in Dev Mode</div>`
+            `<body><div class="dev-banner">You are in Dev Mode</div>`
           );
           cb(null, data);
         }
