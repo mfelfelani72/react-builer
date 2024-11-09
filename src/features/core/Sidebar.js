@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Sidebar = () => {
   return (
@@ -10,7 +11,6 @@ const Sidebar = () => {
         aria-label="Sidebar"
       >
         <div className="h-full px-3 py-4 overflow-y-auto bg-gray-50 dark:bg-gray-800">
-
           <div className="flex flex-row xs:flex-row-reverse items-center justify-between w-full pb-2">
             <div className="xs:hidden">
               <a
@@ -33,15 +33,15 @@ const Sidebar = () => {
                 htmlFor="sidebar-toggle"
                 className="flex p-2 text-sm md:hidden"
               >
-               <span className="text-2xl">x</span>
+                <span className="text-2xl">x</span>
               </label>
             </div>
           </div>
 
           <ul className="space-y-2 font-medium">
             <li>
-              <a
-                href="#"
+              <NavLink
+                to="/"
                 className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
               >
                 <svg
@@ -55,7 +55,7 @@ const Sidebar = () => {
                   <path d="M12.5 0c-.157 0-.311.01-.565.027A1 1 0 0 0 11 1.02V10h8.975a1 1 0 0 0 1-.935c.013-.188.028-.374.028-.565A8.51 8.51 0 0 0 12.5 0Z" />
                 </svg>
                 <span className="ms-3">Dashboard</span>
-              </a>
+              </NavLink>
             </li>
             <li>
               <details className="group flex items-center p-2 text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 rounded-lg group select-none cursor-pointer">
@@ -72,7 +72,7 @@ const Sidebar = () => {
                     </svg>
 
                     <span className="flex-1 ms-3 text-left rtl:text-right whitespace-nowrap">
-                      E-commerce
+                      Flowbite
                     </span>
 
                     <svg
@@ -94,12 +94,12 @@ const Sidebar = () => {
 
                 <ul className="py-2 space-y-2">
                   <li>
-                    <a
-                      href="#"
+                    <NavLink
+                      to="/flowbit/accordion"
                       className="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
                     >
-                      Products
-                    </a>
+                      Accordion
+                    </NavLink>
                   </li>
                   <li>
                     <a

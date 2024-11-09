@@ -10,7 +10,7 @@ const Content = () => {
     <div className="pt-24 p-4 ltr:md:ml-64 rtl:md:mr-64">
       <Routes>
         <Route path="/" element={<LazyAccordion />}></Route>
-        <Route path="/accordion" element={<LazyAccordion />}></Route>
+        <Route path="/flowbit/accordion" element={<LazyAccordion />}></Route>
       </Routes>
     </div>
   );
