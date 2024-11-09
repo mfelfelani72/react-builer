@@ -11,7 +11,7 @@ const Sidebar = () => {
       >
         <div className="h-full px-3 py-4 overflow-y-auto bg-gray-50 dark:bg-gray-800">
 
-          <div className="flex flex-row xs:flex-row-reverse justify-between w-full pb-2">
+          <div className="flex flex-row xs:flex-row-reverse items-center justify-between w-full pb-2">
             <div className="xs:hidden">
               <a
                 href="https://flowbite.com/"
@@ -28,21 +28,12 @@ const Sidebar = () => {
                 </span>
               </a>
             </div>
-            <div className="">
+            <div className="text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
               <label
                 htmlFor="sidebar-toggle"
-                className="flex p-2 text-sm text-gray-500 md:hidden hover:bg-gray-100 focus:outline-none dark:text-gray-400 dark:hover:bg-gray-700"
+                className="flex p-2 text-sm md:hidden"
               >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  x="0px"
-                  y="0px"
-                  width="20"
-                  height="20"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M 4.2382812 2.9882812 A 1.250125 1.250125 0 0 0 3.3671875 5.1347656 L 10.232422 12 L 3.3613281 18.869141 A 1.2512475 1.2512475 0 1 0 5.1308594 20.638672 L 12 13.767578 L 18.865234 20.632812 A 1.250125 1.250125 0 1 0 20.632812 18.865234 L 13.767578 12 L 20.625 5.1425781 A 1.250125 1.250125 0 1 0 18.857422 3.375 L 12 10.232422 L 5.1347656 3.3671875 A 1.250125 1.250125 0 0 0 4.2382812 2.9882812 z"></path>
-                </svg>
+               <span className="text-2xl">x</span>
               </label>
             </div>
           </div>
@@ -67,7 +58,7 @@ const Sidebar = () => {
               </a>
             </li>
             <li>
-              <details className="group flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group select-none cursor-pointer">
+              <details className="group flex items-center p-2 text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 rounded-lg group select-none cursor-pointer">
                 <summary>
                   <div className="flex">
                     <svg
