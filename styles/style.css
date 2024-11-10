@@ -18,6 +18,8 @@
   margin-top: 1.5rem;
 }
 
+/* { flow bite */
+
 /* { sidebar */
 
 summary::marker {
@@ -28,3 +30,6 @@ summary::marker {
   transform: translateX(0);
 }
 /* Sidebar } */
+
+
+/* flowbite } */

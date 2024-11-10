@@ -307,7 +307,11 @@ const Accordion = () => {
           </div>
         </details>
       </div>
-    </>
+
+      <div className="py-2 text-sm" aria-label="more">
+        <a target="_blank" href="https://flowbite.com/docs/components/accordion/">For more ...</a>
+      </div>
+    </> 
   );
 };
 
