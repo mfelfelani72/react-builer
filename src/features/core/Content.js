@@ -13,6 +13,9 @@ const LazyAlerts = lazy(() =>
 const LazyBadge = lazy(() =>
   import("../core/components/flowbite/Badge.jsx")
 );
+const LazyBanner = lazy(() =>
+  import("../core/components/flowbite/Banner.jsx")
+);
 // flowbite
 
 const Content = () => {
@@ -24,7 +27,7 @@ const Content = () => {
         {/* flowbite */}
         <Route path="/flowbit/accordion" element={<LazyAccordion />}></Route>
         <Route path="/flowbit/alerts" element={<LazyAlerts />}></Route>
-        <Route path="/flowbit/badge" element={<LazyBadge />}></Route>
+        <Route path="/flowbit/banner" element={<LazyBanner />}></Route>
         {/* flowbite */}
         
       </Routes>
