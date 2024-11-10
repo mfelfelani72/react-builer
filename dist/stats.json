@@ -1,8 +1,8 @@
 {
-  "hash": "1309c176786dffa7efbb",
+  "hash": "e9605fde1a66d7166dc8",
   "version": "5.96.1",
-  "time": 6787,
-  "builtAt": 1731220603064,
+  "time": 5603,
+  "builtAt": 1731221334389,
   "publicPath": "/",
   "outputPath": "/home/mohammad/Desktop/Projects/react-builer/dist",
   "assetsByChunkName": {
@@ -158,17 +158,17 @@
     },
     {
       "type": "asset",
-      "name": "409.7f40eca16b599b75207c.js",
-      "size": 10150,
-      "emitted": false,
+      "name": "409.373f2ec2318f0dd2cd09.js",
+      "size": 10160,
+      "emitted": true,
       "comparedForEmit": false,
-      "cached": true,
+      "cached": false,
       "info": {
         "immutable": true,
-        "contenthash": "7f40eca16b599b75207c",
+        "contenthash": "373f2ec2318f0dd2cd09",
         "javascriptModule": false,
         "minimized": true,
-        "size": 10150
+        "size": 10160
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -231,6 +231,27 @@
     },
     {
       "type": "asset",
+      "name": "main-c9c31c89.7f7830857b831390a604.js.gz",
+      "size": 8800,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "compressed": true,
+        "immutable": true,
+        "size": 8800
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": [],
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
       "name": "767.a1b71a677ae218fc665e.js",
       "size": 8432,
       "emitted": false,
@@ -253,27 +274,6 @@
       "chunks": [
         767
       ],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
-      "name": "main-c9c31c89.33c59978d219a1e99e71.js.gz",
-      "size": 8399,
-      "emitted": true,
-      "comparedForEmit": false,
-      "cached": false,
-      "info": {
-        "compressed": true,
-        "immutable": true,
-        "size": 8399
-      },
-      "chunkNames": [],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "related": [],
-      "chunks": [],
       "auxiliaryChunks": [],
       "isOverSizeLimit": false
     },
@@ -447,6 +447,31 @@
     },
     {
       "type": "asset",
+      "name": "490.24fcf1b0c3198a353886.js",
+      "size": 3098,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "immutable": true,
+        "contenthash": "24fcf1b0c3198a353886",
+        "javascriptModule": false,
+        "minimized": true,
+        "size": 3098
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": [],
+      "chunks": [
+        490
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
       "name": "assets/images/icon-36x36.png",
       "size": 2978,
       "emitted": false,
@@ -469,13 +494,13 @@
     {
       "type": "asset",
       "name": "service-worker.js",
-      "size": 2395,
+      "size": 2446,
       "emitted": true,
-      "comparedForEmit": true,
+      "comparedForEmit": false,
       "cached": false,
       "info": {
         "minimized": true,
-        "size": 2395
+        "size": 2446
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -511,9 +536,9 @@
       "type": "asset",
       "name": "330.550e0b445e0482a47ba5.js.gz",
       "size": 1437,
-      "emitted": true,
+      "emitted": false,
       "comparedForEmit": false,
-      "cached": false,
+      "cached": true,
       "info": {
         "compressed": true,
         "immutable": true,
@@ -571,17 +596,17 @@
     },
     {
       "type": "asset",
-      "name": "280.6031c345dbaf9c5774e7.js",
-      "size": 636,
-      "emitted": false,
+      "name": "280.8c389249309de4f8ceac.js",
+      "size": 779,
+      "emitted": true,
       "comparedForEmit": false,
-      "cached": true,
+      "cached": false,
       "info": {
         "immutable": true,
-        "contenthash": "6031c345dbaf9c5774e7",
+        "contenthash": "8c389249309de4f8ceac",
         "javascriptModule": false,
         "minimized": true,
-        "size": 636
+        "size": 779
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -786,9 +811,9 @@
       "initial": false,
       "entry": false,
       "recorded": false,
-      "size": 980,
+      "size": 1229,
       "sizes": {
-        "javascript": 980
+        "javascript": 1229
       },
       "names": [],
       "idHints": [],
@@ -796,10 +821,10 @@
         "main"
       ],
       "files": [
-        "280.6031c345dbaf9c5774e7.js"
+        "280.8c389249309de4f8ceac.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "4b44781e0d478377b106",
+      "hash": "d07e0f1e229bce42e6dd",
       "childrenByOrder": {},
       "id": 280,
       "siblings": [],
@@ -808,6 +833,7 @@
       ],
       "children": [
         330,
+        490,
         609
       ],
       "modules": [
@@ -815,9 +841,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 980,
+          "size": 1229,
           "sizes": {
-            "javascript": 980
+            "javascript": 1229
           },
           "built": true,
           "codeGenerated": true,
@@ -3199,9 +3225,9 @@
       "initial": false,
       "entry": false,
       "recorded": false,
-      "size": 12320,
+      "size": 12333,
       "sizes": {
-        "javascript": 12320
+        "javascript": 12333
       },
       "names": [],
       "idHints": [],
@@ -3209,10 +3235,10 @@
         "main"
       ],
       "files": [
-        "409.7f40eca16b599b75207c.js"
+        "409.373f2ec2318f0dd2cd09.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "0a90bbf4043065f1ac33",
+      "hash": "e0d29eba5a946fb475f4",
       "childrenByOrder": {},
       "id": 409,
       "siblings": [],
@@ -3225,9 +3251,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 12320,
+          "size": 12333,
           "sizes": {
-            "javascript": 12320
+            "javascript": 12333
           },
           "built": true,
           "codeGenerated": true,
@@ -4539,6 +4565,132 @@
           "loc": "3:9-49",
           "request": "../../features/core/Landing.js",
           "moduleId": 2160
+        }
+      ]
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 3625,
+      "sizes": {
+        "javascript": 3625
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "main"
+      ],
+      "files": [
+        "490.24fcf1b0c3198a353886.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "8f0b8050ffbb33f3b695",
+      "childrenByOrder": {},
+      "id": 490,
+      "siblings": [],
+      "parents": [
+        280
+      ],
+      "children": [],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 3625,
+          "sizes": {
+            "javascript": 3625
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+          "name": "./src/features/core/components/flowbite/Badge.jsx",
+          "nameForCondition": "/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+          "index": 67,
+          "preOrderIndex": 67,
+          "index2": 67,
+          "postOrderIndex": 67,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "issuer": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Content.js",
+          "issuerName": "./src/features/core/Content.js",
+          "issuerPath": [
+            {
+              "identifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/index.js",
+              "name": "./src/index.js",
+              "id": null
+            },
+            {
+              "identifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/app/containers/app/App.js",
+              "name": "./src/app/containers/app/App.js",
+              "id": null
+            },
+            {
+              "identifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/app/containers/Middleware.js",
+              "name": "./src/app/containers/Middleware.js",
+              "id": 2160
+            },
+            {
+              "identifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Landing.js",
+              "name": "./src/features/core/Landing.js",
+              "id": 478
+            },
+            {
+              "identifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Content.js",
+              "name": "./src/features/core/Content.js",
+              "id": 8280
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 5490,
+          "issuerId": 8280,
+          "chunks": [
+            490
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Content.js",
+              "module": "./src/features/core/Content.js",
+              "moduleName": "./src/features/core/Content.js",
+              "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Content.js",
+              "resolvedModule": "./src/features/core/Content.js",
+              "type": "import()",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../core/components/flowbite/Badge.jsx",
+              "loc": "12:9-56",
+              "moduleId": 8280,
+              "resolvedModuleId": 8280
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [
+            "Dependency (harmony side effect evaluation) with side effects at 1:0-26",
+            "ModuleConcatenation bailout: Cannot concat with ./node_modules/react/index.js: Module is not an ECMAScript module"
+          ],
+          "depth": 5
+        }
+      ],
+      "origins": [
+        {
+          "module": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Content.js",
+          "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Content.js",
+          "moduleName": "./src/features/core/Content.js",
+          "loc": "12:9-56",
+          "request": "../core/components/flowbite/Badge.jsx",
+          "moduleId": 8280
         }
       ]
     },
@@ -7692,8 +7844,8 @@
           "optional": false,
           "orphan": false,
           "dependent": true,
-          "issuer": "javascript/esm|/home/mohammad/Desktop/Projects/react-builer/node_modules/react-i18next/dist/es/useTranslation.js",
-          "issuerName": "./node_modules/react-i18next/dist/es/useTranslation.js",
+          "issuer": "javascript/esm|/home/mohammad/Desktop/Projects/react-builer/node_modules/react-i18next/dist/es/TransWithoutContext.js",
+          "issuerName": "./node_modules/react-i18next/dist/es/TransWithoutContext.js",
           "issuerPath": [
             {
               "identifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/index.js",
@@ -7721,16 +7873,16 @@
               "id": null
             },
             {
-              "identifier": "javascript/esm|/home/mohammad/Desktop/Projects/react-builer/node_modules/react-i18next/dist/es/useTranslation.js",
-              "name": "./node_modules/react-i18next/dist/es/useTranslation.js",
-              "id": 8437
+              "identifier": "javascript/esm|/home/mohammad/Desktop/Projects/react-builer/node_modules/react-i18next/dist/es/TransWithoutContext.js",
+              "name": "./node_modules/react-i18next/dist/es/TransWithoutContext.js",
+              "id": null
             }
           ],
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "id": 9454,
-          "issuerId": 8437,
+          "issuerId": null,
           "chunks": [
             679
           ],
@@ -8619,7 +8771,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "14:22-41",
+              "loc": "11:29-33",
               "moduleId": 8280,
               "resolvedModuleId": 8280
             },
@@ -8633,7 +8785,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "16:18-37",
+              "loc": "17:22-41",
               "moduleId": 8280,
               "resolvedModuleId": 8280
             },
@@ -8647,7 +8799,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "16:65-84",
+              "loc": "19:18-37",
               "moduleId": 8280,
               "resolvedModuleId": 8280
             },
@@ -8661,21 +8813,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "18:26-45",
-              "moduleId": 8280,
-              "resolvedModuleId": 8280
-            },
-            {
-              "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Content.js",
-              "module": "./src/features/core/Content.js",
-              "moduleName": "./src/features/core/Content.js",
-              "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Content.js",
-              "resolvedModule": "./src/features/core/Content.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "react",
-              "loc": "19:19-38",
+              "loc": "19:65-84",
               "moduleId": 8280,
               "resolvedModuleId": 8280
             },
@@ -8718,6 +8856,62 @@
               "explanation": "",
               "userRequest": "react",
               "loc": "24:26-45",
+              "moduleId": 8280,
+              "resolvedModuleId": 8280
+            },
+            {
+              "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Content.js",
+              "module": "./src/features/core/Content.js",
+              "moduleName": "./src/features/core/Content.js",
+              "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Content.js",
+              "resolvedModule": "./src/features/core/Content.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "25:19-38",
+              "moduleId": 8280,
+              "resolvedModuleId": 8280
+            },
+            {
+              "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Content.js",
+              "module": "./src/features/core/Content.js",
+              "moduleName": "./src/features/core/Content.js",
+              "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Content.js",
+              "resolvedModule": "./src/features/core/Content.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "27:26-45",
+              "moduleId": 8280,
+              "resolvedModuleId": 8280
+            },
+            {
+              "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Content.js",
+              "module": "./src/features/core/Content.js",
+              "moduleName": "./src/features/core/Content.js",
+              "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Content.js",
+              "resolvedModule": "./src/features/core/Content.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "28:19-38",
+              "moduleId": 8280,
+              "resolvedModuleId": 8280
+            },
+            {
+              "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Content.js",
+              "module": "./src/features/core/Content.js",
+              "moduleName": "./src/features/core/Content.js",
+              "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Content.js",
+              "resolvedModule": "./src/features/core/Content.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "30:26-45",
               "moduleId": 8280,
               "resolvedModuleId": 8280
             },
@@ -9809,7 +10003,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "87:34-53",
+              "loc": "87:32-51",
               "moduleId": 9409,
               "resolvedModuleId": 9409
             },
@@ -9823,7 +10017,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "87:79-98",
+              "loc": "87:77-96",
               "moduleId": 9409,
               "resolvedModuleId": 9409
             },
@@ -12528,6 +12722,314 @@
               "loc": "187:34-53",
               "moduleId": 7330,
               "resolvedModuleId": 7330
+            },
+            {
+              "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+              "module": "./src/features/core/components/flowbite/Badge.jsx",
+              "moduleName": "./src/features/core/components/flowbite/Badge.jsx",
+              "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+              "resolvedModule": "./src/features/core/components/flowbite/Badge.jsx",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "1:0-26",
+              "moduleId": 5490,
+              "resolvedModuleId": 5490
+            },
+            {
+              "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+              "module": "./src/features/core/components/flowbite/Badge.jsx",
+              "moduleName": "./src/features/core/components/flowbite/Badge.jsx",
+              "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+              "resolvedModule": "./src/features/core/components/flowbite/Badge.jsx",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "3:22-41",
+              "moduleId": 5490,
+              "resolvedModuleId": 5490
+            },
+            {
+              "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+              "module": "./src/features/core/components/flowbite/Badge.jsx",
+              "moduleName": "./src/features/core/components/flowbite/Badge.jsx",
+              "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+              "resolvedModule": "./src/features/core/components/flowbite/Badge.jsx",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "3:42-56",
+              "moduleId": 5490,
+              "resolvedModuleId": 5490
+            },
+            {
+              "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+              "module": "./src/features/core/components/flowbite/Badge.jsx",
+              "moduleName": "./src/features/core/components/flowbite/Badge.jsx",
+              "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+              "resolvedModule": "./src/features/core/components/flowbite/Badge.jsx",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "3:77-96",
+              "moduleId": 5490,
+              "resolvedModuleId": 5490
+            },
+            {
+              "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+              "module": "./src/features/core/components/flowbite/Badge.jsx",
+              "moduleName": "./src/features/core/components/flowbite/Badge.jsx",
+              "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+              "resolvedModule": "./src/features/core/components/flowbite/Badge.jsx",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "5:36-55",
+              "moduleId": 5490,
+              "resolvedModuleId": 5490
+            },
+            {
+              "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+              "module": "./src/features/core/components/flowbite/Badge.jsx",
+              "moduleName": "./src/features/core/components/flowbite/Badge.jsx",
+              "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+              "resolvedModule": "./src/features/core/components/flowbite/Badge.jsx",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "7:30-49",
+              "moduleId": 5490,
+              "resolvedModuleId": 5490
+            },
+            {
+              "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+              "module": "./src/features/core/components/flowbite/Badge.jsx",
+              "moduleName": "./src/features/core/components/flowbite/Badge.jsx",
+              "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+              "resolvedModule": "./src/features/core/components/flowbite/Badge.jsx",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "9:27-46",
+              "moduleId": 5490,
+              "resolvedModuleId": 5490
+            },
+            {
+              "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+              "module": "./src/features/core/components/flowbite/Badge.jsx",
+              "moduleName": "./src/features/core/components/flowbite/Badge.jsx",
+              "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+              "resolvedModule": "./src/features/core/components/flowbite/Badge.jsx",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "11:27-46",
+              "moduleId": 5490,
+              "resolvedModuleId": 5490
+            },
+            {
+              "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+              "module": "./src/features/core/components/flowbite/Badge.jsx",
+              "moduleName": "./src/features/core/components/flowbite/Badge.jsx",
+              "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+              "resolvedModule": "./src/features/core/components/flowbite/Badge.jsx",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "13:27-46",
+              "moduleId": 5490,
+              "resolvedModuleId": 5490
+            },
+            {
+              "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+              "module": "./src/features/core/components/flowbite/Badge.jsx",
+              "moduleName": "./src/features/core/components/flowbite/Badge.jsx",
+              "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+              "resolvedModule": "./src/features/core/components/flowbite/Badge.jsx",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "15:28-47",
+              "moduleId": 5490,
+              "resolvedModuleId": 5490
+            },
+            {
+              "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+              "module": "./src/features/core/components/flowbite/Badge.jsx",
+              "moduleName": "./src/features/core/components/flowbite/Badge.jsx",
+              "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+              "resolvedModule": "./src/features/core/components/flowbite/Badge.jsx",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "17:29-48",
+              "moduleId": 5490,
+              "resolvedModuleId": 5490
+            },
+            {
+              "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+              "module": "./src/features/core/components/flowbite/Badge.jsx",
+              "moduleName": "./src/features/core/components/flowbite/Badge.jsx",
+              "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+              "resolvedModule": "./src/features/core/components/flowbite/Badge.jsx",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "19:29-48",
+              "moduleId": 5490,
+              "resolvedModuleId": 5490
+            },
+            {
+              "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+              "module": "./src/features/core/components/flowbite/Badge.jsx",
+              "moduleName": "./src/features/core/components/flowbite/Badge.jsx",
+              "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+              "resolvedModule": "./src/features/core/components/flowbite/Badge.jsx",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "21:27-46",
+              "moduleId": 5490,
+              "resolvedModuleId": 5490
+            },
+            {
+              "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+              "module": "./src/features/core/components/flowbite/Badge.jsx",
+              "moduleName": "./src/features/core/components/flowbite/Badge.jsx",
+              "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+              "resolvedModule": "./src/features/core/components/flowbite/Badge.jsx",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "23:42-61",
+              "moduleId": 5490,
+              "resolvedModuleId": 5490
+            },
+            {
+              "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+              "module": "./src/features/core/components/flowbite/Badge.jsx",
+              "moduleName": "./src/features/core/components/flowbite/Badge.jsx",
+              "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+              "resolvedModule": "./src/features/core/components/flowbite/Badge.jsx",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "26:18-37",
+              "moduleId": 5490,
+              "resolvedModuleId": 5490
+            },
+            {
+              "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+              "module": "./src/features/core/components/flowbite/Badge.jsx",
+              "moduleName": "./src/features/core/components/flowbite/Badge.jsx",
+              "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+              "resolvedModule": "./src/features/core/components/flowbite/Badge.jsx",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "32:18-37",
+              "moduleId": 5490,
+              "resolvedModuleId": 5490
+            },
+            {
+              "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+              "module": "./src/features/core/components/flowbite/Badge.jsx",
+              "moduleName": "./src/features/core/components/flowbite/Badge.jsx",
+              "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+              "resolvedModule": "./src/features/core/components/flowbite/Badge.jsx",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "34:19-38",
+              "moduleId": 5490,
+              "resolvedModuleId": 5490
+            },
+            {
+              "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+              "module": "./src/features/core/components/flowbite/Badge.jsx",
+              "moduleName": "./src/features/core/components/flowbite/Badge.jsx",
+              "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+              "resolvedModule": "./src/features/core/components/flowbite/Badge.jsx",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "36:20-39",
+              "moduleId": 5490,
+              "resolvedModuleId": 5490
+            },
+            {
+              "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+              "module": "./src/features/core/components/flowbite/Badge.jsx",
+              "moduleName": "./src/features/core/components/flowbite/Badge.jsx",
+              "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+              "resolvedModule": "./src/features/core/components/flowbite/Badge.jsx",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "38:36-55",
+              "moduleId": 5490,
+              "resolvedModuleId": 5490
+            },
+            {
+              "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+              "module": "./src/features/core/components/flowbite/Badge.jsx",
+              "moduleName": "./src/features/core/components/flowbite/Badge.jsx",
+              "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+              "resolvedModule": "./src/features/core/components/flowbite/Badge.jsx",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "40:26-45",
+              "moduleId": 5490,
+              "resolvedModuleId": 5490
+            },
+            {
+              "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+              "module": "./src/features/core/components/flowbite/Badge.jsx",
+              "moduleName": "./src/features/core/components/flowbite/Badge.jsx",
+              "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+              "resolvedModule": "./src/features/core/components/flowbite/Badge.jsx",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "42:41-60",
+              "moduleId": 5490,
+              "resolvedModuleId": 5490
+            },
+            {
+              "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+              "module": "./src/features/core/components/flowbite/Badge.jsx",
+              "moduleName": "./src/features/core/components/flowbite/Badge.jsx",
+              "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+              "resolvedModule": "./src/features/core/components/flowbite/Badge.jsx",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "45:30-49",
+              "moduleId": 5490,
+              "resolvedModuleId": 5490
             },
             {
               "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/index.js|4c2f1a8f44a6282f6e688289dce0aabc",
@@ -17474,7 +17976,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "react-router-dom",
-              "loc": "16:38-44",
+              "loc": "19:38-44",
               "moduleId": 8280,
               "resolvedModuleId": 8280
             },
@@ -17488,21 +17990,7 @@
               "active": true,
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "react-router-dom",
-              "loc": "16:85-90",
-              "moduleId": 8280,
-              "resolvedModuleId": 8280
-            },
-            {
-              "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Content.js",
-              "module": "./src/features/core/Content.js",
-              "moduleName": "./src/features/core/Content.js",
-              "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Content.js",
-              "resolvedModule": "./src/features/core/Content.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "(skipped side-effect-free modules)",
-              "userRequest": "react-router-dom",
-              "loc": "19:39-44",
+              "loc": "19:85-90",
               "moduleId": 8280,
               "resolvedModuleId": 8280
             },
@@ -17517,6 +18005,34 @@
               "explanation": "(skipped side-effect-free modules)",
               "userRequest": "react-router-dom",
               "loc": "22:39-44",
+              "moduleId": 8280,
+              "resolvedModuleId": 8280
+            },
+            {
+              "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Content.js",
+              "module": "./src/features/core/Content.js",
+              "moduleName": "./src/features/core/Content.js",
+              "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Content.js",
+              "resolvedModule": "./src/features/core/Content.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "(skipped side-effect-free modules)",
+              "userRequest": "react-router-dom",
+              "loc": "25:39-44",
+              "moduleId": 8280,
+              "resolvedModuleId": 8280
+            },
+            {
+              "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Content.js",
+              "module": "./src/features/core/Content.js",
+              "moduleName": "./src/features/core/Content.js",
+              "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Content.js",
+              "resolvedModule": "./src/features/core/Content.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "(skipped side-effect-free modules)",
+              "userRequest": "react-router-dom",
+              "loc": "28:39-44",
               "moduleId": 8280,
               "resolvedModuleId": 8280
             },
@@ -20160,10 +20676,10 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 46896,
+      "size": 49928,
       "sizes": {
-        "javascript": 38465,
-        "runtime": 8431
+        "javascript": 41468,
+        "runtime": 8460
       },
       "names": [
         "main-c9c31c89"
@@ -20174,7 +20690,7 @@
       ],
       "files": [],
       "auxiliaryFiles": [],
-      "hash": "227ff43180d56c53873b",
+      "hash": "7190ff25cb2cace36c47",
       "childrenByOrder": {},
       "id": 838,
       "siblings": [
@@ -20196,9 +20712,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 38465,
+          "size": 41468,
           "sizes": {
-            "javascript": 38465
+            "javascript": 41468
           },
           "built": true,
           "codeGenerated": true,
@@ -20632,9 +21148,9 @@
           "type": "module",
           "moduleType": "runtime",
           "layer": null,
-          "size": 389,
+          "size": 418,
           "sizes": {
-            "runtime": 389
+            "runtime": 418
           },
           "built": false,
           "codeGenerated": true,
@@ -20996,7 +21512,7 @@
               "active": false,
               "explanation": "",
               "userRequest": "react-router-dom",
-              "loc": "16:38-44",
+              "loc": "19:38-44",
               "moduleId": 8280,
               "resolvedModuleId": 8280
             },
@@ -21010,21 +21526,7 @@
               "active": false,
               "explanation": "",
               "userRequest": "react-router-dom",
-              "loc": "16:85-90",
-              "moduleId": 8280,
-              "resolvedModuleId": 8280
-            },
-            {
-              "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Content.js",
-              "module": "./src/features/core/Content.js",
-              "moduleName": "./src/features/core/Content.js",
-              "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Content.js",
-              "resolvedModule": "./src/features/core/Content.js",
-              "type": "harmony import specifier",
-              "active": false,
-              "explanation": "",
-              "userRequest": "react-router-dom",
-              "loc": "19:39-44",
+              "loc": "19:85-90",
               "moduleId": 8280,
               "resolvedModuleId": 8280
             },
@@ -21039,6 +21541,34 @@
               "explanation": "",
               "userRequest": "react-router-dom",
               "loc": "22:39-44",
+              "moduleId": 8280,
+              "resolvedModuleId": 8280
+            },
+            {
+              "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Content.js",
+              "module": "./src/features/core/Content.js",
+              "moduleName": "./src/features/core/Content.js",
+              "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Content.js",
+              "resolvedModule": "./src/features/core/Content.js",
+              "type": "harmony import specifier",
+              "active": false,
+              "explanation": "",
+              "userRequest": "react-router-dom",
+              "loc": "25:39-44",
+              "moduleId": 8280,
+              "resolvedModuleId": 8280
+            },
+            {
+              "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Content.js",
+              "module": "./src/features/core/Content.js",
+              "moduleName": "./src/features/core/Content.js",
+              "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Content.js",
+              "resolvedModule": "./src/features/core/Content.js",
+              "type": "harmony import specifier",
+              "active": false,
+              "explanation": "",
+              "userRequest": "react-router-dom",
+              "loc": "28:39-44",
               "moduleId": 8280,
               "resolvedModuleId": 8280
             },
@@ -21095,6 +21625,20 @@
               "explanation": "",
               "userRequest": "react-router-dom",
               "loc": "81:98-105",
+              "moduleId": 9409,
+              "resolvedModuleId": 9409
+            },
+            {
+              "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Sidebar.js",
+              "module": "./src/features/core/Sidebar.js",
+              "moduleName": "./src/features/core/Sidebar.js",
+              "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Sidebar.js",
+              "resolvedModule": "./src/features/core/Sidebar.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react-router-dom",
+              "loc": "84:95-102",
               "moduleId": 9409,
               "resolvedModuleId": 9409
             },
@@ -21996,7 +22540,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "14:22-41",
+          "loc": "11:29-33",
           "moduleId": 8280,
           "resolvedModuleId": 8280
         },
@@ -22010,7 +22554,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "16:18-37",
+          "loc": "17:22-41",
           "moduleId": 8280,
           "resolvedModuleId": 8280
         },
@@ -22024,7 +22568,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "16:65-84",
+          "loc": "19:18-37",
           "moduleId": 8280,
           "resolvedModuleId": 8280
         },
@@ -22038,21 +22582,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "18:26-45",
-          "moduleId": 8280,
-          "resolvedModuleId": 8280
-        },
-        {
-          "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Content.js",
-          "module": "./src/features/core/Content.js",
-          "moduleName": "./src/features/core/Content.js",
-          "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Content.js",
-          "resolvedModule": "./src/features/core/Content.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "react",
-          "loc": "19:19-38",
+          "loc": "19:65-84",
           "moduleId": 8280,
           "resolvedModuleId": 8280
         },
@@ -22095,6 +22625,62 @@
           "explanation": "",
           "userRequest": "react",
           "loc": "24:26-45",
+          "moduleId": 8280,
+          "resolvedModuleId": 8280
+        },
+        {
+          "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Content.js",
+          "module": "./src/features/core/Content.js",
+          "moduleName": "./src/features/core/Content.js",
+          "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Content.js",
+          "resolvedModule": "./src/features/core/Content.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "25:19-38",
+          "moduleId": 8280,
+          "resolvedModuleId": 8280
+        },
+        {
+          "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Content.js",
+          "module": "./src/features/core/Content.js",
+          "moduleName": "./src/features/core/Content.js",
+          "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Content.js",
+          "resolvedModule": "./src/features/core/Content.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "27:26-45",
+          "moduleId": 8280,
+          "resolvedModuleId": 8280
+        },
+        {
+          "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Content.js",
+          "module": "./src/features/core/Content.js",
+          "moduleName": "./src/features/core/Content.js",
+          "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Content.js",
+          "resolvedModule": "./src/features/core/Content.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "28:19-38",
+          "moduleId": 8280,
+          "resolvedModuleId": 8280
+        },
+        {
+          "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Content.js",
+          "module": "./src/features/core/Content.js",
+          "moduleName": "./src/features/core/Content.js",
+          "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Content.js",
+          "resolvedModule": "./src/features/core/Content.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "30:26-45",
           "moduleId": 8280,
           "resolvedModuleId": 8280
         },
@@ -23186,7 +23772,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "87:34-53",
+          "loc": "87:32-51",
           "moduleId": 9409,
           "resolvedModuleId": 9409
         },
@@ -23200,7 +23786,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "87:79-98",
+          "loc": "87:77-96",
           "moduleId": 9409,
           "resolvedModuleId": 9409
         },
@@ -25905,6 +26491,314 @@
           "loc": "187:34-53",
           "moduleId": 7330,
           "resolvedModuleId": 7330
+        },
+        {
+          "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+          "module": "./src/features/core/components/flowbite/Badge.jsx",
+          "moduleName": "./src/features/core/components/flowbite/Badge.jsx",
+          "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+          "resolvedModule": "./src/features/core/components/flowbite/Badge.jsx",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "1:0-26",
+          "moduleId": 5490,
+          "resolvedModuleId": 5490
+        },
+        {
+          "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+          "module": "./src/features/core/components/flowbite/Badge.jsx",
+          "moduleName": "./src/features/core/components/flowbite/Badge.jsx",
+          "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+          "resolvedModule": "./src/features/core/components/flowbite/Badge.jsx",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "3:22-41",
+          "moduleId": 5490,
+          "resolvedModuleId": 5490
+        },
+        {
+          "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+          "module": "./src/features/core/components/flowbite/Badge.jsx",
+          "moduleName": "./src/features/core/components/flowbite/Badge.jsx",
+          "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+          "resolvedModule": "./src/features/core/components/flowbite/Badge.jsx",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "3:42-56",
+          "moduleId": 5490,
+          "resolvedModuleId": 5490
+        },
+        {
+          "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+          "module": "./src/features/core/components/flowbite/Badge.jsx",
+          "moduleName": "./src/features/core/components/flowbite/Badge.jsx",
+          "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+          "resolvedModule": "./src/features/core/components/flowbite/Badge.jsx",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "3:77-96",
+          "moduleId": 5490,
+          "resolvedModuleId": 5490
+        },
+        {
+          "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+          "module": "./src/features/core/components/flowbite/Badge.jsx",
+          "moduleName": "./src/features/core/components/flowbite/Badge.jsx",
+          "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+          "resolvedModule": "./src/features/core/components/flowbite/Badge.jsx",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "5:36-55",
+          "moduleId": 5490,
+          "resolvedModuleId": 5490
+        },
+        {
+          "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+          "module": "./src/features/core/components/flowbite/Badge.jsx",
+          "moduleName": "./src/features/core/components/flowbite/Badge.jsx",
+          "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+          "resolvedModule": "./src/features/core/components/flowbite/Badge.jsx",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "7:30-49",
+          "moduleId": 5490,
+          "resolvedModuleId": 5490
+        },
+        {
+          "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+          "module": "./src/features/core/components/flowbite/Badge.jsx",
+          "moduleName": "./src/features/core/components/flowbite/Badge.jsx",
+          "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+          "resolvedModule": "./src/features/core/components/flowbite/Badge.jsx",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "9:27-46",
+          "moduleId": 5490,
+          "resolvedModuleId": 5490
+        },
+        {
+          "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+          "module": "./src/features/core/components/flowbite/Badge.jsx",
+          "moduleName": "./src/features/core/components/flowbite/Badge.jsx",
+          "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+          "resolvedModule": "./src/features/core/components/flowbite/Badge.jsx",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "11:27-46",
+          "moduleId": 5490,
+          "resolvedModuleId": 5490
+        },
+        {
+          "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+          "module": "./src/features/core/components/flowbite/Badge.jsx",
+          "moduleName": "./src/features/core/components/flowbite/Badge.jsx",
+          "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+          "resolvedModule": "./src/features/core/components/flowbite/Badge.jsx",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "13:27-46",
+          "moduleId": 5490,
+          "resolvedModuleId": 5490
+        },
+        {
+          "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+          "module": "./src/features/core/components/flowbite/Badge.jsx",
+          "moduleName": "./src/features/core/components/flowbite/Badge.jsx",
+          "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+          "resolvedModule": "./src/features/core/components/flowbite/Badge.jsx",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "15:28-47",
+          "moduleId": 5490,
+          "resolvedModuleId": 5490
+        },
+        {
+          "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+          "module": "./src/features/core/components/flowbite/Badge.jsx",
+          "moduleName": "./src/features/core/components/flowbite/Badge.jsx",
+          "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+          "resolvedModule": "./src/features/core/components/flowbite/Badge.jsx",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "17:29-48",
+          "moduleId": 5490,
+          "resolvedModuleId": 5490
+        },
+        {
+          "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+          "module": "./src/features/core/components/flowbite/Badge.jsx",
+          "moduleName": "./src/features/core/components/flowbite/Badge.jsx",
+          "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+          "resolvedModule": "./src/features/core/components/flowbite/Badge.jsx",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "19:29-48",
+          "moduleId": 5490,
+          "resolvedModuleId": 5490
+        },
+        {
+          "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+          "module": "./src/features/core/components/flowbite/Badge.jsx",
+          "moduleName": "./src/features/core/components/flowbite/Badge.jsx",
+          "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+          "resolvedModule": "./src/features/core/components/flowbite/Badge.jsx",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "21:27-46",
+          "moduleId": 5490,
+          "resolvedModuleId": 5490
+        },
+        {
+          "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+          "module": "./src/features/core/components/flowbite/Badge.jsx",
+          "moduleName": "./src/features/core/components/flowbite/Badge.jsx",
+          "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+          "resolvedModule": "./src/features/core/components/flowbite/Badge.jsx",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "23:42-61",
+          "moduleId": 5490,
+          "resolvedModuleId": 5490
+        },
+        {
+          "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+          "module": "./src/features/core/components/flowbite/Badge.jsx",
+          "moduleName": "./src/features/core/components/flowbite/Badge.jsx",
+          "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+          "resolvedModule": "./src/features/core/components/flowbite/Badge.jsx",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "26:18-37",
+          "moduleId": 5490,
+          "resolvedModuleId": 5490
+        },
+        {
+          "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+          "module": "./src/features/core/components/flowbite/Badge.jsx",
+          "moduleName": "./src/features/core/components/flowbite/Badge.jsx",
+          "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+          "resolvedModule": "./src/features/core/components/flowbite/Badge.jsx",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "32:18-37",
+          "moduleId": 5490,
+          "resolvedModuleId": 5490
+        },
+        {
+          "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+          "module": "./src/features/core/components/flowbite/Badge.jsx",
+          "moduleName": "./src/features/core/components/flowbite/Badge.jsx",
+          "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+          "resolvedModule": "./src/features/core/components/flowbite/Badge.jsx",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "34:19-38",
+          "moduleId": 5490,
+          "resolvedModuleId": 5490
+        },
+        {
+          "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+          "module": "./src/features/core/components/flowbite/Badge.jsx",
+          "moduleName": "./src/features/core/components/flowbite/Badge.jsx",
+          "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+          "resolvedModule": "./src/features/core/components/flowbite/Badge.jsx",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "36:20-39",
+          "moduleId": 5490,
+          "resolvedModuleId": 5490
+        },
+        {
+          "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+          "module": "./src/features/core/components/flowbite/Badge.jsx",
+          "moduleName": "./src/features/core/components/flowbite/Badge.jsx",
+          "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+          "resolvedModule": "./src/features/core/components/flowbite/Badge.jsx",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "38:36-55",
+          "moduleId": 5490,
+          "resolvedModuleId": 5490
+        },
+        {
+          "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+          "module": "./src/features/core/components/flowbite/Badge.jsx",
+          "moduleName": "./src/features/core/components/flowbite/Badge.jsx",
+          "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+          "resolvedModule": "./src/features/core/components/flowbite/Badge.jsx",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "40:26-45",
+          "moduleId": 5490,
+          "resolvedModuleId": 5490
+        },
+        {
+          "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+          "module": "./src/features/core/components/flowbite/Badge.jsx",
+          "moduleName": "./src/features/core/components/flowbite/Badge.jsx",
+          "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+          "resolvedModule": "./src/features/core/components/flowbite/Badge.jsx",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "42:41-60",
+          "moduleId": 5490,
+          "resolvedModuleId": 5490
+        },
+        {
+          "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+          "module": "./src/features/core/components/flowbite/Badge.jsx",
+          "moduleName": "./src/features/core/components/flowbite/Badge.jsx",
+          "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+          "resolvedModule": "./src/features/core/components/flowbite/Badge.jsx",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "45:30-49",
+          "moduleId": 5490,
+          "resolvedModuleId": 5490
         },
         {
           "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/index.js|4c2f1a8f44a6282f6e688289dce0aabc",
@@ -29698,7 +30592,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "react-router-dom",
-          "loc": "16:38-44",
+          "loc": "19:38-44",
           "moduleId": 8280,
           "resolvedModuleId": 8280
         },
@@ -29712,21 +30606,7 @@
           "active": false,
           "explanation": "",
           "userRequest": "react-router-dom",
-          "loc": "16:85-90",
-          "moduleId": 8280,
-          "resolvedModuleId": 8280
-        },
-        {
-          "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Content.js",
-          "module": "./src/features/core/Content.js",
-          "moduleName": "./src/features/core/Content.js",
-          "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Content.js",
-          "resolvedModule": "./src/features/core/Content.js",
-          "type": "harmony import specifier",
-          "active": false,
-          "explanation": "",
-          "userRequest": "react-router-dom",
-          "loc": "19:39-44",
+          "loc": "19:85-90",
           "moduleId": 8280,
           "resolvedModuleId": 8280
         },
@@ -29741,6 +30621,34 @@
           "explanation": "",
           "userRequest": "react-router-dom",
           "loc": "22:39-44",
+          "moduleId": 8280,
+          "resolvedModuleId": 8280
+        },
+        {
+          "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Content.js",
+          "module": "./src/features/core/Content.js",
+          "moduleName": "./src/features/core/Content.js",
+          "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Content.js",
+          "resolvedModule": "./src/features/core/Content.js",
+          "type": "harmony import specifier",
+          "active": false,
+          "explanation": "",
+          "userRequest": "react-router-dom",
+          "loc": "25:39-44",
+          "moduleId": 8280,
+          "resolvedModuleId": 8280
+        },
+        {
+          "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Content.js",
+          "module": "./src/features/core/Content.js",
+          "moduleName": "./src/features/core/Content.js",
+          "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Content.js",
+          "resolvedModule": "./src/features/core/Content.js",
+          "type": "harmony import specifier",
+          "active": false,
+          "explanation": "",
+          "userRequest": "react-router-dom",
+          "loc": "28:39-44",
           "moduleId": 8280,
           "resolvedModuleId": 8280
         },
@@ -29797,6 +30705,20 @@
           "explanation": "",
           "userRequest": "react-router-dom",
           "loc": "81:98-105",
+          "moduleId": 9409,
+          "resolvedModuleId": 9409
+        },
+        {
+          "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Sidebar.js",
+          "module": "./src/features/core/Sidebar.js",
+          "moduleName": "./src/features/core/Sidebar.js",
+          "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Sidebar.js",
+          "resolvedModule": "./src/features/core/Sidebar.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react-router-dom",
+          "loc": "84:95-102",
           "moduleId": 9409,
           "resolvedModuleId": 9409
         },
@@ -30334,7 +31256,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "react-router-dom",
-          "loc": "16:38-44",
+          "loc": "19:38-44",
           "moduleId": 8280,
           "resolvedModuleId": 8280
         },
@@ -30348,21 +31270,7 @@
           "active": true,
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "react-router-dom",
-          "loc": "16:85-90",
-          "moduleId": 8280,
-          "resolvedModuleId": 8280
-        },
-        {
-          "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Content.js",
-          "module": "./src/features/core/Content.js",
-          "moduleName": "./src/features/core/Content.js",
-          "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Content.js",
-          "resolvedModule": "./src/features/core/Content.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "(skipped side-effect-free modules)",
-          "userRequest": "react-router-dom",
-          "loc": "19:39-44",
+          "loc": "19:85-90",
           "moduleId": 8280,
           "resolvedModuleId": 8280
         },
@@ -30377,6 +31285,34 @@
           "explanation": "(skipped side-effect-free modules)",
           "userRequest": "react-router-dom",
           "loc": "22:39-44",
+          "moduleId": 8280,
+          "resolvedModuleId": 8280
+        },
+        {
+          "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Content.js",
+          "module": "./src/features/core/Content.js",
+          "moduleName": "./src/features/core/Content.js",
+          "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Content.js",
+          "resolvedModule": "./src/features/core/Content.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "(skipped side-effect-free modules)",
+          "userRequest": "react-router-dom",
+          "loc": "25:39-44",
+          "moduleId": 8280,
+          "resolvedModuleId": 8280
+        },
+        {
+          "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Content.js",
+          "module": "./src/features/core/Content.js",
+          "moduleName": "./src/features/core/Content.js",
+          "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Content.js",
+          "resolvedModule": "./src/features/core/Content.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "(skipped side-effect-free modules)",
+          "userRequest": "react-router-dom",
+          "loc": "28:39-44",
           "moduleId": 8280,
           "resolvedModuleId": 8280
         },
@@ -34252,9 +35188,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 38465,
+      "size": 41468,
       "sizes": {
-        "javascript": 38465
+        "javascript": 41468
       },
       "built": true,
       "codeGenerated": true,
@@ -37564,9 +38500,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 12320,
+      "size": 12333,
       "sizes": {
-        "javascript": 12320
+        "javascript": 12333
       },
       "built": true,
       "codeGenerated": true,
@@ -37646,9 +38582,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 980,
+      "size": 1229,
       "sizes": {
-        "javascript": 980
+        "javascript": 1229
       },
       "built": true,
       "codeGenerated": true,
@@ -40275,6 +41211,92 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
+      "size": 3625,
+      "sizes": {
+        "javascript": 3625
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+      "name": "./src/features/core/components/flowbite/Badge.jsx",
+      "nameForCondition": "/home/mohammad/Desktop/Projects/react-builer/src/features/core/components/flowbite/Badge.jsx",
+      "index": 67,
+      "preOrderIndex": 67,
+      "index2": 67,
+      "postOrderIndex": 67,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Content.js",
+      "issuerName": "./src/features/core/Content.js",
+      "issuerPath": [
+        {
+          "identifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/index.js",
+          "name": "./src/index.js",
+          "id": null
+        },
+        {
+          "identifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/app/containers/app/App.js",
+          "name": "./src/app/containers/app/App.js",
+          "id": null
+        },
+        {
+          "identifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/app/containers/Middleware.js",
+          "name": "./src/app/containers/Middleware.js",
+          "id": 2160
+        },
+        {
+          "identifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Landing.js",
+          "name": "./src/features/core/Landing.js",
+          "id": 478
+        },
+        {
+          "identifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Content.js",
+          "name": "./src/features/core/Content.js",
+          "id": 8280
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 5490,
+      "issuerId": 8280,
+      "chunks": [
+        490
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Content.js",
+          "module": "./src/features/core/Content.js",
+          "moduleName": "./src/features/core/Content.js",
+          "resolvedModuleIdentifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/features/core/Content.js",
+          "resolvedModule": "./src/features/core/Content.js",
+          "type": "import()",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../core/components/flowbite/Badge.jsx",
+          "loc": "12:9-56",
+          "moduleId": 8280,
+          "resolvedModuleId": 8280
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [
+        "Dependency (harmony side effect evaluation) with side effects at 1:0-26",
+        "ModuleConcatenation bailout: Cannot concat with ./node_modules/react/index.js: Module is not an ECMAScript module"
+      ],
+      "depth": 5
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
       "size": 2143,
       "sizes": {
         "javascript": 2143
@@ -40395,8 +41417,8 @@
       "cacheable": true,
       "optional": false,
       "orphan": false,
-      "issuer": "javascript/esm|/home/mohammad/Desktop/Projects/react-builer/node_modules/react-i18next/dist/es/useTranslation.js",
-      "issuerName": "./node_modules/react-i18next/dist/es/useTranslation.js",
+      "issuer": "javascript/esm|/home/mohammad/Desktop/Projects/react-builer/node_modules/react-i18next/dist/es/TransWithoutContext.js",
+      "issuerName": "./node_modules/react-i18next/dist/es/TransWithoutContext.js",
       "issuerPath": [
         {
           "identifier": "/home/mohammad/Desktop/Projects/react-builer/node_modules/babel-loader/lib/index.js!/home/mohammad/Desktop/Projects/react-builer/src/index.js",
@@ -40424,16 +41446,16 @@
           "id": null
         },
         {
-          "identifier": "javascript/esm|/home/mohammad/Desktop/Projects/react-builer/node_modules/react-i18next/dist/es/useTranslation.js",
-          "name": "./node_modules/react-i18next/dist/es/useTranslation.js",
-          "id": 8437
+          "identifier": "javascript/esm|/home/mohammad/Desktop/Projects/react-builer/node_modules/react-i18next/dist/es/TransWithoutContext.js",
+          "name": "./node_modules/react-i18next/dist/es/TransWithoutContext.js",
+          "id": null
         }
       ],
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "id": 9454,
-      "issuerId": 8437,
+      "issuerId": null,
       "chunks": [
         679
       ],
@@ -42224,9 +43246,9 @@
       "type": "module",
       "moduleType": "runtime",
       "layer": null,
-      "size": 389,
+      "size": 418,
       "sizes": {
-        "runtime": 389
+        "runtime": 418
       },
       "built": false,
       "codeGenerated": true,
@@ -42567,8 +43589,8 @@
       "name": "HtmlWebpackCompiler",
       "hash": "7213c8c2e196aa5dbcaa",
       "version": "5.96.1",
-      "time": 345,
-      "builtAt": 1731220596646,
+      "time": 311,
+      "builtAt": 1731221329121,
       "publicPath": "",
       "outputPath": "/home/mohammad/Desktop/Projects/react-builer/dist",
       "assetsByChunkName": {},
