@@ -7,7 +7,7 @@ const Sidebar = () => {
       <input type="checkbox" id="sidebar-toggle" className="hidden" />
 
       <aside
-        className="sidebar fixed left-0 rtl:right-0 z-40 w-64 h-screen transition-transform ltr:md:translate-x-0 rtl:md:translate-x-0 ltr:-translate-x-full rtl:translate-x-full"
+        className="sidebar fixed left-0 rtl:right-0 z-50 w-64 h-screen transition-transform ltr:md:translate-x-0 rtl:md:translate-x-0 ltr:-translate-x-full rtl:translate-x-full"
         aria-label="Sidebar"
       >
         <div className="h-full px-3 py-4 overflow-y-auto bg-gray-50 dark:bg-gray-800">

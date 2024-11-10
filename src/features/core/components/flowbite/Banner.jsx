@@ -9,7 +9,7 @@ const Banner = () => {
         <div
           id="sticky-banner"
           tabIndex="-1"
-          className="fixed z-50 flex  justify-between p-4 border-b border-gray-200 bg-gray-50 dark:bg-gray-700 dark:border-gray-600"
+          className="fixed z-20 flex  justify-between p-4 border-b border-gray-200 bg-gray-50 dark:bg-gray-700 dark:border-gray-600"
         >
           <div className="flex items-center mx-auto">
             <p className="flex items-center text-sm font-normal text-gray-500 dark:text-gray-400">
@@ -71,7 +71,7 @@ const Banner = () => {
         <div
           id="marketing-banner"
           tabIndex="-1"
-          className="fixed z-50 flex flex-col md:flex-row justify-between w-[calc(100%-2rem)] md:w-[calc(100%-20rem)] p-4 ltr:-translate-x-1/2 rtl:translate-x-1/2 bg-white border border-gray-100 rounded-lg shadow-sm lg:max-w-7xl ltr:md:ml-28 rtl:md:mr-28 ltr:left-1/2 rtl:right-1/2 dark:bg-gray-700 dark:border-gray-600"
+          className="fixed z-20 flex flex-col md:flex-row justify-between w-[calc(100%-2rem)] md:w-[calc(100%-20rem)] p-4 ltr:-translate-x-1/2 rtl:translate-x-1/2 bg-white border border-gray-100 rounded-lg shadow-sm lg:max-w-7xl ltr:md:ml-28 rtl:md:mr-28 ltr:left-1/2 rtl:right-1/2 dark:bg-gray-700 dark:border-gray-600"
         >
           <div className="flex flex-col items-start mb-3 me-4 md:items-center md:flex-row md:mb-0">
             <a

@@ -27,6 +27,7 @@ const Content = () => {
         {/* flowbite */}
         <Route path="/flowbit/accordion" element={<LazyAccordion />}></Route>
         <Route path="/flowbit/alerts" element={<LazyAlerts />}></Route>
+        <Route path="/flowbit/badge" element={<LazyBadge />}></Route>
         <Route path="/flowbit/banner" element={<LazyBanner />}></Route>
         {/* flowbite */}
         

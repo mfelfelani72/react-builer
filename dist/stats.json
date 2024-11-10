@@ -1,8 +1,8 @@
 {
   "hash": "d8de8a9dde782993391b",
   "version": "5.96.1",
-  "time": 5857,
-  "builtAt": 1731225678630,
+  "time": 6123,
+  "builtAt": 1731233765416,
   "publicPath": "/",
   "outputPath": "/home/mohammad/Desktop/Projects/react-builer/dist",
   "assetsByChunkName": {
@@ -181,9 +181,9 @@
       "type": "asset",
       "name": "main-c9c31c89.7d1de960ea6970048cbb.js.gz",
       "size": 9185,
-      "emitted": true,
+      "emitted": false,
       "comparedForEmit": false,
-      "cached": false,
+      "cached": true,
       "info": {
         "compressed": true,
         "immutable": true,
@@ -397,9 +397,9 @@
       "type": "asset",
       "name": "41.8ff0e2b084182961ca55.js",
       "size": 4458,
-      "emitted": true,
+      "emitted": false,
       "comparedForEmit": false,
-      "cached": false,
+      "cached": true,
       "info": {
         "immutable": true,
         "contenthash": "8ff0e2b084182961ca55",
@@ -495,7 +495,7 @@
       "type": "asset",
       "name": "service-worker.js",
       "size": 2496,
-      "emitted": true,
+      "emitted": false,
       "comparedForEmit": true,
       "cached": false,
       "info": {
@@ -578,7 +578,7 @@
       "type": "asset",
       "name": "index.html",
       "size": 1373,
-      "emitted": true,
+      "emitted": false,
       "comparedForEmit": true,
       "cached": false,
       "info": {
@@ -44913,8 +44913,8 @@
       "name": "HtmlWebpackCompiler",
       "hash": "7213c8c2e196aa5dbcaa",
       "version": "5.96.1",
-      "time": 276,
-      "builtAt": 1731225673073,
+      "time": 283,
+      "builtAt": 1731233759604,
       "publicPath": "",
       "outputPath": "/home/mohammad/Desktop/Projects/react-builer/dist",
       "assetsByChunkName": {},
