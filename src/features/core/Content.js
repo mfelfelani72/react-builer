@@ -28,6 +28,9 @@ const LazyButtons = lazy(() =>
 const LazyClipboard = lazy(() =>
   import("../core/components/flowbite/Clipboard.jsx")
 );
+const LazyModal = lazy(() =>
+  import("../core/components/flowbite/Modal.jsx")
+);
 // flowbite
 
 const Content = () => {
@@ -45,6 +48,7 @@ const Content = () => {
         <Route path="/flowbit/breadcrump" element={<LazyBreadcrump />}></Route>
         <Route path="/flowbit/buttons" element={<LazyButtons />}></Route>
         <Route path="/flowbit/clipboard" element={<LazyClipboard />}></Route>
+        <Route path="/flowbit/modal" element={<LazyModal />}></Route>
         {/* flowbite */}
         
       </Routes>
