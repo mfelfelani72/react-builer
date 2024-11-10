@@ -22,6 +22,9 @@ const LazyBottomNavigation = lazy(() =>
 const LazyBreadcrump = lazy(() =>
   import("../core/components/flowbite/Breadcrump.jsx")
 );
+const LazyButtons = lazy(() =>
+  import("../core/components/flowbite/Buttons.jsx")
+);
 // flowbite
 
 const Content = () => {
@@ -37,6 +40,7 @@ const Content = () => {
         <Route path="/flowbit/banner" element={<LazyBanner />}></Route>
         <Route path="/flowbit/bottom-navigation" element={<LazyBottomNavigation />}></Route>
         <Route path="/flowbit/breadcrump" element={<LazyBreadcrump />}></Route>
+        <Route path="/flowbit/buttons" element={<LazyButtons />}></Route>
         {/* flowbite */}
         
       </Routes>

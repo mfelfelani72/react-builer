@@ -20,7 +20,7 @@ const Header = () => {
   const [themeStatus, setThemeStatus] = useState(localStorage.getItem("theme"));
   return (
     <>
-      <nav className="fixed ltr:md:pl-64 rtl:md:pr-64 w-full bg-white border-gray-200 dark:bg-gray-900 shadow-md">
+      <nav className="fixed z-50 ltr:md:pl-64 rtl:md:pr-64 w-full bg-white border-gray-200 dark:bg-gray-900 shadow-md">
         <div className="flex flew-row">
           <label
             htmlFor="sidebar-toggle"
