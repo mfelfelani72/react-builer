@@ -128,6 +128,9 @@ const Banner = () => {
           </div>
         </div>
       </div>
+      <div className="py-20 text-sm" aria-label="more">
+        <a target="_blank" href="https://flowbite.com/docs/components/banner/">For more ...</a>
+      </div>
     </>
   );
 };
