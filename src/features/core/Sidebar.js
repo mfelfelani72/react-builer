@@ -149,6 +149,36 @@ const Sidebar = () => {
                       Buttons
                     </NavLink>
                   </li>
+                  <li>
+                    <a
+                      target="_blank"
+                      href="https://flowbite.com/docs/components/card/"
+                      className="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                      aria-label="card"
+                    >
+                      Card
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      target="_blank"
+                      href="https://flowbite.com/docs/components/carousel/"
+                      className="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                      aria-label="carousel"
+                    >
+                      Carousel
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      target="_blank"
+                      href="https://flowbite.com/docs/components/chat-bubble/"
+                      className="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                      aria-label="chat-bubble"
+                    >
+                      Chat Bubble
+                    </a>
+                  </li>
                 </ul>
               </details>
             </li>
