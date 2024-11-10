@@ -80,8 +80,9 @@ const Banner = () => {
             >
               <img
                 src="https://flowbite.com/docs/images/logo.svg"
-                className="h-6 me-2"
+               className="h-full w-full me-2"
                 alt="Flowbite Logo"
+                loading="lazy"
               />
               <span className="self-center text-lg font-semibold whitespace-nowrap dark:text-white">
                 Flowbite
