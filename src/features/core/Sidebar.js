@@ -231,6 +231,14 @@ const Sidebar = () => {
                       Pagination
                     </NavLink>
                   </li>
+                  <li>
+                    <NavLink
+                      to="/flowbit/popover"
+                      className="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                    >
+                      Popover
+                    </NavLink>
+                  </li>
                 </ul>
               </details>
             </li>
