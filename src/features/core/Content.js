@@ -27,11 +27,12 @@ const LazyModal = lazy(() => import("../core/components/flowbite/Modal.jsx"));
 const LazyDrawer = lazy(() => import("../core/components/flowbite/Drawer.jsx"));
 const LazyPagination = lazy(() => import("../core/components/flowbite/Pagination.jsx"));
 const LazyPopover = lazy(() => import("../core/components/flowbite/Popover.jsx"));
+const LazyProgress = lazy(() => import("../core/components/flowbite/Progress.jsx"));
 // flowbite
 
 const Content = () => {
   return (
-    <div className="pt-24 p-4 bg-white dark:bg-slate-700 h-[calc(100vh-2.5rem)] ltr:md:ml-64 rtl:md:mr-64">
+    <div className="pt-24 p-4 bg-white dark:bg-slate-500 h-[calc(100vh-2.5rem)] ltr:md:ml-64 rtl:md:mr-64">
       <Routes>
         <Route path="/" element={<LazyAccordion />}></Route>
 
@@ -51,6 +52,7 @@ const Content = () => {
         <Route path="/flowbit/drawer" element={<LazyDrawer />}></Route>
         <Route path="/flowbit/pagination" element={<LazyPagination />}></Route>
         <Route path="/flowbit/popover" element={<LazyPopover />}></Route>
+        <Route path="/flowbit/progress" element={<LazyProgress />}></Route>
         {/* flowbite */}
       </Routes>
 
