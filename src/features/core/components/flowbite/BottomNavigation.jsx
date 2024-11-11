@@ -15,7 +15,7 @@ const BottomNavigation = () => {
           </a>
         </div>
 
-        <div className="fixed z-20 w-full h-16 max-w-lg ltr:-translate-x-1/2 rtl:translate-x-1/2 ltr:md:ml-28 rtl:md:mr-28 bg-white border border-gray-200 rounded-full bottom-4 ltr:left-1/2 rtl:right-1/2 dark:bg-gray-700 dark:border-gray-600">
+        <div className="fixed z-20 w-full h-16 max-w-lg ltr:-translate-x-1/2 rtl:translate-x-1/2 ltr:md:ml-28 rtl:md:mr-28 bg-white border border-gray-200 rounded-full bottom-24 ltr:left-1/2 rtl:right-1/2 dark:bg-gray-700 dark:border-gray-600">
           <div className="grid h-full max-w-lg grid-cols-5 mx-auto">
             <button
               data-tooltip-target="tooltip-home"
