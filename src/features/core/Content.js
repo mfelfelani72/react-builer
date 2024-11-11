@@ -31,11 +31,14 @@ const LazyClipboard = lazy(() =>
 const LazyModal = lazy(() =>
   import("../core/components/flowbite/Modal.jsx")
 );
+const LazyDrawer = lazy(() =>
+  import("../core/components/flowbite/Drawer.jsx")
+);
 // flowbite
 
 const Content = () => {
   return (
-    <div className="pt-24 p-4 ltr:md:ml-64 rtl:md:mr-64">
+    <div className="pt-24 p-4 bg-white dark:bg-slate-700 h-[calc(100vh-1.5rem)] ltr:md:ml-64 rtl:md:mr-64">
       <Routes>
         <Route path="/" element={<LazyAccordion />}></Route>
 
@@ -49,6 +52,7 @@ const Content = () => {
         <Route path="/flowbit/buttons" element={<LazyButtons />}></Route>
         <Route path="/flowbit/clipboard" element={<LazyClipboard />}></Route>
         <Route path="/flowbit/modal" element={<LazyModal />}></Route>
+        <Route path="/flowbit/drawer" element={<LazyDrawer />}></Route>
         {/* flowbite */}
         
       </Routes>
