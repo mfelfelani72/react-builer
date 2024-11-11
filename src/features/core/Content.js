@@ -25,6 +25,7 @@ const LazyClipboard = lazy(() =>
 );
 const LazyModal = lazy(() => import("../core/components/flowbite/Modal.jsx"));
 const LazyDrawer = lazy(() => import("../core/components/flowbite/Drawer.jsx"));
+const LazyPagination = lazy(() => import("../core/components/flowbite/Pagination.jsx"));
 // flowbite
 
 const Content = () => {
@@ -47,6 +48,7 @@ const Content = () => {
         <Route path="/flowbit/clipboard" element={<LazyClipboard />}></Route>
         <Route path="/flowbit/modal" element={<LazyModal />}></Route>
         <Route path="/flowbit/drawer" element={<LazyDrawer />}></Route>
+        <Route path="/flowbit/pagination" element={<LazyPagination />}></Route>
         {/* flowbite */}
       </Routes>
 
