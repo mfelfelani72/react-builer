@@ -1,18 +1,7 @@
 import React from "react";
 
-// import { cn } from "../../../../../utils/lib/cn";
-
 const Progress = () => {
-  const percent = 20;
-  const baseClasses = "w-[calc(" + percent;
-  
-  const setdynamic = (value ) => { 
-    return 'w-[calc('+value+'%)]'
-  }
-  const baseClasses22 = "%)]";
  
-  const baseClasses33 = setdynamic('65');
-  
   return (
     <>
       <div className="mb-1 text-base font-medium dark:text-white">Dark</div>
@@ -68,15 +57,6 @@ const Progress = () => {
         <div
           style={{ width: `${45}%` }}
           className="bg-indigo-600 text-xs font-medium text-indigo-100 text-center p-0.5 leading-none rounded-full w-[calc(25%)]"
-        ></div>
-      </div>
-      <div className="my-1 mb-1 text-base font-medium text-purple-700 dark:text-purple-500">
-        Purple
-      </div>
-      <div className="w-full bg-gray-200 rounded-full dark:bg-gray-700">
-        <div
-          className={`bg-purple-600 text-xs font-medium text-purple-100 text-center p-0.5 leading-none rounded-full ${baseClasses33}`}
-          //   className={`${sss} ${baseClasses33}`}
         ></div>
       </div>
     </>
